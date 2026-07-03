@@ -1,0 +1,8833 @@
+{
+  "nodes": [
+    {
+      "id": "朱五四",
+      "name": "朱五四",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "陈氏",
+      "name": "陈氏",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱重八",
+      "name": "朱重八",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱八八",
+      "name": "朱八八",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱初一",
+      "name": "朱初一",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "刘光世",
+      "name": "刘光世",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "刘福通",
+      "name": "刘福通",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "城池",
+      "name": "城池",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "郭子兴",
+      "name": "郭子兴",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "元帅",
+      "name": "元帅",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱元璋",
+      "name": "朱元璋",
+      "type": "person",
+      "importance": 5
+    },
+    {
+      "id": "濠州",
+      "name": "濠州",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "明朝",
+      "name": "明朝",
+      "type": "institution",
+      "importance": 3
+    },
+    {
+      "id": "李善长",
+      "name": "李善长",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "朱文正",
+      "name": "朱文正",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李贞",
+      "name": "李贞",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李文忠",
+      "name": "李文忠",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "郭天叙",
+      "name": "郭天叙",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张天祐",
+      "name": "张天祐",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张士诚",
+      "name": "张士诚",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张士义",
+      "name": "张士义",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "陈友谅",
+      "name": "陈友谅",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "倪文俊",
+      "name": "倪文俊",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "徐寿辉",
+      "name": "徐寿辉",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "赵普胜",
+      "name": "赵普胜",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "应天",
+      "name": "应天",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "太平",
+      "name": "太平",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "胡大海",
+      "name": "胡大海",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "吴国",
+      "name": "吴国",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "江州",
+      "name": "江州",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "南京",
+      "name": "南京",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "安丰",
+      "name": "安丰",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "江浙",
+      "name": "江浙",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "洪都",
+      "name": "洪都",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李继先",
+      "name": "李继先",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "丁普郎",
+      "name": "丁普郎",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "陈理",
+      "name": "陈理",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "东吴",
+      "name": "东吴",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "平江",
+      "name": "平江",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "元朝",
+      "name": "元朝",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "察罕帖木儿",
+      "name": "察罕帖木儿",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "蒙古族",
+      "name": "蒙古族",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "铁木真",
+      "name": "铁木真",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "蒙古军队",
+      "name": "蒙古军队",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "蒙哥",
+      "name": "蒙哥",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "南宋",
+      "name": "南宋",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "赵昺",
+      "name": "赵昺",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王保保",
+      "name": "王保保",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "徐达",
+      "name": "徐达",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "廖永忠",
+      "name": "廖永忠",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "大都",
+      "name": "大都",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "北路军",
+      "name": "北路军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "常遇春",
+      "name": "常遇春",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "徐达军",
+      "name": "徐达军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "汤和",
+      "name": "汤和",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张良弼",
+      "name": "张良弼",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张良臣",
+      "name": "张良臣",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "兰州",
+      "name": "兰州",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "张温",
+      "name": "张温",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "元顺帝",
+      "name": "元顺帝",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "应昌",
+      "name": "应昌",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "元军",
+      "name": "元军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "伯颜帖木儿",
+      "name": "伯颜帖木儿",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "宋朝",
+      "name": "宋朝",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱熹",
+      "name": "朱熹",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "宋濂",
+      "name": "宋濂",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "淮西集团",
+      "name": "淮西集团",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "浙东集团",
+      "name": "浙东集团",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "刘基",
+      "name": "刘基",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "胡惟庸",
+      "name": "胡惟庸",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "天下",
+      "name": "天下",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李存义",
+      "name": "李存义",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "涂节",
+      "name": "涂节",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱标",
+      "name": "朱标",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "三杨",
+      "name": "三杨",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李贤",
+      "name": "李贤",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "徐阶",
+      "name": "徐阶",
+      "type": "person",
+      "importance": 3
+    },
+    {
+      "id": "张居正",
+      "name": "张居正",
+      "type": "person",
+      "importance": 3
+    },
+    {
+      "id": "朱亮祖",
+      "name": "朱亮祖",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱暹",
+      "name": "朱暹",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "蓝玉",
+      "name": "蓝玉",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "纳哈出",
+      "name": "纳哈出",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "乃剌吾",
+      "name": "乃剌吾",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "郭英",
+      "name": "郭英",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "北元",
+      "name": "北元",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "脱古思帖木儿",
+      "name": "脱古思帖木儿",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "蒙古",
+      "name": "蒙古",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "阿里不哥",
+      "name": "阿里不哥",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "忽必烈",
+      "name": "忽必烈",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "成吉思汗",
+      "name": "成吉思汗",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "黄金家族",
+      "name": "黄金家族",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "也速迭儿",
+      "name": "也速迭儿",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "坤帖木儿",
+      "name": "坤帖木儿",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱棣",
+      "name": "朱棣",
+      "type": "person",
+      "importance": 5
+    },
+    {
+      "id": "朱允炆",
+      "name": "朱允炆",
+      "type": "person",
+      "importance": 3
+    },
+    {
+      "id": "高丽",
+      "name": "高丽",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "辛隅",
+      "name": "辛隅",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李景隆",
+      "name": "李景隆",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "方克勤",
+      "name": "方克勤",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "方孝孺",
+      "name": "方孝孺",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "黄子澄",
+      "name": "黄子澄",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "东宫",
+      "name": "东宫",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "建文帝",
+      "name": "建文帝",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "齐泰",
+      "name": "齐泰",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱橚",
+      "name": "朱橚",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱柏",
+      "name": "朱柏",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "徐辉祖",
+      "name": "徐辉祖",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张玉",
+      "name": "张玉",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "耿炳文",
+      "name": "耿炳文",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张保",
+      "name": "张保",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱高炽",
+      "name": "朱高炽",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "李景隆军",
+      "name": "李景隆军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "平安",
+      "name": "平安",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "南军",
+      "name": "南军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "瞿能",
+      "name": "瞿能",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "济南城",
+      "name": "济南城",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "铁铉",
+      "name": "铁铉",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "盛庸",
+      "name": "盛庸",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "孙霖",
+      "name": "孙霖",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "北平",
+      "name": "北平",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "北军",
+      "name": "北军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李斌",
+      "name": "李斌",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "黄观",
+      "name": "黄观",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张辅",
+      "name": "张辅",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "马皇后",
+      "name": "马皇后",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "燕王",
+      "name": "燕王",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "周王",
+      "name": "周王",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "我国",
+      "name": "我国",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "吴晗",
+      "name": "吴晗",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "傅斯年",
+      "name": "傅斯年",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "解缙",
+      "name": "解缙",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "胡广",
+      "name": "胡广",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王艮",
+      "name": "王艮",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李贯",
+      "name": "李贯",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "明朝初年",
+      "name": "明朝初年",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱瞻基",
+      "name": "朱瞻基",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "朝鲜",
+      "name": "朝鲜",
+      "type": "place",
+      "importance": 3
+    },
+    {
+      "id": "李芳远",
+      "name": "李芳远",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "北京",
+      "name": "北京",
+      "type": "place",
+      "importance": 2
+    },
+    {
+      "id": "天坛",
+      "name": "天坛",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "伊斯兰",
+      "name": "伊斯兰",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "郑和",
+      "name": "郑和",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "戚祥",
+      "name": "戚祥",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "戚继光",
+      "name": "戚继光",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "印度半岛",
+      "name": "印度半岛",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "古里",
+      "name": "古里",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "渤林邦国",
+      "name": "渤林邦国",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "陈祖义",
+      "name": "陈祖义",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "日本",
+      "name": "日本",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "源赖朝",
+      "name": "源赖朝",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "中国",
+      "name": "中国",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "交趾",
+      "name": "交趾",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "安南",
+      "name": "安南",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "安南国",
+      "name": "安南国",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "裴伯耆",
+      "name": "裴伯耆",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "多邦",
+      "name": "多邦",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "鬼力赤",
+      "name": "鬼力赤",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "窝阔台",
+      "name": "窝阔台",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "瓦剌",
+      "name": "瓦剌",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "马哈木",
+      "name": "马哈木",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "鞑靼",
+      "name": "鞑靼",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "本雅失里",
+      "name": "本雅失里",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "兀良哈",
+      "name": "兀良哈",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "中军",
+      "name": "中军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "柳升",
+      "name": "柳升",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "明军",
+      "name": "明军",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "刘江",
+      "name": "刘江",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "普鲁士",
+      "name": "普鲁士",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "腓特列二世",
+      "name": "腓特列二世",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "杨士奇",
+      "name": "杨士奇",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "杨美",
+      "name": "杨美",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "罗性",
+      "name": "罗性",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "县教育局",
+      "name": "县教育局",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "杨荣",
+      "name": "杨荣",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "杨溥",
+      "name": "杨溥",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "姚广孝",
+      "name": "姚广孝",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "阿鲁台",
+      "name": "阿鲁台",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "沙珲原",
+      "name": "沙珲原",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱高煦",
+      "name": "朱高煦",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "马云",
+      "name": "马云",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "太子党",
+      "name": "太子党",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "方克家",
+      "name": "方克家",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "方孝复",
+      "name": "方孝复",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "明仁宗",
+      "name": "明仁宗",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱祁镇",
+      "name": "朱祁镇",
+      "type": "person",
+      "importance": 3
+    },
+    {
+      "id": "脱欢",
+      "name": "脱欢",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "国民党",
+      "name": "国民党",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "胡宗南",
+      "name": "胡宗南",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "钱皇后",
+      "name": "钱皇后",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "郭敬",
+      "name": "郭敬",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王振",
+      "name": "王振",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "朱勇",
+      "name": "朱勇",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱能",
+      "name": "朱能",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "内阁",
+      "name": "内阁",
+      "type": "institution",
+      "importance": 4
+    },
+    {
+      "id": "曹鼐",
+      "name": "曹鼐",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "赛刊王",
+      "name": "赛刊王",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "徐珵",
+      "name": "徐珵",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "明帝国",
+      "name": "明帝国",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "大明帝国",
+      "name": "大明帝国",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱祁钰",
+      "name": "朱祁钰",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "朝政",
+      "name": "朝政",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "于谦",
+      "name": "于谦",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "马顺",
+      "name": "马顺",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王长随",
+      "name": "王长随",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王山",
+      "name": "王山",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱见深",
+      "name": "朱见深",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "大同",
+      "name": "大同",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "郭登",
+      "name": "郭登",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "宣府",
+      "name": "宣府",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "杨洪",
+      "name": "杨洪",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "京城",
+      "name": "京城",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "紫荆关",
+      "name": "紫荆关",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "德胜门",
+      "name": "德胜门",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "通政司",
+      "name": "通政司",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王复",
+      "name": "王复",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "也先",
+      "name": "也先",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "孛罗",
+      "name": "孛罗",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "石亨",
+      "name": "石亨",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "石彪",
+      "name": "石彪",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "西直门",
+      "name": "西直门",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "孙镗",
+      "name": "孙镗",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "居庸关",
+      "name": "居庸关",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "袁彬",
+      "name": "袁彬",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "哈铭",
+      "name": "哈铭",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "翰林院",
+      "name": "翰林院",
+      "type": "institution",
+      "importance": 1
+    },
+    {
+      "id": "刘定之",
+      "name": "刘定之",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "高平",
+      "name": "高平",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "阮浪",
+      "name": "阮浪",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王瑶",
+      "name": "王瑶",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "卢忠",
+      "name": "卢忠",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱见济",
+      "name": "朱见济",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "北京城",
+      "name": "北京城",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "江渊",
+      "name": "江渊",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "“还乡团”",
+      "name": "“还乡团”",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "徐有贞",
+      "name": "徐有贞",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张軏",
+      "name": "张軏",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "曹吉祥",
+      "name": "曹吉祥",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "于冕",
+      "name": "于冕",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "帝国",
+      "name": "帝国",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "岳正",
+      "name": "岳正",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱瞻墡",
+      "name": "朱瞻墡",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "曹钦",
+      "name": "曹钦",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "吴瑾",
+      "name": "吴瑾",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "马亮",
+      "name": "马亮",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "吴琮",
+      "name": "吴琮",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "还乡团",
+      "name": "还乡团",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "彭时",
+      "name": "彭时",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李孜省",
+      "name": "李孜省",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "商辂",
+      "name": "商辂",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "杨晔",
+      "name": "杨晔",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "杨泰",
+      "name": "杨泰",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "杨仕伟",
+      "name": "杨仕伟",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "万贵妃",
+      "name": "万贵妃",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "万喜",
+      "name": "万喜",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "六部",
+      "name": "六部",
+      "type": "institution",
+      "importance": 1
+    },
+    {
+      "id": "王恕",
+      "name": "王恕",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "汪直",
+      "name": "汪直",
+      "type": "person",
+      "importance": 3
+    },
+    {
+      "id": "马文升",
+      "name": "马文升",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "祝枝山",
+      "name": "祝枝山",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "唐伯虎",
+      "name": "唐伯虎",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "程敏政",
+      "name": "程敏政",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "唐寅",
+      "name": "唐寅",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "徐经",
+      "name": "徐经",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "日本海军",
+      "name": "日本海军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "东乡平八郎",
+      "name": "东乡平八郎",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王守仁",
+      "name": "王守仁",
+      "type": "person",
+      "importance": 3
+    },
+    {
+      "id": "王华",
+      "name": "王华",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "《蔽月山房》",
+      "name": "《蔽月山房》",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李东阳",
+      "name": "李东阳",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "罗玘",
+      "name": "罗玘",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "刘瑾",
+      "name": "刘瑾",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张彩",
+      "name": "张彩",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱厚照",
+      "name": "朱厚照",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "杨廷和",
+      "name": "杨廷和",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "梁储",
+      "name": "梁储",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "蒋冕",
+      "name": "蒋冕",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱祐樘",
+      "name": "朱祐樘",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "辽东",
+      "name": "辽东",
+      "type": "place",
+      "importance": 2
+    },
+    {
+      "id": "萧滓",
+      "name": "萧滓",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "左钦",
+      "name": "左钦",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "孙燧",
+      "name": "孙燧",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "临江",
+      "name": "临江",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "戴德孺",
+      "name": "戴德孺",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "伍文定",
+      "name": "伍文定",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "吉安",
+      "name": "吉安",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "安庆",
+      "name": "安庆",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "曾国藩",
+      "name": "曾国藩",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "曾国荃",
+      "name": "曾国荃",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张文锦",
+      "name": "张文锦",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "江彬",
+      "name": "江彬",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "先遣队",
+      "name": "先遣队",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张永",
+      "name": "张永",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张忠",
+      "name": "张忠",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "乔宇",
+      "name": "乔宇",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "杨一清",
+      "name": "杨一清",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王琼",
+      "name": "王琼",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朝廷",
+      "name": "朝廷",
+      "type": "institution",
+      "importance": 2
+    },
+    {
+      "id": "赵贞吉",
+      "name": "赵贞吉",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李贽",
+      "name": "李贽",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张洪",
+      "name": "张洪",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张璁",
+      "name": "张璁",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "毛澄",
+      "name": "毛澄",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱厚熜",
+      "name": "朱厚熜",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "兴献王",
+      "name": "兴献王",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "杨慎",
+      "name": "杨慎",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "嘉靖",
+      "name": "嘉靖",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "兴献帝",
+      "name": "兴献帝",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "毛纪",
+      "name": "毛纪",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "桂萼",
+      "name": "桂萼",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "翰林",
+      "name": "翰林",
+      "type": "institution",
+      "importance": 1
+    },
+    {
+      "id": "云南永昌",
+      "name": "云南永昌",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李时",
+      "name": "李时",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "霍韬",
+      "name": "霍韬",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "三国",
+      "name": "三国",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "周瑜",
+      "name": "周瑜",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "彭泽",
+      "name": "彭泽",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "夏言",
+      "name": "夏言",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "薛侃",
+      "name": "薛侃",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "都察院",
+      "name": "都察院",
+      "type": "institution",
+      "importance": 1
+    },
+    {
+      "id": "史汪",
+      "name": "史汪",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "严嵩",
+      "name": "严嵩",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "费宏",
+      "name": "费宏",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王畿",
+      "name": "王畿",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "聂豹",
+      "name": "聂豹",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "严世蕃",
+      "name": "严世蕃",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "锦衣卫南镇抚司",
+      "name": "锦衣卫南镇抚司",
+      "type": "institution",
+      "importance": 1
+    },
+    {
+      "id": "陆炳",
+      "name": "陆炳",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "锦衣卫",
+      "name": "锦衣卫",
+      "type": "institution",
+      "importance": 1
+    },
+    {
+      "id": "大明",
+      "name": "大明",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "庶吉士",
+      "name": "庶吉士",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "蓟州",
+      "name": "蓟州",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "裕王",
+      "name": "裕王",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "景王",
+      "name": "景王",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "沈鍊",
+      "name": "沈鍊",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "沈衮",
+      "name": "沈衮",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "沈褒",
+      "name": "沈褒",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王世贞",
+      "name": "王世贞",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王忬",
+      "name": "王忬",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "杨继盛",
+      "name": "杨继盛",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "唐顺之",
+      "name": "唐顺之",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "严党",
+      "name": "严党",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "工部",
+      "name": "工部",
+      "type": "institution",
+      "importance": 1
+    },
+    {
+      "id": "赵文华",
+      "name": "赵文华",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "胡宗宪",
+      "name": "胡宗宪",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "王直",
+      "name": "王直",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "徐惟学",
+      "name": "徐惟学",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "徐海",
+      "name": "徐海",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "普静",
+      "name": "普静",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "陈可愿",
+      "name": "陈可愿",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "毛海峰",
+      "name": "毛海峰",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "罗龙文",
+      "name": "罗龙文",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "陈东",
+      "name": "陈东",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "麻叶",
+      "name": "麻叶",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "俞大猷",
+      "name": "俞大猷",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "戚斌",
+      "name": "戚斌",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "山东沿海",
+      "name": "山东沿海",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "登州",
+      "name": "登州",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "台州",
+      "name": "台州",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "谭纶",
+      "name": "谭纶",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "郑若曾",
+      "name": "郑若曾",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "沈氏",
+      "name": "沈氏",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "戚安国",
+      "name": "戚安国",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "戚昌国",
+      "name": "戚昌国",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "徐渭",
+      "name": "徐渭",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李昖",
+      "name": "李昖",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "《纪效新书》",
+      "name": "《纪效新书》",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "董传策",
+      "name": "董传策",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "吴时来",
+      "name": "吴时来",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张翀",
+      "name": "张翀",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李默",
+      "name": "李默",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "何心隐",
+      "name": "何心隐",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "梁汝元",
+      "name": "梁汝元",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "林润",
+      "name": "林润",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "严绍庭",
+      "name": "严绍庭",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "上海滩",
+      "name": "上海滩",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "杜月笙",
+      "name": "杜月笙",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "蒋介石",
+      "name": "蒋介石",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "蒋经国",
+      "name": "蒋经国",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "袁炜",
+      "name": "袁炜",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "明代",
+      "name": "明代",
+      "type": "institution",
+      "importance": 2
+    },
+    {
+      "id": "海瑞",
+      "name": "海瑞",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "海笔架",
+      "name": "海笔架",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张文明",
+      "name": "张文明",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张白圭",
+      "name": "张白圭",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "荆州",
+      "name": "荆州",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "李士翱",
+      "name": "李士翱",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "湖广",
+      "name": "湖广",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "顾璘",
+      "name": "顾璘",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张镇",
+      "name": "张镇",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "辽王府",
+      "name": "辽王府",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "高拱",
+      "name": "高拱",
+      "type": "person",
+      "importance": 3
+    },
+    {
+      "id": "李登云",
+      "name": "李登云",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "胡应嘉",
+      "name": "胡应嘉",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李时珍",
+      "name": "李时珍",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "《西游记》",
+      "name": "《西游记》",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "吴承恩",
+      "name": "吴承恩",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "西门庆",
+      "name": "西门庆",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "潘金莲",
+      "name": "潘金莲",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "陈以勤",
+      "name": "陈以勤",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李春芳",
+      "name": "李春芳",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "齐康",
+      "name": "齐康",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "高学士",
+      "name": "高学士",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "郭朴",
+      "name": "郭朴",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "陈洪",
+      "name": "陈洪",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "蔡先生",
+      "name": "蔡先生",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱衡",
+      "name": "朱衡",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "反对派",
+      "name": "反对派",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张溶",
+      "name": "张溶",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "大明王朝",
+      "name": "大明王朝",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "雒遒",
+      "name": "雒遒",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "杨博",
+      "name": "杨博",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "杨俊卿",
+      "name": "杨俊卿",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "冯保",
+      "name": "冯保",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李成梁",
+      "name": "李成梁",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "隆庆皇帝",
+      "name": "隆庆皇帝",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱翊钧",
+      "name": "朱翊钧",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李太后",
+      "name": "李太后",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "霍光",
+      "name": "霍光",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "霍去病",
+      "name": "霍去病",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张四维",
+      "name": "张四维",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "张允龄",
+      "name": "张允龄",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王氏",
+      "name": "王氏",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王崇古",
+      "name": "王崇古",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张甲徽",
+      "name": "张甲徽",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张定徽",
+      "name": "张定徽",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张敬修",
+      "name": "张敬修",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "申时行",
+      "name": "申时行",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王用汲",
+      "name": "王用汲",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "南京都察院",
+      "name": "南京都察院",
+      "type": "institution",
+      "importance": 1
+    },
+    {
+      "id": "史海瑞",
+      "name": "史海瑞",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "第二军",
+      "name": "第二军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "加藤清正",
+      "name": "加藤清正",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "第三军",
+      "name": "第三军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "黑田长政",
+      "name": "黑田长政",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "第六军",
+      "name": "第六军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "小早川隆景",
+      "name": "小早川隆景",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "第七军",
+      "name": "第七军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "毛利辉元",
+      "name": "毛利辉元",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "第四军",
+      "name": "第四军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "岛津义弘",
+      "name": "岛津义弘",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "九鬼嘉隆",
+      "name": "九鬼嘉隆",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "水军",
+      "name": "水军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "元均",
+      "name": "元均",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "藤堂高虎",
+      "name": "藤堂高虎",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "九州",
+      "name": "九州",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "龟井真钜",
+      "name": "龟井真钜",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "日军",
+      "name": "日军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "加藤嘉明",
+      "name": "加藤嘉明",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "忠清道义军",
+      "name": "忠清道义军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "赵宪",
+      "name": "赵宪",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "第一军",
+      "name": "第一军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "小西行长",
+      "name": "小西行长",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "祖承训",
+      "name": "祖承训",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "柳成龙",
+      "name": "柳成龙",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "山东",
+      "name": "山东",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张宗昌",
+      "name": "张宗昌",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李如松",
+      "name": "李如松",
+      "type": "person",
+      "importance": 3
+    },
+    {
+      "id": "宋应昌",
+      "name": "宋应昌",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "冯梦龙",
+      "name": "冯梦龙",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李如樟",
+      "name": "李如樟",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李如梅",
+      "name": "李如梅",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李如柏",
+      "name": "李如柏",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "张世爵",
+      "name": "张世爵",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "神机营",
+      "name": "神机营",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "骆尚志",
+      "name": "骆尚志",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李宁",
+      "name": "李宁",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "佟图赖",
+      "name": "佟图赖",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "佟国纲",
+      "name": "佟国纲",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "毛文龙",
+      "name": "毛文龙",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "袁崇焕",
+      "name": "袁崇焕",
+      "type": "person",
+      "importance": 3
+    },
+    {
+      "id": "大西门",
+      "name": "大西门",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "查大受",
+      "name": "查大受",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "查应奎",
+      "name": "查应奎",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "宁夏叛军",
+      "name": "宁夏叛军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "哱拜",
+      "name": "哱拜",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "杨元",
+      "name": "杨元",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "日本东北部",
+      "name": "日本东北部",
+      "type": "institution",
+      "importance": 1
+    },
+    {
+      "id": "伊达政宗",
+      "name": "伊达政宗",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "立花宗茂",
+      "name": "立花宗茂",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王京",
+      "name": "王京",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "清朝",
+      "name": "清朝",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "鄂尔泰",
+      "name": "鄂尔泰",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "左路军",
+      "name": "左路军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "右路军",
+      "name": "右路军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "全州",
+      "name": "全州",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "陈愚衷",
+      "name": "陈愚衷",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李舜臣",
+      "name": "李舜臣",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "杨镐",
+      "name": "杨镐",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "中路军",
+      "name": "中路军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "高策",
+      "name": "高策",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "釜山",
+      "name": "釜山",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "蔚山",
+      "name": "蔚山",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "董一元",
+      "name": "董一元",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "西路军",
+      "name": "西路军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "刘綎",
+      "name": "刘綎",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "刘显",
+      "name": "刘显",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "内城",
+      "name": "内城",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "彭信古",
+      "name": "彭信古",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "明朝海军",
+      "name": "明朝海军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "波多信",
+      "name": "波多信",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "陈璘",
+      "name": "陈璘",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "陈九经",
+      "name": "陈九经",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "苏军",
+      "name": "苏军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "瓦杜丁",
+      "name": "瓦杜丁",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "德军",
+      "name": "德军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "曼斯坦因",
+      "name": "曼斯坦因",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "苏州",
+      "name": "苏州",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "徐尚珍",
+      "name": "徐尚珍",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张嗣修",
+      "name": "张嗣修",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "江东之",
+      "name": "江东之",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "刘尚志",
+      "name": "刘尚志",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李联芳",
+      "name": "李联芳",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "克劳塞维茨",
+      "name": "克劳塞维茨",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "大理寺",
+      "name": "大理寺",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "雒于仁",
+      "name": "雒于仁",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "雒遵",
+      "name": "雒遵",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "万历",
+      "name": "万历",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱常洛",
+      "name": "朱常洛",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朱常洵",
+      "name": "朱常洵",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "罗大纮",
+      "name": "罗大纮",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "胡汝宁",
+      "name": "胡汝宁",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王锡爵",
+      "name": "王锡爵",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "顾允成",
+      "name": "顾允成",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王就学",
+      "name": "王就学",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "孙鑨",
+      "name": "孙鑨",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "吕胤昌",
+      "name": "吕胤昌",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "罗万化",
+      "name": "罗万化",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "吏部",
+      "name": "吏部",
+      "type": "institution",
+      "importance": 1
+    },
+    {
+      "id": "顾宪成",
+      "name": "顾宪成",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "刘伯温",
+      "name": "刘伯温",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "宋代",
+      "name": "宋代",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "杨时",
+      "name": "杨时",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "常州",
+      "name": "常州",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "欧阳东凤",
+      "name": "欧阳东凤",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "沈鲤",
+      "name": "沈鲤",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "郭正域",
+      "name": "郭正域",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "郑贵妃",
+      "name": "郑贵妃",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "郑国泰",
+      "name": "郑国泰",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "沈一贯",
+      "name": "沈一贯",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "萧大亨",
+      "name": "萧大亨",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王时敏",
+      "name": "王时敏",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李三才",
+      "name": "李三才",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "浙党",
+      "name": "浙党",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "刘廷元",
+      "name": "刘廷元",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "胡士相",
+      "name": "胡士相",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "凤阳",
+      "name": "凤阳",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "插汉部",
+      "name": "插汉部",
+      "type": "institution",
+      "importance": 1
+    },
+    {
+      "id": "土蛮",
+      "name": "土蛮",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "泰宁部",
+      "name": "泰宁部",
+      "type": "institution",
+      "importance": 1
+    },
+    {
+      "id": "速巴亥",
+      "name": "速巴亥",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "朵颜部",
+      "name": "朵颜部",
+      "type": "institution",
+      "importance": 1
+    },
+    {
+      "id": "董狐狸",
+      "name": "董狐狸",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "建州女真",
+      "name": "建州女真",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "王杲",
+      "name": "王杲",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "阿台",
+      "name": "阿台",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "叶赫部",
+      "name": "叶赫部",
+      "type": "institution",
+      "importance": 1
+    },
+    {
+      "id": "清佳努",
+      "name": "清佳努",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "觉昌安",
+      "name": "觉昌安",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "塔克世",
+      "name": "塔克世",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "努尔哈赤",
+      "name": "努尔哈赤",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "明史",
+      "name": "明史",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "孟森",
+      "name": "孟森",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "六堡",
+      "name": "六堡",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "抚顺城",
+      "name": "抚顺城",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李永芳",
+      "name": "李永芳",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "马林",
+      "name": "马林",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "马芳",
+      "name": "马芳",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "方从哲",
+      "name": "方从哲",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "杜松",
+      "name": "杜松",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "舒尔哈齐",
+      "name": "舒尔哈齐",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "东林党",
+      "name": "东林党",
+      "type": "institution",
+      "importance": 3
+    },
+    {
+      "id": "刘一璟",
+      "name": "刘一璟",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "韩爌",
+      "name": "韩爌",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "明光宗",
+      "name": "明光宗",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李选侍",
+      "name": "李选侍",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "皇帝",
+      "name": "皇帝",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张维贤",
+      "name": "张维贤",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "明熹宗",
+      "name": "明熹宗",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "高攀龙",
+      "name": "高攀龙",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "邹元标",
+      "name": "邹元标",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李可灼",
+      "name": "李可灼",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王化贞",
+      "name": "王化贞",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "熊廷弼",
+      "name": "熊廷弼",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "小品",
+      "name": "小品",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "陈佩斯",
+      "name": "陈佩斯",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "楚党",
+      "name": "楚党",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "西平堡",
+      "name": "西平堡",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "罗一贯",
+      "name": "罗一贯",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "冀元亨",
+      "name": "冀元亨",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "孙承宗",
+      "name": "孙承宗",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "朱由校",
+      "name": "朱由校",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "辽西",
+      "name": "辽西",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "宁远",
+      "name": "宁远",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "祖大寿",
+      "name": "祖大寿",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "吴襄",
+      "name": "吴襄",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "宁前地区",
+      "name": "宁前地区",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "岛军区",
+      "name": "岛军区",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "毛总兵",
+      "name": "毛总兵",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "满桂",
+      "name": "满桂",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "赵率教",
+      "name": "赵率教",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "锦州城",
+      "name": "锦州城",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "后金",
+      "name": "后金",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "阳谷县",
+      "name": "阳谷县",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "武松",
+      "name": "武松",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "齐党",
+      "name": "齐党",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "亓诗教",
+      "name": "亓诗教",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "赵兴邦",
+      "name": "赵兴邦",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "吴亮嗣",
+      "name": "吴亮嗣",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "仓库",
+      "name": "仓库",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "魏忠贤",
+      "name": "魏忠贤",
+      "type": "person",
+      "importance": 3
+    },
+    {
+      "id": "杨涟",
+      "name": "杨涟",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王才人",
+      "name": "王才人",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王安",
+      "name": "王安",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "魏朝",
+      "name": "魏朝",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李清照",
+      "name": "李清照",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "魏广微",
+      "name": "魏广微",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "魏允贞",
+      "name": "魏允贞",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "冯铨",
+      "name": "冯铨",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "崔呈秀",
+      "name": "崔呈秀",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "许显纯",
+      "name": "许显纯",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "汪文言",
+      "name": "汪文言",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "左光斗",
+      "name": "左光斗",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "阮大铖",
+      "name": "阮大铖",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "黄尊素",
+      "name": "黄尊素",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "叶向高",
+      "name": "叶向高",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "清代桐城派",
+      "name": "清代桐城派",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "方苞",
+      "name": "方苞",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "东厂",
+      "name": "东厂",
+      "type": "institution",
+      "importance": 1
+    },
+    {
+      "id": "文之炳",
+      "name": "文之炳",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "周顺昌",
+      "name": "周顺昌",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "周文元",
+      "name": "周文元",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张溥",
+      "name": "张溥",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "阿敏",
+      "name": "阿敏",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "沈阳",
+      "name": "沈阳",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "锦州",
+      "name": "锦州",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "代善",
+      "name": "代善",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "萨哈廉",
+      "name": "萨哈廉",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "河北肃宁",
+      "name": "河北肃宁",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "天启",
+      "name": "天启",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "崇祯",
+      "name": "崇祯",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王体乾",
+      "name": "王体乾",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "魏良卿",
+      "name": "魏良卿",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "阉党",
+      "name": "阉党",
+      "type": "institution",
+      "importance": 1
+    },
+    {
+      "id": "秦军",
+      "name": "秦军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王翦",
+      "name": "王翦",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "魏公公",
+      "name": "魏公公",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "肃宁",
+      "name": "肃宁",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李朝钦",
+      "name": "李朝钦",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "黄宗羲",
+      "name": "黄宗羲",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "曹钦程",
+      "name": "曹钦程",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "魏大中",
+      "name": "魏大中",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "魏学濂",
+      "name": "魏学濂",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "杨之易",
+      "name": "杨之易",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "周茂兰",
+      "name": "周茂兰",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "毛承禄",
+      "name": "毛承禄",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "明末",
+      "name": "明末",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李定国",
+      "name": "李定国",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "遵化",
+      "name": "遵化",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "辽东系",
+      "name": "辽东系",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "马世龙",
+      "name": "马世龙",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "皇太极",
+      "name": "皇太极",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "钱谦益",
+      "name": "钱谦益",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "韩敬",
+      "name": "韩敬",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王永光",
+      "name": "王永光",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "章允儒",
+      "name": "章允儒",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "钱龙锡",
+      "name": "钱龙锡",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李标",
+      "name": "李标",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "徐霞客",
+      "name": "徐霞客",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "莽古尔泰",
+      "name": "莽古尔泰",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "丘禾嘉",
+      "name": "丘禾嘉",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "孙元化",
+      "name": "孙元化",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "徐光启",
+      "name": "徐光启",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "孔有德",
+      "name": "孔有德",
+      "type": "person",
+      "importance": 2
+    },
+    {
+      "id": "耿仲明",
+      "name": "耿仲明",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "黄龙",
+      "name": "黄龙",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "尚可喜",
+      "name": "尚可喜",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "杨鹤",
+      "name": "杨鹤",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "杨嗣昌",
+      "name": "杨嗣昌",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "关宁铁骑",
+      "name": "关宁铁骑",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "陕西",
+      "name": "陕西",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "贺人龙",
+      "name": "贺人龙",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "王左桂",
+      "name": "王左桂",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "李自成",
+      "name": "李自成",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "张献忠",
+      "name": "张献忠",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "黄虎",
+      "name": "黄虎",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "西北",
+      "name": "西北",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "祖宽",
+      "name": "祖宽",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "卢象昇",
+      "name": "卢象昇",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "卢阎王",
+      "name": "卢阎王",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "祖大乐",
+      "name": "祖大乐",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "邢氏",
+      "name": "邢氏",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "高杰",
+      "name": "高杰",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "清军",
+      "name": "清军",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "阿济格",
+      "name": "阿济格",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "曹文诏",
+      "name": "曹文诏",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "曹变蛟",
+      "name": "曹变蛟",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "高迎祥",
+      "name": "高迎祥",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "刘哲",
+      "name": "刘哲",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "文震孟",
+      "name": "文震孟",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "曹化淳",
+      "name": "曹化淳",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "熊文灿",
+      "name": "熊文灿",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "左良玉",
+      "name": "左良玉",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "刘宇亮",
+      "name": "刘宇亮",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "襄阳",
+      "name": "襄阳",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "万历皇帝",
+      "name": "万历皇帝",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "多尔衮",
+      "name": "多尔衮",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "陈尚书",
+      "name": "陈尚书",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "小杨嗣昌",
+      "name": "小杨嗣昌",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "松山",
+      "name": "松山",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "夏承德",
+      "name": "夏承德",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "徐宏祖",
+      "name": "徐宏祖",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "江阴",
+      "name": "江阴",
+      "type": "place",
+      "importance": 1
+    },
+    {
+      "id": "新西兰",
+      "name": "新西兰",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "希拉里",
+      "name": "希拉里",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "《简明清史》",
+      "name": "《简明清史》",
+      "type": "person",
+      "importance": 1
+    },
+    {
+      "id": "戴逸",
+      "name": "戴逸",
+      "type": "person",
+      "importance": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": "朱五四",
+      "target": "陈氏",
+      "relation": "夫妻",
+      "original_text": "农民朱五四的妻子陈氏生下了一个男婴，大家都知道了，这个男婴就是后来的朱元璋。"
+    },
+    {
+      "source": "朱五四",
+      "target": "朱重八",
+      "relation": "其他关联",
+      "original_text": "在小朱五四出生一个月后，父母为他取了一个名字（元时惯例）：朱重八，这个名字也可以叫做朱八八。"
+    },
+    {
+      "source": "朱五四",
+      "target": "朱八八",
+      "relation": "其他关联",
+      "original_text": "在小朱五四出生一个月后，父母为他取了一个名字（元时惯例）：朱重八，这个名字也可以叫做朱八八。"
+    },
+    {
+      "source": "朱重八",
+      "target": "朱初一",
+      "relation": "祖孙",
+      "original_text": "朱重八祖父名字：朱初一；"
+    },
+    {
+      "source": "刘光世",
+      "target": "刘福通",
+      "relation": "其他关联",
+      "original_text": "当然既然敢起义，身份也应该有所不同，于是，可能是八辈子贫农的韩山童突然姓了赵，成了宋朝的皇室，刘福通也成了刘光世大将的后人。"
+    },
+    {
+      "source": "城池",
+      "target": "郭子兴",
+      "relation": "其他关联",
+      "original_text": "城池的守卫者郭子兴正在他的元帅府里，苦苦思索着对策：濠州城已经被元军围了很久，这样下去是坚守不了多久了。"
+    },
+    {
+      "source": "郭子兴",
+      "target": "朱重八",
+      "relation": "其他关联",
+      "original_text": "作为郭子兴的亲兵长，朱重八是很称职的。"
+    },
+    {
+      "source": "元帅",
+      "target": "朱元璋",
+      "relation": "姻亲",
+      "original_text": "就这样，朱元璋成了元帅的女婿，而郭子兴则多了一个帮手。"
+    },
+    {
+      "source": "濠州",
+      "target": "郭子兴",
+      "relation": "军事指挥",
+      "original_text": "当时在濠州的统帅除了郭子兴外，还有四个人，以孙德崖为首，而这四个人都是农民，他们和郭子兴之间存在着深刻的矛盾。"
+    },
+    {
+      "source": "明朝",
+      "target": "李善长",
+      "relation": "其他关联",
+      "original_text": "此人名叫李善长，明朝开国第一功臣。"
+    },
+    {
+      "source": "朱元璋",
+      "target": "朱文正",
+      "relation": "叔侄",
+      "original_text": "在占据了滁州后，朱元璋又迎来了三个重要的人，分别是他的侄子朱文正、姐夫李贞和外甥李文忠。"
+    },
+    {
+      "source": "朱元璋",
+      "target": "李贞",
+      "relation": "姻亲",
+      "original_text": "在占据了滁州后，朱元璋又迎来了三个重要的人，分别是他的侄子朱文正、姐夫李贞和外甥李文忠。"
+    },
+    {
+      "source": "朱元璋",
+      "target": "李文忠",
+      "relation": "其他亲属",
+      "original_text": "在占据了滁州后，朱元璋又迎来了三个重要的人，分别是他的侄子朱文正、姐夫李贞和外甥李文忠。"
+    },
+    {
+      "source": "郭子兴",
+      "target": "郭天叙",
+      "relation": "父子",
+      "original_text": "当得知这个消息后，原先企图杀害朱元璋的人也对他敬佩万分，这中间包括郭子兴的儿子郭天叙。"
+    },
+    {
+      "source": "郭子兴",
+      "target": "张天祐",
+      "relation": "姻亲",
+      "original_text": "此时的朱元璋是义军的左副元帅，而郭天叙是都元帅，郭子兴的妻弟张天祐是右副元帅，这个职位是刘福通封的。"
+    },
+    {
+      "source": "朱元璋",
+      "target": "刘福通",
+      "relation": "其他关联",
+      "original_text": "更关键的是，朱元璋北面的邻居是刘福通，这个是兄弟单位的部队，帮助朱元璋挡住了元朝军队的进攻。"
+    },
+    {
+      "source": "张士诚",
+      "target": "张士义",
+      "relation": "兄弟",
+      "original_text": "元军用各种武器攻城，包括多种火炮，张士诚和他的两个弟弟张士义、张士德就在城楼上坚守，所有的将士都可以看到他们的身影。"
+    },
+    {
+      "source": "陈友谅",
+      "target": "倪文俊",
+      "relation": "其他关联",
+      "original_text": "倪文俊一直很相信陈友谅，他不但是陈友谅的领导，还提拔了陈友谅，让他成为了军队中间的高级干部，可以算是他的师父。"
+    },
+    {
+      "source": "徐寿辉",
+      "target": "赵普胜",
+      "relation": "兄弟",
+      "original_text": "要除掉徐寿辉很容易，但之前一定要先解决他的那些明教兄弟，第一个就是赵普胜。"
+    },
+    {
+      "source": "陈友谅",
+      "target": "徐寿辉",
+      "relation": "其他关联",
+      "original_text": "此时的徐寿辉真正成为光杆司令，是陈友谅手中的棋子，于是在几乎所有的历史书中都出现了这么一段奇怪的描述：至正二十年（1360），徐寿辉在陈友谅的挟持下进攻朱元璋。"
+    },
+    {
+      "source": "应天",
+      "target": "太平",
+      "relation": "所在地",
+      "original_text": "而应天最重要的屏障太平现在就孤零零地屹立在陈友谅的十万大军面前。"
+    },
+    {
+      "source": "朱元璋",
+      "target": "胡大海",
+      "relation": "君臣",
+      "original_text": "至正二十年四月，朱元璋的部下胡大海攻下了处州。"
+    },
+    {
+      "source": "应天",
+      "target": "朱元璋",
+      "relation": "其他关联",
+      "original_text": "应天的镇守者朱元璋已经开始微服私访了，这也成为他之后几十年的习惯，这天他到紫金山下，看见了禅寺，回忆起自己当年做和尚的情景，便到寺中一游。"
+    },
+    {
+      "source": "吴国",
+      "target": "江州",
+      "relation": "所在地",
+      "original_text": "这个地方对陈友谅太重要了，因为他的吴国首都在江州（今江西九江），这两个地方有多近，去过江西的朋友应该知道，这相当于是在自己眼皮底下安了个钉子。"
+    },
+    {
+      "source": "南京",
+      "target": "安丰",
+      "relation": "其他关联",
+      "original_text": "其二，最关键的是，安丰是南京的门户，如果安丰失守，南京也会受到威胁，唇亡齿寒。"
+    },
+    {
+      "source": "陈友谅",
+      "target": "张士诚",
+      "relation": "同僚",
+      "original_text": "作为陈友谅的忠实同盟，张士诚在此时攻击安丰本来就带着威胁应天的意味。"
+    },
+    {
+      "source": "张士诚",
+      "target": "江浙",
+      "relation": "其他关联",
+      "original_text": "庐州就是今天的安徽合肥，此城非常坚固，而且有张士诚的重兵把守，朱元璋的打算很明显，攻下了庐州，就打开了通往张士诚老巢江浙一带的道路，这也可以算是此来徒劳无功的一种补偿。"
+    },
+    {
+      "source": "洪都",
+      "target": "李继先",
+      "relation": "其他关联",
+      "original_text": "为鼓舞士气，双方将领都亲自上阵，洪都总管李继先，跑来帮忙的牛海龙、赵国旺全部战死，一直打到第二天早上，朱文正的施工队修好了城墙，汉军见攻城无望，终于退去。"
+    },
+    {
+      "source": "赵普胜",
+      "target": "丁普郎",
+      "relation": "其他关联",
+      "original_text": "丁普郎是赵普胜的结拜兄弟，也是当年徐军四大金刚之一，他投奔朱元璋并非出于自愿，而是不得已，所以作战一向并不积极，但此时的对手却让他露出了自己的狂人本色。"
+    },
+    {
+      "source": "陈友谅",
+      "target": "陈理",
+      "relation": "父子",
+      "original_text": "陈友谅死后，张定边尽到了自己的责任，他将陈友谅的儿子陈理和陈友谅的尸体抢回，并带回了武昌。"
+    },
+    {
+      "source": "陈友谅",
+      "target": "陈理",
+      "relation": "父子",
+      "original_text": "朱元璋并没有放过陈友谅的后代陈理，即使他根本不可能给朱元璋带来任何威胁。"
+    },
+    {
+      "source": "朱元璋",
+      "target": "张士诚",
+      "relation": "敌对",
+      "original_text": "解决这件事情后，朱元璋接着对付他的老对头张士诚。"
+    },
+    {
+      "source": "东吴",
+      "target": "平江",
+      "relation": "其他关联",
+      "original_text": "常遇春认为应该直接攻取东吴的老巢平江（今江苏苏州），徐达也赞成他的这一意见，他们都认为，只要取得了平江，张士诚的所有地盘都将不战而降。"
+    },
+    {
+      "source": "朱元璋",
+      "target": "李善长",
+      "relation": "其他关联",
+      "original_text": "朱元璋派重臣李善长审问张士诚，李善长厉言呵斥张士诚，却得不到对方的任何回应。"
+    },
+    {
+      "source": "元朝",
+      "target": "察罕帖木儿",
+      "relation": "军事指挥",
+      "original_text": "他还给当时的元朝大将察罕帖木儿送去了厚礼。"
+    },
+    {
+      "source": "蒙古族",
+      "target": "铁木真",
+      "relation": "归属",
+      "original_text": "蒙古强大开始于十二世纪，1206年，蒙古族首领铁木真统一漠北，代表着蒙古进入全盛时期。"
+    },
+    {
+      "source": "蒙古军队",
+      "target": "蒙哥",
+      "relation": "其他关联",
+      "original_text": "守将王坚坚守合州钓鱼城，不但打退了蒙古军队的进攻，还在战斗中击伤了大汗蒙哥。"
+    },
+    {
+      "source": "南宋",
+      "target": "赵昺",
+      "relation": "君臣",
+      "original_text": "1279年，在经历了激烈抵抗后，南宋最后一个战时丞相陆秀夫在海上向幼年的皇帝赵昺行礼，说出了最后的话："
+    },
+    {
+      "source": "察罕帖木儿",
+      "target": "王保保",
+      "relation": "其他亲属",
+      "original_text": "王保保是元朝名将察罕帖木儿的外甥，也是他的养子，在察罕被杀后，他承担起了守护元朝的使命，并成为了明朝的主要敌人。"
+    },
+    {
+      "source": "察罕帖木儿",
+      "target": "王保保",
+      "relation": "其他关联",
+      "original_text": "王保保是元朝名将察罕帖木儿的外甥，也是他的养子，在察罕被杀后，他承担起了守护元朝的使命，并成为了明朝的主要敌人。"
+    },
+    {
+      "source": "朱元璋",
+      "target": "徐达",
+      "relation": "军事指挥",
+      "original_text": "至正二十七年十月，朱元璋派遣大将徐达、常遇春挥师北伐。"
+    },
+    {
+      "source": "朱元璋",
+      "target": "廖永忠",
+      "relation": "其他关联",
+      "original_text": "1367年，韩林儿坐船到应天，由朱元璋手下将领廖永忠迎接，结果在路上出了交通事故，船沉了。"
+    },
+    {
+      "source": "元朝",
+      "target": "大都",
+      "relation": "所在地",
+      "original_text": "大都是元朝的首都，也是蒙古统治的中心，只要占据了大都，就可以宣告元朝的灭亡。"
+    },
+    {
+      "source": "北路军",
+      "target": "常遇春",
+      "relation": "军事指挥",
+      "original_text": "由于第一先锋常遇春成为了北路军的统帅，徐达军的前锋由汤和担任。"
+    },
+    {
+      "source": "徐达军",
+      "target": "汤和",
+      "relation": "军事指挥",
+      "original_text": "由于第一先锋常遇春成为了北路军的统帅，徐达军的前锋由汤和担任。"
+    },
+    {
+      "source": "张良弼",
+      "target": "张良臣",
+      "relation": "兄弟",
+      "original_text": "而张良弼和他的弟弟张良臣可谓是不识时务，先降后叛，坚守庆阳，后被徐达讨平，终究没有掀起什么大风浪。"
+    },
+    {
+      "source": "兰州",
+      "target": "张温",
+      "relation": "军事指挥",
+      "original_text": "王保保终于取得了这次计划中的第一个胜利，但也有一件事情他没有想到，那就是兰州守将张温的能力。"
+    },
+    {
+      "source": "元顺帝",
+      "target": "应昌",
+      "relation": "其他关联",
+      "original_text": "五月二十一日，他到达了元顺帝的老巢应昌。"
+    },
+    {
+      "source": "元军",
+      "target": "伯颜帖木儿",
+      "relation": "军事指挥",
+      "original_text": "六月十一日，傅友德大军攻打亦集乃路（今内蒙古额济纳旗），元军守将伯颜帖木儿听到傅友德前来，连抵抗的勇气也没有了，当即开城投降。"
+    },
+    {
+      "source": "宋朝",
+      "target": "朱熹",
+      "relation": "其他关联",
+      "original_text": "他原先考虑要认宋朝的大圣人朱熹为祖先，但有一个客观原因使他不得不放弃了这一想法。"
+    },
+    {
+      "source": "明朝",
+      "target": "宋濂",
+      "relation": "其他关联",
+      "original_text": "著名的明朝学者宋濂形容过八股选出来的某些人才，“与之交谈，两目瞪然视，舌木强不能对”，活脱脱一副白痴面孔。"
+    },
+    {
+      "source": "淮西集团",
+      "target": "李善长",
+      "relation": "其他关联",
+      "original_text": "朱元璋手下最大的老乡会就是淮西集团，会长本来应该是朱元璋，但考虑到他还兼任皇帝一职，所以当时是由李善长代理。"
+    },
+    {
+      "source": "浙东集团",
+      "target": "刘基",
+      "relation": "归属",
+      "original_text": "俗话说恶人自有恶人磨，有敢专权的，就有敢分权的，淮西集团很快就遇到了对手，那就是浙东集团，这个集团的首领就是刘基。"
+    },
+    {
+      "source": "淮西集团",
+      "target": "李善长",
+      "relation": "归属",
+      "original_text": "先说一下淮西集团的首领李善长，他被朱元璋引为第一功臣，于洪武三年被封为韩国公，这是很了不得的，因为当时朱元璋一共只封了六个公爵，其他五个人分别是徐达、常茂（常遇春儿子）、李文忠、冯胜、邓愈。"
+    },
+    {
+      "source": "李善长",
+      "target": "朱元璋",
+      "relation": "其他关联",
+      "original_text": "朱元璋是一个乡土观念很重的人，李善长是他的老乡，而且多年来只在幕后工作，从不抢风头，只知埋头干活，这样的一个人朱元璋是很放心的。"
+    },
+    {
+      "source": "李善长",
+      "target": "胡惟庸",
+      "relation": "其他关联",
+      "original_text": "胡惟庸是李善长的老乡，他很早就追随朱元璋，却一直不得意，总是干些知县之类的小官，但他是一个很有能力的人，在得到李善长的首肯后，他成为了淮西集团新的领袖。"
+    },
+    {
+      "source": "淮西集团",
+      "target": "胡惟庸",
+      "relation": "归属",
+      "original_text": "胡惟庸是李善长的老乡，他很早就追随朱元璋，却一直不得意，总是干些知县之类的小官，但他是一个很有能力的人，在得到李善长的首肯后，他成为了淮西集团新的领袖。"
+    },
+    {
+      "source": "天下",
+      "target": "刘基",
+      "relation": "其他关联",
+      "original_text": "胡惟庸胜利了，他在朱元璋的帮助下打败了浙东集团，除掉了天下第一谋士刘基，现在他大权在握，李善长也要给他几分面子。"
+    },
+    {
+      "source": "李善长",
+      "target": "李存义",
+      "relation": "兄弟",
+      "original_text": "恰好李善长的弟弟李存义是胡惟庸的儿女亲家，于是胡惟庸便把李存义拉下了水。"
+    },
+    {
+      "source": "胡惟庸",
+      "target": "涂节",
+      "relation": "其他关联",
+      "original_text": "涂节是胡惟庸的死党，他当时的职务是御史中丞，相信大家已经熟悉了这个官职。"
+    },
+    {
+      "source": "朱元璋",
+      "target": "宋濂",
+      "relation": "其他关联",
+      "original_text": "宋濂是朱元璋手下著名的文臣，也是一位优秀的学者。"
+    },
+    {
+      "source": "朱标",
+      "target": "朱元璋",
+      "relation": "父子",
+      "original_text": "他完美地完成了这个任务，在他的教导下，朱标和他老子朱元璋完全不同，为人宽厚仁慈，甚有明君之状，后来他又被委以修《元史》的任务，担任总裁官。"
+    },
+    {
+      "source": "朱元璋",
+      "target": "李文忠",
+      "relation": "其他亲属",
+      "original_text": "朱元璋要杀李文忠，她劝告朱元璋，李文忠是你的外甥，也是你的养子，留他一命吧。"
+    },
+    {
+      "source": "朱元璋",
+      "target": "李文忠",
+      "relation": "其他关联",
+      "original_text": "朱元璋要杀李文忠，她劝告朱元璋，李文忠是你的外甥，也是你的养子，留他一命吧。"
+    },
+    {
+      "source": "明朝",
+      "target": "三杨",
+      "relation": "其他关联",
+      "original_text": "请大家注意，这两招只是最平常的，明朝的很多名臣如三杨、李贤、徐阶、张居正等人都是靠这两招的收益养活自己的。"
+    },
+    {
+      "source": "明朝",
+      "target": "李贤",
+      "relation": "其他关联",
+      "original_text": "请大家注意，这两招只是最平常的，明朝的很多名臣如三杨、李贤、徐阶、张居正等人都是靠这两招的收益养活自己的。"
+    },
+    {
+      "source": "明朝",
+      "target": "徐阶",
+      "relation": "其他关联",
+      "original_text": "请大家注意，这两招只是最平常的，明朝的很多名臣如三杨、李贤、徐阶、张居正等人都是靠这两招的收益养活自己的。"
+    },
+    {
+      "source": "明朝",
+      "target": "张居正",
+      "relation": "其他关联",
+      "original_text": "请大家注意，这两招只是最平常的，明朝的很多名臣如三杨、李贤、徐阶、张居正等人都是靠这两招的收益养活自己的。"
+    },
+    {
+      "source": "朱元璋",
+      "target": "朱亮祖",
+      "relation": "其他关联",
+      "original_text": "较早享受到这一高级待遇的是朱元璋的老部下朱亮祖，这位朱亮祖是赫赫有名的开国大将，立有大功，被封为永嘉侯（侯爵），镇守广州，可谓位高权重。"
+    },
+    {
+      "source": "朱亮祖",
+      "target": "朱暹",
+      "relation": "其他关联",
+      "original_text": "洪武十三年九月初三，朱亮祖与长子朱暹被押到了朱元璋的面前。"
+    },
+    {
+      "source": "朱亮祖",
+      "target": "朱暹",
+      "relation": "父子",
+      "original_text": "朱亮祖与他的儿子朱暹就这样被活活鞭死。"
+    },
+    {
+      "source": "李善长",
+      "target": "李存义",
+      "relation": "兄弟",
+      "original_text": "出人意料的是，李善长还活着，他与胡惟庸是亲家，而且他弟弟李存义是铁板上钉钉的同党，朱元璋考虑到他在朝廷中的巨大影响力，不但没有杀他，连他的弟弟李存义也免死，放逐到崇明岛（今上海崇明岛），这应该算是很大的恩典了。"
+    },
+    {
+      "source": "朱元璋",
+      "target": "徐达",
+      "relation": "其他关联",
+      "original_text": "徐达不但是朱元璋的重要将领，而且还在和州救过朱元璋的命，杀掉他对朱元璋没有任何好处，而且他为人低调，从不招摇。"
+    },
+    {
+      "source": "常遇春",
+      "target": "蓝玉",
+      "relation": "姻亲",
+      "original_text": "蓝玉是安徽定远人，他是常遇春的内弟。"
+    },
+    {
+      "source": "纳哈出",
+      "target": "乃剌吾",
+      "relation": "君臣",
+      "original_text": "这个人名叫乃剌吾，是纳哈出原来的部下，他得到的使命是劝降纳哈出。"
+    },
+    {
+      "source": "蓝玉",
+      "target": "郭英",
+      "relation": "其他关联",
+      "original_text": "正在蓝玉思考的时候，部将郭英向他报告了粮食缺乏和水源殆尽的情况，蓝玉明白，下决断的时候到了。"
+    },
+    {
+      "source": "北元",
+      "target": "脱古思帖木儿",
+      "relation": "其他关联",
+      "original_text": "此时，在捕鱼儿海的东北边，北元的最高统治者脱古思帖木儿正在和他的大臣们举行宴会。"
+    },
+    {
+      "source": "蒙古",
+      "target": "蒙哥",
+      "relation": "其他关联",
+      "original_text": "公元1259年，蒙古大汗蒙哥率军攻击钓鱼城，然而出乎他意料的是，城池没有攻下，自己却被城中发射的炮石击伤，加上水土不服，不久就死去了。"
+    },
+    {
+      "source": "蒙哥",
+      "target": "阿里不哥",
+      "relation": "兄弟",
+      "original_text": "蒙哥的死造成了一连串的后果，正在攻击南宋的忽必烈立刻收兵回去争夺汗位，而他的竞争者就是自己的弟弟阿里不哥，在这场王位争夺战中，阿里不哥战败，被幽禁而死。"
+    },
+    {
+      "source": "元朝",
+      "target": "忽必烈",
+      "relation": "其他关联",
+      "original_text": "忽必烈最终成为了元朝的开国皇帝，他胜利了。"
+    },
+    {
+      "source": "成吉思汗",
+      "target": "黄金家族",
+      "relation": "父子",
+      "original_text": "相对于黄金家族（成吉思汗的子孙称黄金家族）的其他子孙而言，他的胜利延续了上百年，即使在被明军赶出中原之后，他的子孙也始终牢牢地把握着至高无上的大汗之位。"
+    },
+    {
+      "source": "脱古思帖木儿",
+      "target": "也速迭儿",
+      "relation": "其他关联",
+      "original_text": "这个也速迭儿是脱古思帖木儿的亲戚，但他还有一个身份，他是阿里不哥的子孙。"
+    },
+    {
+      "source": "阿里不哥",
+      "target": "也速迭儿",
+      "relation": "父子",
+      "original_text": "这个也速迭儿是脱古思帖木儿的亲戚，但他还有一个身份，他是阿里不哥的子孙。"
+    },
+    {
+      "source": "黄金家族",
+      "target": "坤帖木儿",
+      "relation": "其他关联",
+      "original_text": "但他的胜利也没有延续多久，不久死去，而死亡的魔咒似乎就此附在了黄金家族的身上，他的继任者也都在登基不久后就死掉了，黄金家族的最后一位继承者坤帖木儿死于建文四年（1402），他的部将鬼力赤篡夺了汗位，取消了元的国号，恢复了鞑靼的古称。"
+    },
+    {
+      "source": "朱元璋",
+      "target": "朱棣",
+      "relation": "父子",
+      "original_text": "朱棣是朱元璋的第四个儿子，他的行事方法和手段都很接近朱元璋，所以很多人都说他最像朱元璋。"
+    },
+    {
+      "source": "朱元璋",
+      "target": "朱标",
+      "relation": "其他关联",
+      "original_text": "朱标是朱元璋的长子，但并非嫡子（其母为庶母），而朱元璋却早早地将他立为太子，可见他对朱标是很满意的。"
+    },
+    {
+      "source": "朱标",
+      "target": "朱允炆",
+      "relation": "父子",
+      "original_text": "朱元璋对朱标的深厚感情，使得他在朱标死后选择了朱标的儿子朱允炆继承皇位。"
+    },
+    {
+      "source": "朱标",
+      "target": "朱允炆",
+      "relation": "父子",
+      "original_text": "朱标是一个不幸的人，他的一生都生活在朱元璋那庞大的身影中，没有自治、自决的权力，生命线也不长，而他的儿子朱允炆更是不幸。"
+    },
+    {
+      "source": "高丽",
+      "target": "辛隅",
+      "relation": "其他关联",
+      "original_text": "高丽国王辛隅毕竟政治经验不足，居然去找朱元璋要求获得铁岭的领土。"
+    },
+    {
+      "source": "李文忠",
+      "target": "李景隆",
+      "relation": "父子",
+      "original_text": "其实朱元璋并没有完全赶尽杀绝，曹国公李景隆（李文忠之子袭父爵）、武定侯郭英、长兴侯耿炳文都逃过了朱元璋的屠刀，但汤和与他们不同，作为与朱元璋一同起兵的伙伴，他比别人更有影响力、更有威胁。"
+    },
+    {
+      "source": "李文忠",
+      "target": "李景隆",
+      "relation": "父子",
+      "original_text": "李景隆年纪不大，可这个人除了是李文忠的儿子外，什么都不是。"
+    },
+    {
+      "source": "朱棣",
+      "target": "朱标",
+      "relation": "其他关联",
+      "original_text": "也正是因为他的母亲身份低贱，且并非长子，从小朱棣就没有得到过什么好的待遇，当然，这是相对于他的哥哥朱标而言的。"
+    },
+    {
+      "source": "朱棣",
+      "target": "朱元璋",
+      "relation": "父子",
+      "original_text": "反观朱棣就不同了，他出生时，父亲朱元璋只是一个普通的劳动者，虽然他从事的是比较特殊的劳动――造反。"
+    },
+    {
+      "source": "朱元璋",
+      "target": "朱棣",
+      "relation": "父子",
+      "original_text": "如果朱元璋检阅这支朱家军时喊一声儿子，朱棣被叫到的概率大概是四十到五十分之一。"
+    },
+    {
+      "source": "李文忠",
+      "target": "李景隆",
+      "relation": "父子",
+      "original_text": "此外，他还有一个收获，那就是李文忠的儿子李景隆。"
+    },
+    {
+      "source": "李文忠",
+      "target": "李景隆",
+      "relation": "父子",
+      "original_text": "由于李文忠比朱棣要大很多，李文忠的儿子李景隆自然就成为了朱棣的伙伴。"
+    },
+    {
+      "source": "朱棣",
+      "target": "李景隆",
+      "relation": "朋友",
+      "original_text": "由于李文忠比朱棣要大很多，李文忠的儿子李景隆自然就成为了朱棣的伙伴。"
+    },
+    {
+      "source": "朱标",
+      "target": "朱棣",
+      "relation": "兄弟",
+      "original_text": "如果事情就这样发展下去，满怀抱负的朱棣可能最终会成为朱标的好弟弟、国家的边界守护者，他的能力将用来为国效力，他的野心将随着时光的流逝被永远埋葬。"
+    },
+    {
+      "source": "朱标",
+      "target": "朱允炆",
+      "relation": "父子",
+      "original_text": "朱标的儿子朱允炆不过是个毫无经验、年幼无知的少年，这样的人怎么能承担帝国发展的重任，换人吧，也该搞个公开招考之类的玩意儿了。"
+    },
+    {
+      "source": "朱允炆",
+      "target": "朱标",
+      "relation": "父子",
+      "original_text": "朱允炆是一个好人，在他十五岁的时候，父亲朱标患重病，朱允炆尽心伺候。"
+    },
+    {
+      "source": "方克勤",
+      "target": "方孝孺",
+      "relation": "父子",
+      "original_text": "说来倒也滑稽，这位方孝孺就是在空印案中被错杀的方克勤之子，杀其父而用其子，不知这算不算是对方孝孺的一种压制。"
+    },
+    {
+      "source": "朱允炆",
+      "target": "黄子澄",
+      "relation": "其他关联",
+      "original_text": "这个人比较特殊，他从入朝为官时起就是朱允炆的死党，此人就是黄子澄。"
+    },
+    {
+      "source": "东宫",
+      "target": "黄子澄",
+      "relation": "其他关联",
+      "original_text": "黄子澄是江西人，洪武十八年，他一鸣惊人，在当年的高考中以最高分获得会元的称号，后被选拔为东宫伴读；"
+    },
+    {
+      "source": "建文帝",
+      "target": "黄子澄",
+      "relation": "其他关联",
+      "original_text": "朱棣还在犹豫之中，建文帝的两位重臣黄子澄和齐泰却已经准备动手了。"
+    },
+    {
+      "source": "建文帝",
+      "target": "齐泰",
+      "relation": "其他关联",
+      "original_text": "朱棣还在犹豫之中，建文帝的两位重臣黄子澄和齐泰却已经准备动手了。"
+    },
+    {
+      "source": "朱棣",
+      "target": "朱橚",
+      "relation": "兄弟",
+      "original_text": "周王朱橚是燕王朱棣的同母兄弟，在朱允炆看来，他将是朱棣的有力助手，也正是因为这个原因，他成了最早被清除的人。"
+    },
+    {
+      "source": "朱棣",
+      "target": "朱橚",
+      "relation": "其他关联",
+      "original_text": "周王朱橚是燕王朱棣的同母兄弟，在朱允炆看来，他将是朱棣的有力助手，也正是因为这个原因，他成了最早被清除的人。"
+    },
+    {
+      "source": "李文忠",
+      "target": "李景隆",
+      "relation": "父子",
+      "original_text": "奉命执行这项任务的就是我们之前介绍过多次的李文忠之子李景隆。"
+    },
+    {
+      "source": "朱元璋",
+      "target": "朱柏",
+      "relation": "父子",
+      "original_text": "湘王朱柏不愧是朱元璋的子孙，甚有骨气。"
+    },
+    {
+      "source": "李文忠",
+      "target": "李景隆",
+      "relation": "父子",
+      "original_text": "将门往往无虎子，如常遇春的儿子常茂、李文忠的儿子李景隆都是如此。"
+    },
+    {
+      "source": "徐达",
+      "target": "徐辉祖",
+      "relation": "父子",
+      "original_text": "但事情总有例外，徐达之子徐辉祖就是一个例外。"
+    },
+    {
+      "source": "朱棣",
+      "target": "张玉",
+      "relation": "军事指挥",
+      "original_text": "朱棣病好没多久，就立刻精神焕发起来，但他也没有想到敌人来得这么快，千钧一发之际，他召集大将张玉、朱能率卫队守卫王府。"
+    },
+    {
+      "source": "朱元璋",
+      "target": "耿炳文",
+      "relation": "其他关联",
+      "original_text": "耿炳文是朱元璋的老乡，身经百战，战场经验丰富，为朱元璋所信任，并在战后被封为长兴侯，一等功臣。"
+    },
+    {
+      "source": "耿炳文",
+      "target": "张保",
+      "relation": "其他关联",
+      "original_text": "正当朱棣筹划下一步的攻势时，一个人来到了他的军营，这个人叫张保，是耿炳文的部将。"
+    },
+    {
+      "source": "朱棣",
+      "target": "朱高炽",
+      "relation": "其他关联",
+      "original_text": "朱棣把防守北平的任务交给了自己的长子朱高炽，并郑重地告诉他：“我把城池交给你，你一定要守住，待我大军归来之日即是全胜之时！”"
+    },
+    {
+      "source": "朱棣",
+      "target": "朱高炽",
+      "relation": "其他关联",
+      "original_text": "朱棣的长子朱高炽借助北平防御战的胜利获得了父亲的重视和喜爱，积累了政治资本。"
+    },
+    {
+      "source": "李景隆军",
+      "target": "平安",
+      "relation": "军事指挥",
+      "original_text": "如以往一样，朱棣还询问了李景隆手下将领的名字，当得知李景隆军的先锋由一个叫平安的人担任时，他的部下惊奇地看到，朱棣那一贯冷静的面容上居然闪过了一丝惊慌的表情。"
+    },
+    {
+      "source": "南军",
+      "target": "平安",
+      "relation": "军事指挥",
+      "original_text": "可是仗打到这个地步，不是他想退就能退的，等他千辛万苦到达河堤时，南军大将平安和瞿能也如约赶到，如果不是部下拼死相救，只怕战役就到此结束了。"
+    },
+    {
+      "source": "南军",
+      "target": "瞿能",
+      "relation": "其他关联",
+      "original_text": "大将瞿能是南军中最为勇猛的将领之一，仅次于平安，而在这场战役中，他更是极其活跃，状态上佳，如同打了兴奋剂一般。"
+    },
+    {
+      "source": "济南城",
+      "target": "铁铉",
+      "relation": "其他关联",
+      "original_text": "铁铉虽然不是科班出身，不懂得军事，但他是一个极有悟性的人，他在严酷的战争中锻炼了自己，了解了战争的规律，并最终被推举为济南城的镇守者。"
+    },
+    {
+      "source": "朱棣",
+      "target": "朱元璋",
+      "relation": "父子",
+      "original_text": "虽然天下所有的人都知道朱棣是反贼，但是朱棣毕竟还是有一定的理论支持的，这个支持就是他老子朱元璋的遗训，所谓藩王靖难、扫除奸臣是也。"
+    },
+    {
+      "source": "建文帝",
+      "target": "李景隆",
+      "relation": "其他关联",
+      "original_text": "但是建文帝拒绝了他们的要求，他拒绝的理由似乎也很充分，李景隆是他的亲戚。"
+    },
+    {
+      "source": "盛庸",
+      "target": "孙霖",
+      "relation": "其他关联",
+      "original_text": "在离东昌不远的滑口，朱棣遭遇了盛庸手下大将孙霖带领的前锋部队。"
+    },
+    {
+      "source": "朱棣",
+      "target": "朱允炆",
+      "relation": "敌对",
+      "original_text": "这一罕见现象的缔造者正是朱棣的死对头朱允炆，正是他的那道不能伤害朱棣性命的旨意使得朱棣数次死里逃生。"
+    },
+    {
+      "source": "朱允炆",
+      "target": "朱元璋",
+      "relation": "祖孙",
+      "original_text": "朱允炆大喜过望，决定去祭祀太庙，想来祭祀内容无非是告诉他的爷爷朱元璋，你的孙子朱允炆战胜了你的儿子朱棣。"
+    },
+    {
+      "source": "朱允炆",
+      "target": "朱棣",
+      "relation": "叔侄",
+      "original_text": "愚蠢的朱允炆并不真正了解他的这位朱棣叔叔。"
+    },
+    {
+      "source": "朱棣",
+      "target": "朱允炆",
+      "relation": "敌对",
+      "original_text": "要知道刀剑无眼，在战场上带头冲锋的大将和士兵被打死的概率是没有多大差别的，而朱棣之所以如此厉害并非是因为他有什么超能力，而是因为他的敌人朱允炆愚蠢地命令部下不得伤害他的性命。"
+    },
+    {
+      "source": "朱棣",
+      "target": "北平",
+      "relation": "其他关联",
+      "original_text": "朱棣本想乘胜追击，但南军却早有准备，河北、山西一带将领也纷纷出击朱棣老巢北平。"
+    },
+    {
+      "source": "南军",
+      "target": "平安",
+      "relation": "军事指挥",
+      "original_text": "五月，南军和北军终于正式相遇在睢水附近的小河，南军的统帅依然是平安。"
+    },
+    {
+      "source": "朱棣",
+      "target": "徐辉祖",
+      "relation": "姻亲",
+      "original_text": "就在全军即将崩溃之际，一支军队出现了，这支军队正是南军的援军，带队的就是朱棣的大舅子徐辉祖，他带领部队日夜兼程，所谓来得早不如来得巧，他立刻命令军队投入进攻。"
+    },
+    {
+      "source": "北军",
+      "target": "李斌",
+      "relation": "军事指挥",
+      "original_text": "徐辉祖趁势大败北军，并斩杀了北军大将李斌。"
+    },
+    {
+      "source": "朱允炆",
+      "target": "黄观",
+      "relation": "其他关联",
+      "original_text": "黄观作为朱允炆的亲信和殉节者，遭到了朱棣的妒恨，他把黄观的名字从登科榜上划去，所以明朝的历史上只留下了一位连中三元者的记载："
+    },
+    {
+      "source": "张玉",
+      "target": "张辅",
+      "relation": "父子",
+      "original_text": "朱棣分封了跟随他靖难的功臣，如张玉（其爵位由其子张辅继承）、朱能等，都被封为世袭公侯，此时所有的将领们都十分高兴，收获的季节到了。"
+    },
+    {
+      "source": "建文帝",
+      "target": "朱棣",
+      "relation": "叔侄",
+      "original_text": "于是，建文帝没有解决的问题终于由他的叔叔朱棣代为解决了。"
+    },
+    {
+      "source": "朱元璋",
+      "target": "朱棣",
+      "relation": "父子",
+      "original_text": "这就是正史的记载，从中可以看出，朱棣是朱元璋和马皇后的第四个儿子。"
+    },
+    {
+      "source": "马皇后",
+      "target": "朱棣",
+      "relation": "父子",
+      "original_text": "这就是正史的记载，从中可以看出，朱棣是朱元璋和马皇后的第四个儿子。"
+    },
+    {
+      "source": "燕王",
+      "target": "周王",
+      "relation": "其他关联",
+      "original_text": "第一个破绽在明史《黄子澄传》中，其中记载：“子澄曰：周王，燕王之母弟。”"
+    },
+    {
+      "source": "朱棣",
+      "target": "周王",
+      "relation": "兄弟",
+      "original_text": "从这句话，我们可以很清楚地了解到一个事实，那就是燕王朱棣和周王是同父同母的兄弟。"
+    },
+    {
+      "source": "燕王",
+      "target": "周王",
+      "relation": "兄弟",
+      "original_text": "再引入我们之前燕王和周王是兄弟的条件，大家对朱棣的身份就应该有一个清楚的认识了。"
+    },
+    {
+      "source": "我国",
+      "target": "吴晗",
+      "relation": "其他关联",
+      "original_text": "这里也特别注明，关于成祖生母的身份问题已经由我国两位著名的史学家吴晗先生和傅斯年先生论证过，在此谨向两位伟大的先人致敬，是他们为我们揭开了历史的谜团，还原了历史的真相。"
+    },
+    {
+      "source": "我国",
+      "target": "傅斯年",
+      "relation": "其他关联",
+      "original_text": "这里也特别注明，关于成祖生母的身份问题已经由我国两位著名的史学家吴晗先生和傅斯年先生论证过，在此谨向两位伟大的先人致敬，是他们为我们揭开了历史的谜团，还原了历史的真相。"
+    },
+    {
+      "source": "解缙",
+      "target": "胡广",
+      "relation": "朋友",
+      "original_text": "这里，我们要要先介绍解缙的两位好友，他们的名字分别是胡广、王艮。"
+    },
+    {
+      "source": "解缙",
+      "target": "王艮",
+      "relation": "朋友",
+      "original_text": "这里，我们要要先介绍解缙的两位好友，他们的名字分别是胡广、王艮。"
+    },
+    {
+      "source": "建文帝",
+      "target": "胡广",
+      "relation": "其他关联",
+      "original_text": "在他们说出自己的志向前，我们有必要先提一下，解缙、胡广、王艮、李贯都是建文帝的近侍，也就是说他们都是皇帝身边的人，深受皇帝的信任，他们对时局的态度很能反映当时朝臣的看法。"
+    },
+    {
+      "source": "建文帝",
+      "target": "王艮",
+      "relation": "其他关联",
+      "original_text": "在他们说出自己的志向前，我们有必要先提一下，解缙、胡广、王艮、李贯都是建文帝的近侍，也就是说他们都是皇帝身边的人，深受皇帝的信任，他们对时局的态度很能反映当时朝臣的看法。"
+    },
+    {
+      "source": "建文帝",
+      "target": "李贯",
+      "relation": "其他关联",
+      "original_text": "在他们说出自己的志向前，我们有必要先提一下，解缙、胡广、王艮、李贯都是建文帝的近侍，也就是说他们都是皇帝身边的人，深受皇帝的信任，他们对时局的态度很能反映当时朝臣的看法。"
+    },
+    {
+      "source": "明朝初年",
+      "target": "宋濂",
+      "relation": "其他关联",
+      "original_text": "姚广孝不但精于权谋，还十分有才学，明朝初年第一学者宋濂也十分欣赏他的才华，而那个时候，解缙还在穿开裆裤呢。"
+    },
+    {
+      "source": "朱高炽",
+      "target": "朱瞻基",
+      "relation": "父子",
+      "original_text": "所谓好圣孙是指朱高炽的儿子朱瞻基（后来的明宣宗），此人天生聪慧，深得朱棣喜爱，解缙抓住了最关键的地方，为朱高炽立下了汗马功劳。"
+    },
+    {
+      "source": "朝鲜",
+      "target": "李芳远",
+      "relation": "其他关联",
+      "original_text": "据史料记载，朱棣偏好北方饮食，而且十分喜欢朝鲜泡菜，当时的朝鲜国王李芳远曾派出朝鲜厨师（火者）侍奉朱棣，而他也欣然接受，想来喜好北方口味的朱棣对南方菜不会太感兴趣。"
+    },
+    {
+      "source": "北京",
+      "target": "天坛",
+      "relation": "其他关联",
+      "original_text": "而现在我们看到的故宫和天坛等北京著名建筑，都是朱棣时代打下的基础（此后清朝曾经整修过）。"
+    },
+    {
+      "source": "伊斯兰",
+      "target": "郑和",
+      "relation": "其他关联",
+      "original_text": "这是因为郑和是一名虔诚的伊斯兰教徒，他的祖父和父亲都信奉伊斯兰教，而所有的伊斯兰教徒心底都有着一个最大的愿望——去圣城麦加朝圣。"
+    },
+    {
+      "source": "戚祥",
+      "target": "戚继光",
+      "relation": "父子",
+      "original_text": "这位戚祥只是个无名之辈，之所以这里要特意提到他，是因为他有一个十分争气的后代子孙——戚继光。"
+    },
+    {
+      "source": "朱棣",
+      "target": "郑和",
+      "relation": "君臣",
+      "original_text": "郑和受到了朱棣的重用，成为了朝廷中炙手可热的人物，作为朱棣的臣子，他已经得到了很多别人想都不敢想的荣耀，想来当年的郑和应该也知足了。"
+    },
+    {
+      "source": "印度半岛",
+      "target": "古里",
+      "relation": "所在地",
+      "original_text": "古里就是今天印度的科泽科德，位于印度半岛的西南端。"
+    },
+    {
+      "source": "渤林邦国",
+      "target": "陈祖义",
+      "relation": "其他关联",
+      "original_text": "更厉害的还在后面，国王死后，他召集了一批海盗，自立为王，就这样，这位陈祖义成为了渤林邦国的国王。"
+    },
+    {
+      "source": "日本",
+      "target": "源赖朝",
+      "relation": "其他关联",
+      "original_text": "源赖朝是日本历史上著名的政治家，后来的德川家康一直奉此人为偶像。"
+    },
+    {
+      "source": "中国",
+      "target": "交趾",
+      "relation": "其他关联",
+      "original_text": "安南（今越南），又称交趾，汉唐时为中国的一部分，到了五代时候，中原地区打得昏天黑地，谁也没时间管它，安南便独立了，但仍然是中国的属国，且交往密切。"
+    },
+    {
+      "source": "中国",
+      "target": "安南",
+      "relation": "其他关联",
+      "original_text": "安南（今越南），又称交趾，汉唐时为中国的一部分，到了五代时候，中原地区打得昏天黑地，谁也没时间管它，安南便独立了，但仍然是中国的属国，且交往密切。"
+    },
+    {
+      "source": "安南",
+      "target": "陈氏",
+      "relation": "其他关联",
+      "original_text": "明洪武年间，朱元璋曾册封过安南国王陈氏，双方关系良好，自此安南仿效朝鲜，向大明朝贡，且凡国王继位等大事都要向大明皇帝报告，得到正式册封后方可确认为合法。"
+    },
+    {
+      "source": "安南国",
+      "target": "裴伯耆",
+      "relation": "其他关联",
+      "original_text": "永乐二年（1404），安南国大臣裴伯耆突然出现在中国，并说有紧急事情向皇帝禀报。"
+    },
+    {
+      "source": "张玉",
+      "target": "张辅",
+      "relation": "父子",
+      "original_text": "朱能的位置空出来了，代替他的倒也不是外人，此人就是被朱棣称为“靖难第一功臣”张玉的儿子――张辅。"
+    },
+    {
+      "source": "安南",
+      "target": "多邦",
+      "relation": "所在地",
+      "original_text": "至此，明军已经攻破了安南外部防线，突入内地，现在横在张辅面前，阻碍他前进的是安南重镇多邦。"
+    },
+    {
+      "source": "北元",
+      "target": "脱古思帖木儿",
+      "relation": "其他关联",
+      "original_text": "之前我们说过，北元统治者脱古思帖木儿被蓝玉击败后，逃到土刺河，被也速迭儿杀死。"
+    },
+    {
+      "source": "鬼力赤",
+      "target": "窝阔台",
+      "relation": "其他关联",
+      "original_text": "我查了一下，这位鬼力赤虽然不是黄金家族直系，但也不算是外人，他的祖先是窝阔台，由于他不是嫡系，传到他这里血统关系已经比较乱了。"
+    },
+    {
+      "source": "瓦剌",
+      "target": "马哈木",
+      "relation": "归属",
+      "original_text": "而在瓦剌首领马哈木心中，部落矛盾是大于民族矛盾的，他并不喜欢明朝，但他更加讨厌动不动就指手画脚以首领自居的鞑靼。"
+    },
+    {
+      "source": "瓦剌",
+      "target": "马哈木",
+      "relation": "归属",
+      "original_text": "为了打压鞑靼的嚣张气焰，他于永乐七年（1409）封瓦剌首领马哈木为顺宁王，并提供援助，帮助他们作战。"
+    },
+    {
+      "source": "张玉",
+      "target": "张辅",
+      "relation": "父子",
+      "original_text": "最厉害的张玉在东昌之战中被盛庸干掉了，朱能也已经死了，张玉的儿子张辅倒是个好人选，可惜刚刚平定的安南并不老实，经常闹独立，张辅也走不开。"
+    },
+    {
+      "source": "鞑靼",
+      "target": "本雅失里",
+      "relation": "归属",
+      "original_text": "过河之后，明军抓到了少数鞑靼士兵，他们供认鞑靼首领本雅失里就在附近，经过仔细分析，朱棣确认了这一情报的真实性，他立刻下令部将王友就驻扎此地，自己则率领精锐骑兵带上二十天口粮继续追击。"
+    },
+    {
+      "source": "明朝",
+      "target": "兀良哈",
+      "relation": "其他关联",
+      "original_text": "本雅失里反对，他说：东边的兀良哈是明朝的附属，绝不肯收留自己这个元朝宗室，要去你去，反正我不去。"
+    },
+    {
+      "source": "瓦剌",
+      "target": "马哈木",
+      "relation": "归属",
+      "original_text": "本雅失里逃走了，他如愿逃到了瓦剌，然而命运和他开了一个小小的玩笑，虽然以往与瓦剌的战争都是太师阿鲁台指挥，本雅失里并未参与过，可是瓦剌的首领马哈木充分发挥了一视同仁的精神，不但没有给他什么优厚待遇，反而从他这里拿走了一样东西――他的脑袋，报旧仇之余，还顺便去向明朝要两个赏钱。"
+    },
+    {
+      "source": "中军",
+      "target": "柳升",
+      "relation": "其他关联",
+      "original_text": "然而此刻的明军大营也并没有接到发动总攻的命令，掌管中军的副将安远伯柳升听到外面乱成一片，大为吃惊，马上出营察看。"
+    },
+    {
+      "source": "瓦剌",
+      "target": "马哈木",
+      "relation": "归属",
+      "original_text": "瓦剌首领马哈木是一个比较有才能的统治者。"
+    },
+    {
+      "source": "明军",
+      "target": "刘江",
+      "relation": "其他关联",
+      "original_text": "六月初三，明军前锋将领刘江到达康哈里海，无意之间发现了瓦剌军队，他立刻发动进攻，将全军击溃，并抓到了俘虏，据俘虏交代，马哈木就在此去百里的忽兰忽失温（今蒙古图拉河），且毫无准备。"
+    },
+    {
+      "source": "瓦剌",
+      "target": "马哈木",
+      "relation": "归属",
+      "original_text": "此时的瓦剌首领马哈木沉浸于喜悦之中，他看着部落的另两个首领太平和博罗，得意之情溢于言表。"
+    },
+    {
+      "source": "瓦剌",
+      "target": "马哈木",
+      "relation": "归属",
+      "original_text": "不久之后，瓦剌和我马哈木必将成为蒙古新的领袖！"
+    },
+    {
+      "source": "明军",
+      "target": "朱棣",
+      "relation": "军事指挥",
+      "original_text": "可惜明军统帅朱棣偏偏是一个“有办法”的人，北平城造反时他有办法，白沟河大战时他也有办法，被挡在山东之外进退两难时，他还是有办法。"
+    },
+    {
+      "source": "瓦剌",
+      "target": "马哈木",
+      "relation": "归属",
+      "original_text": "瓦剌首领马哈木是个聪明人，见势不妙，立刻带头逃跑，而已是一盘散沙的瓦剌军也纷纷掉头鼠窜，要知道，游牧骑兵虽然打仗勇猛，但逃跑起来和一般人也没有什么区别，反而跑得更快。"
+    },
+    {
+      "source": "明军",
+      "target": "朱棣",
+      "relation": "其他关联",
+      "original_text": "按说人家跑了也就算了，但问题在于这支明军的统帅者是朱棣，他秉承父亲朱元璋同志的优良传统，牢记“凡事做绝”的行为准则，继续猛追马哈木。"
+    },
+    {
+      "source": "朱棣",
+      "target": "朱瞻基",
+      "relation": "祖孙",
+      "original_text": "朱瞻基是朱棣的孙子，朱高炽的儿子，即所谓的皇太孙，朱瞻基自幼聪明伶俐，朱棣并不喜欢他的残疾儿子朱高炽，却十分喜爱朱瞻基，而朱高炽之所以能够当上皇帝，很大程度上也是因为有这么一个机灵的好儿子。"
+    },
+    {
+      "source": "朱高炽",
+      "target": "朱瞻基",
+      "relation": "父子",
+      "original_text": "朱瞻基是朱棣的孙子，朱高炽的儿子，即所谓的皇太孙，朱瞻基自幼聪明伶俐，朱棣并不喜欢他的残疾儿子朱高炽，却十分喜爱朱瞻基，而朱高炽之所以能够当上皇帝，很大程度上也是因为有这么一个机灵的好儿子。"
+    },
+    {
+      "source": "普鲁士",
+      "target": "腓特列二世",
+      "relation": "其他关联",
+      "original_text": "在沐英发明三行火铳战法的百年之后，普鲁士国王腓特列二世经过长期钻研，发明了与之类似的三线战法，其排兵布阵方法与沐英如出一辙，后来，他凭借着这一战法称雄欧洲。"
+    },
+    {
+      "source": "杨士奇",
+      "target": "杨美",
+      "relation": "父子",
+      "original_text": "在杨士奇一岁半的时候，他的父亲杨美终于在乱世中彻底得到了解脱――去世了。"
+    },
+    {
+      "source": "杨士奇",
+      "target": "罗性",
+      "relation": "师生",
+      "original_text": "这位继父叫罗性，他同时也兼任杨士奇的老师。"
+    },
+    {
+      "source": "县教育局",
+      "target": "杨士奇",
+      "relation": "其他关联",
+      "original_text": "没有功名的杨士奇仕途并不顺利，他先在县里做了一个训导（类似今天的县教育局官员），训导是个小官，只是整天在衙门里混日子，可杨士奇做官实在很失败，他连混日子都没有混成。"
+    },
+    {
+      "source": "杨荣",
+      "target": "杨溥",
+      "relation": "师生",
+      "original_text": "杨溥，洪武五年（1372）生，湖北石首人，建文二年（1400）中进士，是杨荣的进士同学，更为难得的是，他也被授予编修，又成为了杨荣的同事，但与杨荣不同的是，杨溥是天生的太子党，因为在永乐元年，他就被派去服侍朱高炽，算是早期党员。"
+    },
+    {
+      "source": "杨荣",
+      "target": "杨溥",
+      "relation": "同僚",
+      "original_text": "杨溥，洪武五年（1372）生，湖北石首人，建文二年（1400）中进士，是杨荣的进士同学，更为难得的是，他也被授予编修，又成为了杨荣的同事，但与杨荣不同的是，杨溥是天生的太子党，因为在永乐元年，他就被派去服侍朱高炽，算是早期党员。"
+    },
+    {
+      "source": "朱高炽",
+      "target": "朱棣",
+      "relation": "父子",
+      "original_text": "他恨朱高炽，更恨说话不算数的父亲朱棣。"
+    },
+    {
+      "source": "朱高炽",
+      "target": "解缙",
+      "relation": "其他关联",
+      "original_text": "于是，朱高炽派第一干将解缙开始了他的第二次心理战。"
+    },
+    {
+      "source": "朱棣",
+      "target": "姚广孝",
+      "relation": "其他关联",
+      "original_text": "朱棣和姚广孝如同老朋友一般地继续着交谈，但在他们的心底，都等待着最后时刻的到来。"
+    },
+    {
+      "source": "阿鲁台",
+      "target": "沙珲原",
+      "relation": "其他关联",
+      "original_text": "同年三月，朱棣又一次亲征，大军浩浩荡荡向鞑靼进发，一路上都没有遇到什么像样的抵抗，到了七月，大军抵达沙珲原（地名），接近了阿鲁台的老巢。"
+    },
+    {
+      "source": "朱棣",
+      "target": "朱高煦",
+      "relation": "父子",
+      "original_text": "早在朱棣出发远征之时，他的好儿子朱高煦就已经预见到，自己的这位父亲可能很快就要走人了，他加紧了筹划，派出自己的儿子朱瞻圻潜伏在京城，并用快马传递消息，一晚上甚至会有七八批人往来通报，在没有电话的当年，也真是苦了那些报信的。"
+    },
+    {
+      "source": "朱棣",
+      "target": "马云",
+      "relation": "其他关联",
+      "original_text": "朱棣的内侍马云是个并不起眼的人，平日看上去不偏不倚，然而此时，他也亮明了自己的立场，朱棣死后，他以内侍的身份深夜召集两个人开会，这两个人分别是杨荣和金幼孜。"
+    },
+    {
+      "source": "朱棣",
+      "target": "张辅",
+      "relation": "其他关联",
+      "original_text": "因为这看似寻常的安排实际上暗藏玄机，在朱棣死前，他召见的顾命大臣并不是这两个人，而是张辅！"
+    },
+    {
+      "source": "张玉",
+      "target": "张辅",
+      "relation": "父子",
+      "original_text": "张辅是张玉的儿子，而张玉和邱福与朱高煦的关系十分紧密，他们都是靖难时候的战友，在立储问题上，靖难派是支持朱高煦的。"
+    },
+    {
+      "source": "太子党",
+      "target": "杨荣",
+      "relation": "其他关联",
+      "original_text": "在封锁消息之后，杨荣被赋予了最为重要的使命――回京向太子报丧，并筹备太子继位事宜，这位潜伏多年的太子党秘密成员终于有了用武之地，他日夜兼程，终于将遗命及时送到了太子手中。"
+    },
+    {
+      "source": "方孝孺",
+      "target": "方克勤",
+      "relation": "父子",
+      "original_text": "方孝孺的父亲方克勤有个弟弟叫方克家，这位方克家有个儿子叫方孝复（方孝孺的堂兄），当时也被罚充军戍边，至此终于回家了。"
+    },
+    {
+      "source": "方克家",
+      "target": "方孝复",
+      "relation": "父子",
+      "original_text": "方孝孺的父亲方克勤有个弟弟叫方克家，这位方克家有个儿子叫方孝复（方孝孺的堂兄），当时也被罚充军戍边，至此终于回家了。"
+    },
+    {
+      "source": "朱高炽",
+      "target": "朱瞻基",
+      "relation": "父子",
+      "original_text": "他的计划是这样的，考虑到京城的三大营要收拾自己手下那些虾兵蟹将易如反掌，出兵攻打没有把握，几乎等于自杀，他决定拿朱高炽的儿子朱瞻基开刀。"
+    },
+    {
+      "source": "朱高煦",
+      "target": "张辅",
+      "relation": "朋友",
+      "original_text": "宣德元年（1426）七月，枚青潜入京城，去找朱高煦的好朋友——张辅。"
+    },
+    {
+      "source": "明仁宗",
+      "target": "朱瞻基",
+      "relation": "父子",
+      "original_text": "明仁宗心地善良，却因为小事被骂得气急败坏，他的儿子朱瞻基行为端正，只喜欢斗蛐蛐，也被那些人当成罪状来批判，老百姓有自己的爱好，皇帝居然不能有。"
+    },
+    {
+      "source": "朱瞻基",
+      "target": "朱元璋",
+      "relation": "其他关联",
+      "original_text": "就这样，朱瞻基将他老祖宗朱元璋集中的权力又分散了出去，票拟权给了内阁，批红权由太监代理，但必须说明的是，由于批红权十分重要，所以历代明朝皇帝虽然委托太监代笔，却从未放松过对此权力的掌握，当然也有例外，以下三人就是代表：一个顽童，一个懒虫，还有一个工程师。"
+    },
+    {
+      "source": "朱瞻基",
+      "target": "朱高炽",
+      "relation": "父子",
+      "original_text": "朱瞻基和他的父亲朱高炽的统治时期是中国历史上的盛世，而他们二人被合称为仁宣，绝不仅仅因为他们是父子关系，实际上，他们两人有很多相同之处。"
+    },
+    {
+      "source": "朱祁镇",
+      "target": "朱棣",
+      "relation": "祖孙",
+      "original_text": "他的这位偶像就是朱祁镇的曾祖父朱棣。"
+    },
+    {
+      "source": "马哈木",
+      "target": "脱欢",
+      "relation": "父子",
+      "original_text": "我们前面说过，那位被朱棣打得落花流水的马哈木有个好儿子，这话确实不假，永乐十六年（1418），马哈木的儿子脱欢承袭了父亲的爵位，并从此开始了称霸蒙古的军事行动。"
+    },
+    {
+      "source": "国民党",
+      "target": "胡宗南",
+      "relation": "军事指挥",
+      "original_text": "比如国民党的著名将领胡宗南，手下长期拥兵数十万，却一直被只有几万人的对手牵着鼻子走，最后被打得落花流水。"
+    },
+    {
+      "source": "朱祁镇",
+      "target": "钱皇后",
+      "relation": "夫妻",
+      "original_text": "交代完国家大事后，朱祁镇去向自己的妻子——钱皇后告别。"
+    },
+    {
+      "source": "郭敬",
+      "target": "王振",
+      "relation": "其他关联",
+      "original_text": "八月一日，大军到达大同，在阳和差点被干掉的郭敬已经逃回来，并见到了自己的顶头上司王振。"
+    },
+    {
+      "source": "朱勇",
+      "target": "朱能",
+      "relation": "父子",
+      "original_text": "朱勇的父亲朱能是一位优秀的指挥官，就如同张辅的父亲张玉一样，但朱能和张玉的不同之处在于，张玉的儿子张辅也是个优秀的军事人才，但他的儿子不是。"
+    },
+    {
+      "source": "张辅",
+      "target": "张玉",
+      "relation": "父子",
+      "original_text": "朱勇的父亲朱能是一位优秀的指挥官，就如同张辅的父亲张玉一样，但朱能和张玉的不同之处在于，张玉的儿子张辅也是个优秀的军事人才，但他的儿子不是。"
+    },
+    {
+      "source": "张玉",
+      "target": "张辅",
+      "relation": "父子",
+      "original_text": "朱勇的父亲朱能是一位优秀的指挥官，就如同张辅的父亲张玉一样，但朱能和张玉的不同之处在于，张玉的儿子张辅也是个优秀的军事人才，但他的儿子不是。"
+    },
+    {
+      "source": "内阁",
+      "target": "曹鼐",
+      "relation": "归属",
+      "original_text": "此外驸马井源，兵部尚书邝埜，户部尚书王佐，侍郎丁铉、王永和以及内阁成员曹鼐、张益等五十余人全部被杀。"
+    },
+    {
+      "source": "瓦剌",
+      "target": "赛刊王",
+      "relation": "其他关联",
+      "original_text": "赛刊王是瓦剌的高级人物，世面也算见得多了，但这位被俘的大明天子还是让他吃了一惊。"
+    },
+    {
+      "source": "姚广孝",
+      "target": "徐珵",
+      "relation": "其他关联",
+      "original_text": "徐珵，吴县人（今苏州，姚广孝的同乡），宣德八年（1433）考中进士，正统十二年（1447）任侍讲学士。"
+    },
+    {
+      "source": "明帝国",
+      "target": "朱元璋",
+      "relation": "其他关联",
+      "original_text": "洪武三十一年（1398），明帝国送走了它的缔造者——朱元璋，这对于帝国而言，是一个不小的损失。"
+    },
+    {
+      "source": "大明帝国",
+      "target": "朱祁钰",
+      "relation": "其他关联",
+      "original_text": "但最严重的问题还在于，大明帝国的最高统治者皇帝（代理）自己也没有信心，朱祁钰也不算是个胆小的人，可是在如此强大的敌人面前，他也没有了主意，虽说目前他同意抵抗，但如果再打个败仗，朱祁钰也是很有可能改变主意的。"
+    },
+    {
+      "source": "朝政",
+      "target": "于谦",
+      "relation": "其他关联",
+      "original_text": "此时的于谦实际上已经成为了朝政的实际控制者。"
+    },
+    {
+      "source": "王振",
+      "target": "马顺",
+      "relation": "同僚",
+      "original_text": "大臣们本已愤怒到了极点，哭骂声越来越大，王振的同党马顺偏偏这时跳出来，大耍威风。"
+    },
+    {
+      "source": "王振",
+      "target": "王长随",
+      "relation": "同僚",
+      "original_text": "毛贵和王长随是王振的同党，金英这个时候去找他们，实在是不怀好意。"
+    },
+    {
+      "source": "王振",
+      "target": "王山",
+      "relation": "叔侄",
+      "original_text": "大臣们自发自觉地找人去抓了王振的侄子王山，这位为荣华富贵来投奔自己叔叔的仁兄终于了解到了一个真理："
+    },
+    {
+      "source": "王振",
+      "target": "王山",
+      "relation": "同僚",
+      "original_text": "朱祁钰是当前的摄政，如果没有他的命令，锦衣卫是绝对不敢乱来的，但如果他不说句话就此退朝的话，大臣们的生命安全就很难保证了，因为局势混乱，而锦衣卫中有很多王振的同党（王山就是锦衣卫同知），大臣们打死马顺是自发行为，那么难保没有几个像王竑一样的锦衣卫站出来，在王振同党的指挥下，打死几个大臣，这似乎也可以理解为自发行为。"
+    },
+    {
+      "source": "王振",
+      "target": "马顺",
+      "relation": "同僚",
+      "original_text": "这是一个关键的时刻，如果朱祁钰真的走了，那么锦衣卫和王振的同党很可能会动手，马顺虽然功夫不怎么样，但他手下的锦衣卫要收拾这些文官还是很轻松的。"
+    },
+    {
+      "source": "王振",
+      "target": "马顺",
+      "relation": "其他关联",
+      "original_text": "于谦用洪亮的声音说道：“殿下（当时还不是皇帝），马顺等人是王振的余党，其罪该死（顺等罪当死），请殿下下令百官（基本都动过手）无罪！”"
+    },
+    {
+      "source": "王振",
+      "target": "王山",
+      "relation": "叔侄",
+      "original_text": "稳定情绪的朱祁钰终于恢复了正常，他接着下令把王振的侄子王山绑至刑场，凌迟处死！"
+    },
+    {
+      "source": "朱祁镇",
+      "target": "朱见深",
+      "relation": "父子",
+      "original_text": "最先被考虑的是朱祁镇的儿子朱见深，不过这位仁兄当时只有三岁，别说处理朝政，话都说不好，字也认不全，立他当皇帝就是抓瞎。"
+    },
+    {
+      "source": "朱祁钰",
+      "target": "朱祁镇",
+      "relation": "其他关联",
+      "original_text": "朱祁钰和他的哥哥一样，也是个温和的人，兄弟俩人从小一起长大，关系很好，如果没有意外，朱祁镇会一直做他的皇帝哥哥，朱祁钰则是安心做一个藩王弟弟，逢年过节弟弟会登门给哥哥拜年，互致问候。"
+    },
+    {
+      "source": "大同",
+      "target": "郭登",
+      "relation": "其他关联",
+      "original_text": "其一，大同镇守者郭登。"
+    },
+    {
+      "source": "宣府",
+      "target": "杨洪",
+      "relation": "其他关联",
+      "original_text": "其二，宣府镇守者杨洪。"
+    },
+    {
+      "source": "京城",
+      "target": "紫荆关",
+      "relation": "其他关联",
+      "original_text": "紫荆关是京城的门户，此关被破，震惊了京城，因为每一个人都知道，京城从此将无险可守。"
+    },
+    {
+      "source": "北京",
+      "target": "德胜门",
+      "relation": "其他关联",
+      "original_text": "德胜门是最为重要的门户，因为它在北京的北面，且正面对着也先的大军。"
+    },
+    {
+      "source": "通政司",
+      "target": "王复",
+      "relation": "其他关联",
+      "original_text": "值得注意的是这两个人的官职，王复是通政司参议，赵荣是中书舍人，在去谈判之前临时才分别提升为右通政和太常少卿。"
+    },
+    {
+      "source": "京城",
+      "target": "德胜门",
+      "relation": "所在地",
+      "original_text": "这是个大家都能预料到的开局，攻击的最短路径往往也是最有效的，作为京城北门，德胜门必然会首当其冲。"
+    },
+    {
+      "source": "也先",
+      "target": "孛罗",
+      "relation": "兄弟",
+      "original_text": "在也先正确的战术指导思想的引导下，瓦剌派出了一万大军进攻德胜门，带队的主将是也先的弟弟孛罗，这支军队是也先的精锐，他派出主力作战，表明其志在必得的决心。"
+    },
+    {
+      "source": "石亨",
+      "target": "石彪",
+      "relation": "叔侄",
+      "original_text": "石彪，是石亨的侄子，人如其名，他平素为人就十分彪悍，蛮横无理，属于那种无风要起几层浪，见树还要踢三脚的人。"
+    },
+    {
+      "source": "西直门",
+      "target": "孙镗",
+      "relation": "军事指挥",
+      "original_text": "安定门和德胜门击退瓦剌军的同时，西直门守将孙镗却正面临着尴尬的窘境。"
+    },
+    {
+      "source": "北京",
+      "target": "居庸关",
+      "relation": "其他关联",
+      "original_text": "居庸关是北京的门户，只要占据了居庸关，就等于扼住了京城的咽喉。"
+    },
+    {
+      "source": "京城",
+      "target": "居庸关",
+      "relation": "所在地",
+      "original_text": "居庸关是北京的门户，只要占据了居庸关，就等于扼住了京城的咽喉。"
+    },
+    {
+      "source": "也先",
+      "target": "伯颜帖木儿",
+      "relation": "兄弟",
+      "original_text": "特别是也先的弟弟伯颜帖木儿，作为一个长期征战的武将，他原本十分瞧不起这个打败仗的明朝皇帝，但自从他奉命看管朱祁镇以来，这个看似弱不禁风的年轻人却用自己的人格魅力不断地影响着他，即使在极为危险艰苦的环境下，这个人仍然镇定自若，待人诚恳，丝毫不见慌乱，渐渐地，他开始欣赏并喜欢这个人。"
+    },
+    {
+      "source": "朱祁镇",
+      "target": "袁彬",
+      "relation": "朋友",
+      "original_text": "袁彬，江西人，在此之前，他的身份仅仅是一个锦衣校尉，根本没有跟皇帝接近的机会，但机缘巧合，这场战乱使他不但成为了朱祁镇的亲信和朋友，还用他的忠诚与坚毅书写下了一出流传青史、患难与共的传奇。"
+    },
+    {
+      "source": "朱祁镇",
+      "target": "袁彬",
+      "relation": "朋友",
+      "original_text": "经过这件事情，朱祁镇与袁彬、哈铭的关系也更加密切，他们已经由君臣变为了朋友。"
+    },
+    {
+      "source": "朱祁镇",
+      "target": "哈铭",
+      "relation": "朋友",
+      "original_text": "经过这件事情，朱祁镇与袁彬、哈铭的关系也更加密切，他们已经由君臣变为了朋友。"
+    },
+    {
+      "source": "朱祁镇",
+      "target": "朱祁钰",
+      "relation": "兄弟",
+      "original_text": "朱祁镇知道，自己的弟弟祁钰已经取代了自己，成为了皇帝，这些他并不在乎，因为他明白，以他在土木堡的失败和现在的身份，就算回去也绝不可能再登皇位，而他的弟弟取代他也是顺理成章的事情。"
+    },
+    {
+      "source": "朱祁镇",
+      "target": "钱皇后",
+      "relation": "夫妻",
+      "original_text": "她就是朱祁镇的妻子钱皇后。"
+    },
+    {
+      "source": "翰林院",
+      "target": "刘定之",
+      "relation": "其他关联",
+      "original_text": "可不久之后，翰林院学士刘定之又上奏折骂于谦，而这篇奏折的目的性更为明确，文中字句也更为激烈，摘录如下："
+    },
+    {
+      "source": "朱祁镇",
+      "target": "钱皇后",
+      "relation": "夫妻",
+      "original_text": "从此，荒凉的南宫迎来了新的主人——太上皇朱祁镇和他的妻子钱皇后，说他们是主人也并不贴切，因为事实上，他们都是当今皇帝朱祁钰的囚徒。"
+    },
+    {
+      "source": "朱祁钰",
+      "target": "朱祁镇",
+      "relation": "其他关联",
+      "original_text": "朱祁钰对这个意外归来的哥哥有着极大的戒心和敌意，虽然朱祁镇已经众叛亲离，失去所有的一切，只想过几天舒坦日子，朱祁钰却连自己哥哥这个最基本的要求也不愿意满足。"
+    },
+    {
+      "source": "朱祁钰",
+      "target": "高平",
+      "relation": "其他关联",
+      "original_text": "朱祁钰之所以要砍掉那些树，是因为大臣高平对他说，南宫的树木太多，便于隐藏奸细。"
+    },
+    {
+      "source": "阮浪",
+      "target": "王瑶",
+      "relation": "朋友",
+      "original_text": "阮浪是个比较随意的人，全然没有想到这其中蕴藏着极大的风险，他收了这两件东西，觉得没有什么用，便又送给了他的朋友王瑶。"
+    },
+    {
+      "source": "卢忠",
+      "target": "王瑶",
+      "relation": "朋友",
+      "original_text": "如果事情就此了结倒也没什么问题，偏偏这个王瑶又有个叫卢忠的朋友，他时常也会把这两样东西拿出来给卢忠看。"
+    },
+    {
+      "source": "王瑶",
+      "target": "卢忠",
+      "relation": "朋友",
+      "original_text": "卢忠是王瑶的朋友，王瑶却不是卢忠的朋友。"
+    },
+    {
+      "source": "朱祁钰",
+      "target": "朱见济",
+      "relation": "父子",
+      "original_text": "景泰三年（1452）五月，朱祁镇的最后希望——皇太子朱见深被废，朱祁钰之子朱见济继任太子。"
+    },
+    {
+      "source": "北京城",
+      "target": "于谦",
+      "relation": "其他关联",
+      "original_text": "这两句话就此决定了于谦和徐珵的命运，于谦在众人的一致称赞推举下成为北京城的保卫者，荣耀无比。"
+    },
+    {
+      "source": "朱祁钰",
+      "target": "江渊",
+      "relation": "其他关联",
+      "original_text": "几个月后，江渊被任命为刑部侍郎、文渊阁大学士，成为朱祁钰的重臣。"
+    },
+    {
+      "source": "朱祁钰",
+      "target": "朱见济",
+      "relation": "父子",
+      "original_text": "可是这场胜利并没有持续多久，第二年（景泰四年，公元1453）十一月，朱祁钰受到了沉重的打击，他的儿子，帝国的未来继承者朱见济去世了。"
+    },
+    {
+      "source": "“还乡团”",
+      "target": "徐有贞",
+      "relation": "其他关联",
+      "original_text": "“还乡团”一号成员徐有贞：入阁，兵部尚书。"
+    },
+    {
+      "source": "“还乡团”",
+      "target": "石亨",
+      "relation": "其他关联",
+      "original_text": "“还乡团”二号成员石亨：封忠国公（爵）。"
+    },
+    {
+      "source": "“还乡团”",
+      "target": "张軏",
+      "relation": "其他关联",
+      "original_text": "“还乡团”三号成员张軏：封太平侯（爵）。"
+    },
+    {
+      "source": "“还乡团”",
+      "target": "曹吉祥",
+      "relation": "其他关联",
+      "original_text": "“还乡团”四号成员曹吉祥：司礼太监，总督三大营。"
+    },
+    {
+      "source": "朱祁镇",
+      "target": "朱祁钰",
+      "relation": "兄弟",
+      "original_text": "于谦是推立朱祁钰的主要大臣，也是朱祁钰的亲信，而朱祁镇最为痛恨的人就是他的弟弟朱祁钰，徐有贞决定利用这一点加深朱祁镇对于谦的反感，同时徐有贞还编造了一个谎言，说于谦有意请外地藩王到京城接替皇位，并坚决反对朱见深继位。"
+    },
+    {
+      "source": "于谦",
+      "target": "于冕",
+      "relation": "父子",
+      "original_text": "但皇帝是不能认错的，朱祁镇便将这一任务交给了他的儿子，八年后，太子朱见深刚刚继位，便下了一道诏书，为于谦平反，并召回了于谦的儿子于冕。"
+    },
+    {
+      "source": "于谦",
+      "target": "于冕",
+      "relation": "父子",
+      "original_text": "最后提一句，于谦死后，他的儿子于冕被罚充军，而充军的地点叫做龙门，后来的系列电影龙门客栈就是以此为故事模板的，而那位大反派太监的生活原型就是司礼监曹吉祥同志。"
+    },
+    {
+      "source": "李贤",
+      "target": "石亨",
+      "relation": "朋友",
+      "original_text": "可是徐有贞不知道的是，这位李贤先生除了是自己的下属和亲信外，还是一个卓越的社会活动家，喜欢广交朋友，而他的朋友中有一个人叫石亨。"
+    },
+    {
+      "source": "帝国",
+      "target": "朱祁镇",
+      "relation": "其他关联",
+      "original_text": "朱祁镇决定动手了，他要用实际行动去显示他的权威，告诉所有的人，他才是这个帝国的统治者。"
+    },
+    {
+      "source": "李贤",
+      "target": "于谦",
+      "relation": "朋友",
+      "original_text": "徐有贞不是李贤的朋友，石亨也不是李贤的朋友，甚至于王翱也不是他的朋友，李贤周旋于这几个人之间，似乎是个让人捉摸不定的人，但在我看来，他也有一个真正的朋友，这位朋友的名字叫做于谦。"
+    },
+    {
+      "source": "石亨",
+      "target": "石彪",
+      "relation": "叔侄",
+      "original_text": "石亨的侄子石彪镇守大同，有一次带兵出去巡视，遇到一群瓦剌人，不管三七二十一，上去就砍，结果杀死对方几十人。"
+    },
+    {
+      "source": "内阁",
+      "target": "岳正",
+      "relation": "其他关联",
+      "original_text": "内阁学士岳正是个喜欢调侃的人，便问他："
+    },
+    {
+      "source": "朱祁镇",
+      "target": "朱瞻墡",
+      "relation": "叔侄",
+      "original_text": "这位特别的客人叫朱瞻墡，是朱祁镇的叔叔，他正是当年传言中要来京城接任皇位的人，也就是还乡团所说的于谦准备拥立的那个人。"
+    },
+    {
+      "source": "朱祁镇",
+      "target": "朱见深",
+      "relation": "父子",
+      "original_text": "2、沂王朱见深继位，他是朱祁镇的儿子，原本就是名正言顺的皇太子，更为重要的是，他当年（1457）只有十岁，而维护朱祁镇的孙太后也还在世，所以皇位传给了朱见深，也就是给了朱祁镇。"
+    },
+    {
+      "source": "曹吉祥",
+      "target": "曹钦",
+      "relation": "其他关联",
+      "original_text": "曹吉祥有个养子叫曹钦，他和曹吉祥一样，有着远大的理想，并对此充满信心，但要真的动手，他还需要一样东西。"
+    },
+    {
+      "source": "吴瑾",
+      "target": "马亮",
+      "relation": "朋友",
+      "original_text": "这个人的名字叫做马亮，平日并不起眼，曹钦只知道他是蒙古人，却不知道他有一个叫吴瑾的朋友。"
+    },
+    {
+      "source": "吴瑾",
+      "target": "吴琮",
+      "relation": "姻亲",
+      "original_text": "吴瑾没有办法，只好回家找来自己的堂兄吴琮和几个家丁，向东安门方向奔去，他深通兵法，知道曹钦今夜必反无疑，而叛军要想抓住皇帝，控制局势，进攻的目标必然是内城的城门，所以他准备去那个方向打探动静。"
+    },
+    {
+      "source": "还乡团",
+      "target": "张軏",
+      "relation": "归属",
+      "original_text": "因为这位张瑾就是还乡团成员张軏的儿子！"
+    },
+    {
+      "source": "朱祁镇",
+      "target": "朱见深",
+      "relation": "父子",
+      "original_text": "这年正月，朱祁镇在病榻之上，召见了他的儿子，同样饱经风波的朱见深，将帝国的重任交给了他。"
+    },
+    {
+      "source": "内阁",
+      "target": "李贤",
+      "relation": "归属",
+      "original_text": "皇后只干了一个月就被废掉，这可谓是前所未闻，而且此事竟然牵涉进去那么多无关的人，影响实在太坏，内阁成员李贤、彭时向朱见深进言，希望皇帝能够三思，收回成命。"
+    },
+    {
+      "source": "内阁",
+      "target": "彭时",
+      "relation": "归属",
+      "original_text": "朱见深不急，下面的大臣们可急了，内阁成员彭时估计是分管妇联工作的，眼看朱见深如此专宠万贵妃，而这位中年妇女很明显已经过了生育年龄，担忧皇帝无后，于是便发挥了文官集团以天下为己任、无论大事小事都要管的居委会工作精神，给皇帝上了一封十分特别的奏折。"
+    },
+    {
+      "source": "朱见深",
+      "target": "李孜省",
+      "relation": "君臣",
+      "original_text": "所以，号称可以长生不老的李孜省自然成了朱见深的宠臣，而他本人也可谓再接再厉，不满足于用修道成仙糊弄盟主，在炼丹的同时还在生产线上加入了副产品――春药，开始抢自己老领导梁掌门的生意。"
+    },
+    {
+      "source": "内阁",
+      "target": "商辂",
+      "relation": "归属",
+      "original_text": "在成化五年（1469）之前，内阁是一个庄严神圣的地方，那时的内阁成员是商辂和彭时。"
+    },
+    {
+      "source": "杨晔",
+      "target": "杨泰",
+      "relation": "父子",
+      "original_text": "汪直派人逮捕了杨晔和他的父亲杨泰，关进了大牢。"
+    },
+    {
+      "source": "杨晔",
+      "target": "杨泰",
+      "relation": "父子",
+      "original_text": "汪直却并不肯善罢甘休，一定要把事情做绝，他接着安插罪名，判处杨晔的父亲杨泰死刑，斩首。"
+    },
+    {
+      "source": "杨晔",
+      "target": "杨仕伟",
+      "relation": "叔侄",
+      "original_text": "此时的西厂也已经嚣张到了顶点，比如杨晔的叔父杨仕伟，时任兵部主事（正处级），西厂没有办理任何法律手续，逮捕证也没一张，就跑到他家里去抓人，半夜三更，搞得鸡飞狗跳。"
+    },
+    {
+      "source": "万贵妃",
+      "target": "万喜",
+      "relation": "兄弟",
+      "original_text": "最为紧张的人叫万喜，作为万贵妃的弟弟、后派的继任掌门，他十分清楚，朱祐樘绝对不是什么善男信女，况且万贵妃杀死了他的母亲，此仇不共戴天，不是吃顿饭认个错可以解决的。"
+    },
+    {
+      "source": "六部",
+      "target": "王恕",
+      "relation": "其他关联",
+      "original_text": "于是在弘治元年（1488），七十三岁高龄的王恕被重新任命为六部第一重臣——吏部尚书。"
+    },
+    {
+      "source": "汪直",
+      "target": "马文升",
+      "relation": "其他关联",
+      "original_text": "说来滑稽，这位马文升大概还能算是汪直的恩人，他资格很老，成化十一年就当上了兵部侍郎，此后一直在辽东守边界，当时汪直的手下在辽东经常惹事生非，挑起国际争端，可每次闹了事就拍拍屁股走人，帮他收拾残局的就是这位马文升，到头来领功的还是汪直。"
+    },
+    {
+      "source": "祝枝山",
+      "target": "唐伯虎",
+      "relation": "朋友",
+      "original_text": "祝枝山是一个十分特别的人，虽然他自己淡泊功名，却真心期望他的朋友唐伯虎能够干出一番事业。"
+    },
+    {
+      "source": "李贤",
+      "target": "程敏政",
+      "relation": "姻亲",
+      "original_text": "看卷子的人就是程敏政，他和唐寅一样，小时候也是个神童，后来做了李贤的女婿，平步青云，他看过卷子后也十分欣赏，并在心中牢牢地记下了唐寅这个名字。"
+    },
+    {
+      "source": "唐寅",
+      "target": "徐经",
+      "relation": "师生",
+      "original_text": "徐经，江阴人，是唐寅的同科举人，他在赶考途中与唐寅偶遇，此时的唐寅已经是偶像级的人物，徐经对他十分崇拜，当即表示愿意报销唐寅的所有路上费用，只求能够与偶像同行。"
+    },
+    {
+      "source": "日本海军",
+      "target": "东乡平八郎",
+      "relation": "军事指挥",
+      "original_text": "1905年，日本海军大将东乡平八郎回到了本土，作为日本军事史上少有的天才将领，他率领装备处于劣势的日本舰队在日俄战争中全歼俄国太平洋舰队和波罗的海舰队，成为了日本家喻户晓的人物。"
+    },
+    {
+      "source": "王守仁",
+      "target": "王华",
+      "relation": "父子",
+      "original_text": "而到了王守仁父亲王华这里，事情发生了变化。"
+    },
+    {
+      "source": "王守仁",
+      "target": "王华",
+      "relation": "父子",
+      "original_text": "成化十七年（1481），十岁的王守仁离开了浙江，和全家一起搬到了北京，因为他家的坟头冒了青烟，父亲王华考中了这一年的状元。"
+    },
+    {
+      "source": "《蔽月山房》",
+      "target": "王守仁",
+      "relation": "其他关联",
+      "original_text": "这首诗的名字是《蔽月山房》，作者王守仁，时年十二岁。"
+    },
+    {
+      "source": "王华",
+      "target": "王守仁",
+      "relation": "父子",
+      "original_text": "发完了感慨的王华高兴地看着自己的好儿子，按照通常逻辑，王守仁应该谢礼，然后去书房读书，可是意外出现了。"
+    },
+    {
+      "source": "李东阳",
+      "target": "罗玘",
+      "relation": "其他关联",
+      "original_text": "有一天，李东阳上朝途中，正好遇见了自己的门生罗玘，李东阳很是高兴，连忙上去打招呼，可是罗玘竟然不理他，扭头就走，唯恐和他多说一句话。"
+    },
+    {
+      "source": "刘瑾",
+      "target": "张彩",
+      "relation": "其他关联",
+      "original_text": "因为他老底太滥，这招没能骗到多少人，却也吸引了一个十分厉害的人前来投奔，这个人后来成为了刘瑾的军师，也是李东阳、杨一清等人的强力敌手，他的名字叫做张彩。"
+    },
+    {
+      "source": "朱厚照",
+      "target": "朱祁镇",
+      "relation": "祖孙",
+      "original_text": "而且这位驸马等级实在太高，他的老婆是明英宗朱祁镇的女儿，朱祁镇是朱厚照的曾祖父，朱厚照该怎么称呼老先生，这个辈份大家自己去算。"
+    },
+    {
+      "source": "刘瑾",
+      "target": "张彩",
+      "relation": "其他关联",
+      "original_text": "此后，刘瑾的同党也一一得到清算，足智多谋的张彩先生也很不幸，陪着刘瑾先生去了阴曹地府，继续去当他的谋士。"
+    },
+    {
+      "source": "朱厚照",
+      "target": "杨廷和",
+      "relation": "师生",
+      "original_text": "朱厚照和杨廷和一直以来都保持着奇特的关系，他很反感杨廷和，因为他经常会管着自己，但他更尊重杨廷和，两人有着深厚的感情，因为杨廷和不但是他的老师，还是一个得力的助手，每当他不知道如何办理国家大事的时候，都会哀叹："
+    },
+    {
+      "source": "朱厚照",
+      "target": "杨廷和",
+      "relation": "其他关联",
+      "original_text": "朱厚照和杨廷和一直以来都保持着奇特的关系，他很反感杨廷和，因为他经常会管着自己，但他更尊重杨廷和，两人有着深厚的感情，因为杨廷和不但是他的老师，还是一个得力的助手，每当他不知道如何办理国家大事的时候，都会哀叹："
+    },
+    {
+      "source": "内阁",
+      "target": "梁储",
+      "relation": "其他关联",
+      "original_text": "第二天一早，内阁大臣梁储、蒋冕准备进宫见朱厚照，被告知皇帝今日不办公，但很快他们就得到了宫中的可靠消息：皇帝昨天晚上已经跑了！"
+    },
+    {
+      "source": "内阁",
+      "target": "蒋冕",
+      "relation": "其他关联",
+      "original_text": "第二天一早，内阁大臣梁储、蒋冕准备进宫见朱厚照，被告知皇帝今日不办公，但很快他们就得到了宫中的可靠消息：皇帝昨天晚上已经跑了！"
+    },
+    {
+      "source": "朱厚照",
+      "target": "朱祐樘",
+      "relation": "父子",
+      "original_text": "朱厚照和他的父亲朱祐樘不同，朱祐樘是一个和平主义者，不喜欢惹事，而朱厚照则恰恰相反，他最喜欢的就是无事生非，无风起浪，还爱舞枪弄棍，热衷于军事。"
+    },
+    {
+      "source": "辽东",
+      "target": "萧滓",
+      "relation": "其他关联",
+      "original_text": "“辽东参将萧滓、宣府游击时春，率军驻守聚落堡、天城。”"
+    },
+    {
+      "source": "宣府",
+      "target": "左钦",
+      "relation": "其他关联",
+      "original_text": "“宣府总兵朱振、参将左钦即刻动兵，驻守阳和，不得作战。”"
+    },
+    {
+      "source": "辽东",
+      "target": "萧滓",
+      "relation": "其他关联",
+      "original_text": "然而就在此时，他突然得知辽东参将萧滓、宣府游击时春已经率军前来增援自己，大喜过望之下，他下令全军动员，务必英勇抗敌，与鞑靼军决一死战，坚持到援军到来。"
+    },
+    {
+      "source": "王守仁",
+      "target": "孙燧",
+      "relation": "其他关联",
+      "original_text": "孙燧，时任江西巡抚，浙江余姚人，不但是王守仁的老乡，也是他同朝为官最好的朋友。"
+    },
+    {
+      "source": "临江",
+      "target": "戴德孺",
+      "relation": "其他关联",
+      "original_text": "临江知府戴德孺正准备收拾包裹，他已经得知了宁王叛乱的消息，虽然他并不想就此一走了之，却也还舍不得死，合计一下之后，他还是决定先当一回好汉――好汉不吃眼前亏。"
+    },
+    {
+      "source": "王守仁",
+      "target": "伍文定",
+      "relation": "其他关联",
+      "original_text": "这位伍知府即将成为王巡抚最为得力的助手。"
+    },
+    {
+      "source": "吉安",
+      "target": "伍文定",
+      "relation": "其他关联",
+      "original_text": "“王大人好，属下吉安知府伍文定！”"
+    },
+    {
+      "source": "南京",
+      "target": "安庆",
+      "relation": "其他关联",
+      "original_text": "安庆，位处南京上游门户，自古沿长江而下用兵者，若攻取安庆，南京必是囊中之物。"
+    },
+    {
+      "source": "曾国藩",
+      "target": "曾国荃",
+      "relation": "兄弟",
+      "original_text": "后世太平天国时，曾国藩之弟曾国荃猛攻安庆城，虽损兵折将，旷日持久，却是死也不走，直至轰塌城墙，占据城池，方才仰天狂呼：“贼破矣！”"
+    },
+    {
+      "source": "安庆",
+      "target": "张文锦",
+      "relation": "其他关联",
+      "original_text": "杨锐是都督，张文锦是安庆知府，他们对不请自来的宁王采用了统一的招待方式――火枪弓箭。"
+    },
+    {
+      "source": "临江",
+      "target": "戴德孺",
+      "relation": "其他关联",
+      "original_text": "这大致可以算是王司令附送的纪念品，他唯恐叛军死不干净，又命令临江知府戴德孺和袁州知府徐琏各带上千士兵埋伏在敌军两翼，看准时机同时发动进攻。"
+    },
+    {
+      "source": "朱厚照",
+      "target": "江彬",
+      "relation": "君臣",
+      "original_text": "当时朝中的官员们对朱厚照的亲征几乎都持反对意见，只有一个人除外，这个人就是朱厚照的第一宠臣江彬。"
+    },
+    {
+      "source": "王守仁",
+      "target": "江彬",
+      "relation": "敌对",
+      "original_text": "于是，继朱宸濠之后，江彬成为了王守仁的新敌人，事实证明，他是一个比朱宸濠可怕得多的对手。"
+    },
+    {
+      "source": "先遣队",
+      "target": "张永",
+      "relation": "其他关联",
+      "original_text": "先遣队的负责人是张永。"
+    },
+    {
+      "source": "江彬",
+      "target": "张忠",
+      "relation": "同僚",
+      "original_text": "当王守仁接到旨意，准备回到南昌就任的时候，江彬已经派遣他的同党张忠等人率领部分京军进入了江西。"
+    },
+    {
+      "source": "江彬",
+      "target": "张忠",
+      "relation": "其他关联",
+      "original_text": "张忠从此陷入了长期的抑郁状态，作为宫中的高级太监、江彬的死党，他还没有吃过这么大的亏。"
+    },
+    {
+      "source": "乔宇",
+      "target": "杨一清",
+      "relation": "师生",
+      "original_text": "而乔尚书的履历也对这一切做了完美的注解――他的老师叫杨一清。"
+    },
+    {
+      "source": "王守仁",
+      "target": "王琼",
+      "relation": "其他关联",
+      "original_text": "他和王守仁的老上级王琼有着很深的矛盾，对于王守仁这样的人，自然不会手下留情。"
+    },
+    {
+      "source": "王守仁",
+      "target": "王华",
+      "relation": "父子",
+      "original_text": "嘉靖元年二月，王守仁刚到南京，就得知他的父亲王华去世了。"
+    },
+    {
+      "source": "王守仁",
+      "target": "王艮",
+      "relation": "师生",
+      "original_text": "这个人的名字叫做王艮，他后来成为了王守仁最优秀的学生，并创建了一个鼎鼎大名的学派――泰州学派（王艮是泰州人）。"
+    },
+    {
+      "source": "朝廷",
+      "target": "赵贞吉",
+      "relation": "其他关联",
+      "original_text": "此学派影响极大，精英辈出，主要传人有王栋、徐樾、赵贞吉、何心隐等，这些人身份相差极大，如赵贞吉是朝廷高级官员，何心隐却是社会不稳定因素，经常闹事，实在是五花八门，龙蛇混杂。"
+    },
+    {
+      "source": "中国",
+      "target": "李贽",
+      "relation": "其他关联",
+      "original_text": "但这一派中影响最大的却是另外两个人，一个被称为“中国历史上最伟大的思想家之一，思想启蒙解放的先锋”（官方评价），叫做李贽。"
+    },
+    {
+      "source": "江彬",
+      "target": "张洪",
+      "relation": "君臣",
+      "original_text": "这位张洪是江彬的心腹，他是奉命来打探消息的，得到了暂时无事的保证，江彬终于松了口气。"
+    },
+    {
+      "source": "张璁",
+      "target": "毛澄",
+      "relation": "其他关联",
+      "original_text": "但风险也是很大的，张璁十分清楚，他的对手并不只是自己的顶头上司毛澄，真正的敌人是那个权倾天下，比皇帝还厉害的杨廷和。"
+    },
+    {
+      "source": "朱厚熜",
+      "target": "兴献王",
+      "relation": "父子",
+      "original_text": "这就是所谓传说中的悍妇，兴献王（朱厚熜父亲封号）先生娶了这么个老婆，想来应该相当熟悉狮子吼神功，这许多年过得也着实不轻松。"
+    },
+    {
+      "source": "朝廷",
+      "target": "杨廷和",
+      "relation": "其他关联",
+      "original_text": "张璁和桂萼是刑部主事，六品芝麻官，杨廷和是朝廷第一号人物，内阁首辅。"
+    },
+    {
+      "source": "杨廷和",
+      "target": "杨慎",
+      "relation": "父子",
+      "original_text": "同样的疑问也困扰着另一个人，这个人是杨廷和的儿子，叫做杨慎。"
+    },
+    {
+      "source": "杨廷和",
+      "target": "李东阳",
+      "relation": "同僚",
+      "original_text": "而那个人就是杨廷和的好同事、内阁第一号人物李东阳。"
+    },
+    {
+      "source": "内阁",
+      "target": "李东阳",
+      "relation": "其他关联",
+      "original_text": "而那个人就是杨廷和的好同事、内阁第一号人物李东阳。"
+    },
+    {
+      "source": "嘉靖",
+      "target": "兴献帝",
+      "relation": "父子",
+      "original_text": "其实嘉靖还是不满意的，因为到目前为止，他还有两个爹，一个是明孝宗朱祐樘，他亲爹兴献帝只能排老二，而且名号也不好听——本生皇考恭穆献皇帝。"
+    },
+    {
+      "source": "内阁",
+      "target": "蒋冕",
+      "relation": "其他关联",
+      "original_text": "当时的内阁掌权者主要是蒋冕、毛纪这些老头子，他们饱经风雨，经验丰富，也知道这件事情干得不地道，准备就此了事。"
+    },
+    {
+      "source": "内阁",
+      "target": "毛纪",
+      "relation": "其他关联",
+      "original_text": "当时的内阁掌权者主要是蒋冕、毛纪这些老头子，他们饱经风雨，经验丰富，也知道这件事情干得不地道，准备就此了事。"
+    },
+    {
+      "source": "桂萼",
+      "target": "张璁",
+      "relation": "其他关联",
+      "original_text": "话说桂萼先生一路洋洋得意地进了京，按捺不住兴奋的心情，也不去看老战友张璁，迫不及待地进了宫。"
+    },
+    {
+      "source": "翰林",
+      "target": "桂萼",
+      "relation": "其他关联",
+      "original_text": "另一方面，张璁、桂萼却是平步青云，被任命为翰林学士，而在他们的帮助下，嘉靖先生的计划也已提上日程，他准备不久之后，就把那个碍眼的“本生”从父亲的称呼中去掉。"
+    },
+    {
+      "source": "杨慎",
+      "target": "云南永昌",
+      "relation": "所在地",
+      "original_text": "杨慎的流放地是云南永昌，这里地广人稀，尚未开化，实在不是适合居住之地，给他安排这么个地方，说明皇帝陛下对他是厌恶到了极点。"
+    },
+    {
+      "source": "内阁",
+      "target": "李时",
+      "relation": "其他关联",
+      "original_text": "数年之后，频发天灾，粮食歉收，他十分担心，便问了内阁学士李时一个问题："
+    },
+    {
+      "source": "朱厚熜",
+      "target": "兴献王",
+      "relation": "父子",
+      "original_text": "十多年前，当朱厚熜还是个十一二岁的少年，在湖北安陆当土财主的时候，他的父亲兴献王曾反复对他说过这样一句话："
+    },
+    {
+      "source": "杨一清",
+      "target": "张永",
+      "relation": "其他关联",
+      "original_text": "杨一清和张永是老朋友了，按说收点钱也算不了啥，但在张璁看来，这是一种变相受贿（反贪意识很强），就纠集手下狠狠地告了一状。"
+    },
+    {
+      "source": "内阁",
+      "target": "霍韬",
+      "relation": "归属",
+      "original_text": "很快，张璁的死党，内阁成员霍韬就写好了一封奏折，此折骂人水平之高，据说连老牌职业言官都叹为观止，自愧不如。"
+    },
+    {
+      "source": "三国",
+      "target": "周瑜",
+      "relation": "其他关联",
+      "original_text": "十分凑巧的是，夏先生的字叫做公谨，这位仁兄虽是文官，却比当年的三国武将周瑜（公瑾）更为厉害，于是某些喜欢搞笑的大臣每次见到夏言，都会笑着对他讲："
+    },
+    {
+      "source": "彭泽",
+      "target": "张璁",
+      "relation": "同僚",
+      "original_text": "首先，彭泽的后台同党叫张璁。"
+    },
+    {
+      "source": "夏言",
+      "target": "薛侃",
+      "relation": "其他关联",
+      "original_text": "而众所周知，薛侃是夏言的死党。"
+    },
+    {
+      "source": "都察院",
+      "target": "史汪",
+      "relation": "其他关联",
+      "original_text": "所谓专业人才，是指都察院都御史汪，这位仁兄有长期审讯经验，当然，他也是张璁的同党。"
+    },
+    {
+      "source": "张璁",
+      "target": "史汪",
+      "relation": "同僚",
+      "original_text": "所谓专业人才，是指都察院都御史汪，这位仁兄有长期审讯经验，当然，他也是张璁的同党。"
+    },
+    {
+      "source": "内阁",
+      "target": "夏言",
+      "relation": "其他关联",
+      "original_text": "成为内阁学士的夏言并没有辜负皇帝的希望，他确实是个好官，干得相当不错，至少比张璁强，虽说他的提升也有迎合皇帝、投机取胜的成分，但能混到今天这个地步，还是靠本事吃饭的。"
+    },
+    {
+      "source": "内阁",
+      "target": "夏言",
+      "relation": "归属",
+      "original_text": "夏言已经是内阁首领，文官的第一号人物，却偏偏管不了那位仁兄，因为这个人叫做郭勋。"
+    },
+    {
+      "source": "严嵩",
+      "target": "杨廷和",
+      "relation": "师生",
+      "original_text": "可刚一进京，严嵩就发现情况不对，他去拜会老师杨廷和，杨廷和还认识他，也打了招呼，却不怎么理会，搞得他十分尴尬。"
+    },
+    {
+      "source": "夏言",
+      "target": "严嵩",
+      "relation": "其他关联",
+      "original_text": "严嵩是夏言的同乡，两人关系一向不错，夏言发达之后，出于老乡情谊，他对严嵩十分关照。"
+    },
+    {
+      "source": "内阁",
+      "target": "费宏",
+      "relation": "其他关联",
+      "original_text": "说来惭愧，这位仁兄虽说爱才，也是高级干部，却有一个缺点――人缘不好，当时的内阁大臣费宏等人和他有着很深的矛盾，平时就看他很不顺眼，现在他突然来了这么一句，便就此做出了推论――此文作者与他有着不可告人的关系。"
+    },
+    {
+      "source": "王守仁",
+      "target": "王畿",
+      "relation": "师生",
+      "original_text": "徐阶笑了，很久以前，聂豹曾对他提过这个名字，他十分清楚地记得，王畿是王守仁的嫡传弟子。"
+    },
+    {
+      "source": "徐阶",
+      "target": "聂豹",
+      "relation": "师生",
+      "original_text": "出人意料的是，后进的徐阶却很快成为了团体的领导者，经常组织大家搞活动（学习交流心学），这是一个比较奇怪的现象，因为按照辈分来算，唐顺之才是真正的第三代嫡传弟子，而徐阶的老师聂豹并未正式拜师（自封的），论资排辈怎么也轮不到徐阶。"
+    },
+    {
+      "source": "严嵩",
+      "target": "严世蕃",
+      "relation": "父子",
+      "original_text": "这个人叫严世蕃，是严嵩的儿子。"
+    },
+    {
+      "source": "锦衣卫南镇抚司",
+      "target": "陆炳",
+      "relation": "其他关联",
+      "original_text": "因为这是个职业特殊，不好招惹的人，他就是陆炳，时任锦衣卫南镇抚司最高长官。"
+    },
+    {
+      "source": "锦衣卫",
+      "target": "陆炳",
+      "relation": "其他关联",
+      "original_text": "因为升得太快，当陆炳成为锦衣卫最高长官的时候，他的很多属下都是他曾经的领导，对这个毛头小子自然很不满意，也从不听话。"
+    },
+    {
+      "source": "大明",
+      "target": "庶吉士",
+      "relation": "其他关联",
+      "original_text": "庶吉士是大明的精英。"
+    },
+    {
+      "source": "大明",
+      "target": "蒙古",
+      "relation": "敌对",
+      "original_text": "蒙古也算是大明的老冤家了，来来回回已经搞了二百年，双方都精力充沛，再累再苦都不在话下，洗个澡睡一觉起来接着干。"
+    },
+    {
+      "source": "北京",
+      "target": "蓟州",
+      "relation": "其他关联",
+      "original_text": "蓟州，是北京的门户。"
+    },
+    {
+      "source": "徐阶",
+      "target": "严世蕃",
+      "relation": "敌对",
+      "original_text": "徐阶的最大敌人是严世蕃，要知道，嘉靖三十一年（1552）时，严老先生已经七十多岁了，虽然精神还行，没有老年痴呆的迹象，但论斗智水平，是无法与徐阶相比的，而他那精妙的策划和毒辣的手段，全部出自于严世蕃，如果没有这个独眼儿子，估计他早就完蛋了。"
+    },
+    {
+      "source": "严嵩",
+      "target": "严世蕃",
+      "relation": "父子",
+      "original_text": "徐阶的最大敌人是严世蕃，要知道，嘉靖三十一年（1552）时，严老先生已经七十多岁了，虽然精神还行，没有老年痴呆的迹象，但论斗智水平，是无法与徐阶相比的，而他那精妙的策划和毒辣的手段，全部出自于严世蕃，如果没有这个独眼儿子，估计他早就完蛋了。"
+    },
+    {
+      "source": "嘉靖",
+      "target": "裕王",
+      "relation": "父子",
+      "original_text": "无利不起早，高拱如此尽心尽力，其实原因十分简单，三年前（嘉靖二十八年），嘉靖的太子去世了，剩下的只有两个儿子——裕王和景王。"
+    },
+    {
+      "source": "嘉靖",
+      "target": "景王",
+      "relation": "父子",
+      "original_text": "无利不起早，高拱如此尽心尽力，其实原因十分简单，三年前（嘉靖二十八年），嘉靖的太子去世了，剩下的只有两个儿子——裕王和景王。"
+    },
+    {
+      "source": "沈鍊",
+      "target": "沈衮",
+      "relation": "父子",
+      "original_text": "六年后，在严世蕃的指使下，沈鍊被杀害于宣府，他的两个儿子沈衮、沈褒也被关入监牢，并活活打死，是为斩草除根。"
+    },
+    {
+      "source": "沈鍊",
+      "target": "沈褒",
+      "relation": "父子",
+      "original_text": "六年后，在严世蕃的指使下，沈鍊被杀害于宣府，他的两个儿子沈衮、沈褒也被关入监牢，并活活打死，是为斩草除根。"
+    },
+    {
+      "source": "王世贞",
+      "target": "王忬",
+      "relation": "父子",
+      "original_text": "王世贞更不在话下，他的父亲王忬是都察院右都御史，二品大员。"
+    },
+    {
+      "source": "杨继盛",
+      "target": "唐顺之",
+      "relation": "朋友",
+      "original_text": "他并非不知道这样做的下场，沈鍊的遭遇就在眼前，并非没有人劝过他，深通王学，熟悉斗争之道的唐顺之及时看出了苗头，作为杨继盛的朋友，他曾写信劝告："
+    },
+    {
+      "source": "徐阶",
+      "target": "杨继盛",
+      "relation": "师生",
+      "original_text": "高拱之所以跑来找徐阶，原因在于他认为杨继盛是徐阶的学生，上书必定是徐阶指使，准备借此和严党决战。"
+    },
+    {
+      "source": "严党",
+      "target": "陆炳",
+      "relation": "同僚",
+      "original_text": "陆炳是严党的同盟，无论如何，他没有拒绝严世蕃的理由，然而徐阶依然登门拜访了，抱着姑且一试的心态。"
+    },
+    {
+      "source": "工部",
+      "target": "赵文华",
+      "relation": "其他关联",
+      "original_text": "就在他们埋头苦干的时候，嘉靖三十三年（1554），另一个人也来到了浙江，他就是通政司通政使兼工部右侍郎、副部级官员赵文华，这位兄台既不是总督，也不是巡抚，之所以千里迢迢跑来这里，除了观光旅游外，倒也背负着一个特殊的使命——祭海。"
+    },
+    {
+      "source": "严嵩",
+      "target": "赵文华",
+      "relation": "养父子",
+      "original_text": "严嵩之所以支持干儿子赵文华，是因为当年他当国子监校长的时候，赵文华是他的学生。"
+    },
+    {
+      "source": "严嵩",
+      "target": "赵文华",
+      "relation": "师生",
+      "original_text": "严嵩之所以支持干儿子赵文华，是因为当年他当国子监校长的时候，赵文华是他的学生。"
+    },
+    {
+      "source": "赵文华",
+      "target": "胡宗宪",
+      "relation": "同僚",
+      "original_text": "然而就在这样的环境下，赵文华依然找到了一个盟友，这个人的名字叫胡宗宪。"
+    },
+    {
+      "source": "严党",
+      "target": "赵文华",
+      "relation": "其他关联",
+      "original_text": "作为严党的主力成员，赵文华并不是一个简单的人，事实上，张经即将开始的军事行动早在他的预料之中，但他仍然敢在此时上书，是因为他已料定，此书一上，张经如不胜，尚有活路，如若战胜，则必死无疑！"
+    },
+    {
+      "source": "胡宗宪",
+      "target": "汪直",
+      "relation": "其他关联",
+      "original_text": "汪直，是明史上的称呼，其他史书大都称王直，十分凑巧，这位兄台正是胡宗宪的老乡，他也是徽州人，要说起这位兄弟的传奇经历，那实在是三天三夜都讲不完。"
+    },
+    {
+      "source": "胡宗宪",
+      "target": "王直",
+      "relation": "其他关联",
+      "original_text": "汪直，是明史上的称呼，其他史书大都称王直，十分凑巧，这位兄台正是胡宗宪的老乡，他也是徽州人，要说起这位兄弟的传奇经历，那实在是三天三夜都讲不完。"
+    },
+    {
+      "source": "胡宗宪",
+      "target": "汪直",
+      "relation": "敌对",
+      "original_text": "作为胡宗宪的最强对手，汪直自幼就是一个十分聪明的人，不过很可惜，他的聪明并不在读书上。"
+    },
+    {
+      "source": "徐惟学",
+      "target": "汪直",
+      "relation": "其他关联",
+      "original_text": "汪直就是早期下海的发起人之一，他找到了一个叫徐惟学的合伙人，说服他一同外出经商。"
+    },
+    {
+      "source": "胡宗宪",
+      "target": "徐海",
+      "relation": "敌对",
+      "original_text": "徐海，徽州人，胡宗宪的第二强敌。"
+    },
+    {
+      "source": "徐海",
+      "target": "普静",
+      "relation": "其他关联",
+      "original_text": "徐海的别号叫做普静，这个称呼看上去很像是和尚的法号，而实际上，它确实是一个和尚的法号。"
+    },
+    {
+      "source": "汪直",
+      "target": "徐惟学",
+      "relation": "其他关联",
+      "original_text": "徐惟学原本是汪直的合伙人，双方初始合作愉快，可慢慢地，这位兄台不满意了，两人虽然一同下海，但汪直的能力超过他，生意大过他，利润也高过他，思前想后，徐惟学决定分出去单干。"
+    },
+    {
+      "source": "胡宗宪",
+      "target": "陈可愿",
+      "relation": "其他关联",
+      "original_text": "嘉靖三十四年（1555）十一月，胡宗宪派出了他的使者蒋洲、陈可愿，他们的使命简单明了：去日本，找到汪直，告诉他所有的一切。"
+    },
+    {
+      "source": "汪直",
+      "target": "毛海峰",
+      "relation": "其他关联",
+      "original_text": "因为这是一个他们极其熟悉的名字，毛海峰，是汪直的养子。"
+    },
+    {
+      "source": "徐海",
+      "target": "罗龙文",
+      "relation": "其他关联",
+      "original_text": "这个人的名字叫做罗龙文，没有官衔，他之所以能够被选中执行如此光荣的任务，是因为他具备两个优势：首先他是徐海的老乡，两人家住同村，容易沟通感情。"
+    },
+    {
+      "source": "毛海峰",
+      "target": "汪直",
+      "relation": "养父子",
+      "original_text": "这封信是毛海峰带来的，作者就是他的养父汪直。"
+    },
+    {
+      "source": "徐海",
+      "target": "陈东",
+      "relation": "同僚",
+      "original_text": "正如之前的徐海一样，当人质的徐洪也得到了良好的待遇，锦衣玉食，好吃好住，不过吃了胡总督的饭，那是一定要还的，没过多久，胡宗宪终于亮出了底牌，他让徐洪带话给徐海，要想从良，必须献出自己的同党――陈东、麻叶。"
+    },
+    {
+      "source": "徐海",
+      "target": "麻叶",
+      "relation": "同僚",
+      "original_text": "正如之前的徐海一样，当人质的徐洪也得到了良好的待遇，锦衣玉食，好吃好住，不过吃了胡总督的饭，那是一定要还的，没过多久，胡宗宪终于亮出了底牌，他让徐洪带话给徐海，要想从良，必须献出自己的同党――陈东、麻叶。"
+    },
+    {
+      "source": "汪直",
+      "target": "毛海峰",
+      "relation": "其他关联",
+      "original_text": "对于胡宗宪，毛海峰一向有着强烈的好感，但他毕竟是汪直的养子，所以在收到信后，他第一时间就交给了汪直。"
+    },
+    {
+      "source": "胡宗宪",
+      "target": "汪直",
+      "relation": "敌对",
+      "original_text": "嘉靖三十六年（1557）十一月，在打了几年交道之后，胡宗宪和汪直这两位老对手终于见面并坐在了一起，正如胡宗宪所承诺的那样，他对待汪直十分客气，且从不限制他的自由，这倒不是因为胡大人坚持泱泱大国，诚信为本，只不过是面对强者时的必然准则。"
+    },
+    {
+      "source": "胡宗宪",
+      "target": "俞大猷",
+      "relation": "其他关联",
+      "original_text": "所谓万事开头难，为了搞个开门红，胡宗宪派出了自己的最强部属俞大猷，率领最精锐的部队，进攻一个看似已然唾手可得的目标。"
+    },
+    {
+      "source": "汪直",
+      "target": "毛海峰",
+      "relation": "其他关联",
+      "original_text": "这个目标就是汪直的养子毛海峰，在汪直被捕之后，他杀掉了夏正，却没有能够逃走，在岑港被明军团团围住，此时他的手下已逃散大半，只余不到千人。"
+    },
+    {
+      "source": "戚祥",
+      "target": "戚斌",
+      "relation": "父子",
+      "original_text": "“授戚祥之子戚斌为明威将军，任职登州卫指挥佥事，世袭罔替！”"
+    },
+    {
+      "source": "山东沿海",
+      "target": "登州",
+      "relation": "所在地",
+      "original_text": "登州是山东沿海重镇，光驻军就有数千人，加上兼管的军屯民政，加起来大致有上万人，而且这帮人长期不打仗，都混成了兵油子，每天只是混吃等死，还喜欢搞**。"
+    },
+    {
+      "source": "台州",
+      "target": "谭纶",
+      "relation": "其他关联",
+      "original_text": "关于这个问题，戚继光曾与当时的台州知府，后来的举世名将谭纶有过一段极为有趣的谈话，谈话内容经本人整理，大致如下："
+    },
+    {
+      "source": "胡宗宪",
+      "target": "郑若曾",
+      "relation": "其他关联",
+      "original_text": "这绝非耸人听闻，在胡宗宪的幕僚郑若曾所著的《江南经略》中，有着这样一份详细的招生简章，如果不服气，大可以去对照一下："
+    },
+    {
+      "source": "赵文华",
+      "target": "严嵩",
+      "relation": "养父子",
+      "original_text": "为达到这一目的，他为嘉靖送上了一样东西――百花仙酒，说实话，这酒到底什么成分，多少度我也不知道，但据赵文华同志介绍，他的干爹严嵩之所以能七八十岁还不缺钙，一口气上六楼，腰不酸腿不痛，多亏了这种酒。"
+    },
+    {
+      "source": "戚继光",
+      "target": "沈氏",
+      "relation": "夫妻",
+      "original_text": "偏偏王氏就是没有儿子，好不容易生出来却又都幼年夭折，眼看老婆年纪大了，戚继光动起了心思，在他三十五岁那年，娶了第一个小妾沈氏，之后又分别娶了陈氏和杨氏。"
+    },
+    {
+      "source": "戚继光",
+      "target": "戚安国",
+      "relation": "父子",
+      "original_text": "在小妾的帮助下，戚继光终于有了自己的儿子，这就是后来的戚安国、戚昌国、戚兴国等人。"
+    },
+    {
+      "source": "戚继光",
+      "target": "戚昌国",
+      "relation": "父子",
+      "original_text": "在小妾的帮助下，戚继光终于有了自己的儿子，这就是后来的戚安国、戚昌国、戚兴国等人。"
+    },
+    {
+      "source": "徐渭",
+      "target": "戚继光",
+      "relation": "其他关联",
+      "original_text": "见到这位久别的战友，戚继光十分激动，他安排了酒宴，招待老朋友，在酒桌上，两人把酒言欢，谈及徐渭将来的去向时，戚继光表示，希望他能留下来，在自己的军中效力。"
+    },
+    {
+      "source": "徐渭",
+      "target": "戚继光",
+      "relation": "其他关联",
+      "original_text": "见到这位久别的战友，戚继光十分激动，他安排了酒宴，招待老朋友，在酒桌上，两人把酒言欢，谈及徐渭将来的去向时，戚继光表示，希望他能留下来，在自己的军中效力。"
+    },
+    {
+      "source": "戚继光",
+      "target": "谭纶",
+      "relation": "其他关联",
+      "original_text": "这里提一下谭纶，此人虽后来的名气不如戚继光，当时却是戚继光的上级，他文官出身，喜好军事，从军三十余年，极有谋略且对敌作战勇猛，每次打仗都要亲自上阵，据统计被他亲手杀死的敌人就多达上百人，可谓是杀人如麻，名将之誉实至名归。"
+    },
+    {
+      "source": "朝鲜",
+      "target": "李昖",
+      "relation": "其他关联",
+      "original_text": "被追得只剩半条命的朝鲜国王李昖终于回到了他的王宫，而在此之前不久，这里还曾是侵朝日军将领小西行长和加藤清正的指挥部，但现在，他将在这里召开盛大的宴会，欢迎那个赶走日军，将他接回王宫的人。"
+    },
+    {
+      "source": "《纪效新书》",
+      "target": "戚继光",
+      "relation": "其他关联",
+      "original_text": "这本书的名字叫做《纪效新书》，作者戚继光。"
+    },
+    {
+      "source": "王世贞",
+      "target": "王忬",
+      "relation": "父子",
+      "original_text": "说来也巧，恰在此时，王世贞的父亲王忬工作上出了问题，被革职查问，本来这是个可大可小的事，但由于儿子的问题，严嵩横插一杠，竟然问成了死罪。"
+    },
+    {
+      "source": "徐阶",
+      "target": "董传策",
+      "relation": "其他关联",
+      "original_text": "至于何人指使，只要查查他们的档案，就能找到答案：董传策是徐阶的同乡，吴时来、张翀都是徐阶的门生。"
+    },
+    {
+      "source": "徐阶",
+      "target": "吴时来",
+      "relation": "其他关联",
+      "original_text": "至于何人指使，只要查查他们的档案，就能找到答案：董传策是徐阶的同乡，吴时来、张翀都是徐阶的门生。"
+    },
+    {
+      "source": "徐阶",
+      "target": "张翀",
+      "relation": "其他关联",
+      "original_text": "至于何人指使，只要查查他们的档案，就能找到答案：董传策是徐阶的同乡，吴时来、张翀都是徐阶的门生。"
+    },
+    {
+      "source": "陆炳",
+      "target": "李默",
+      "relation": "师生",
+      "original_text": "李默，是陆炳的老师，当年他主持武会试时，对陆炳十分欣赏，并特意提拔，两人就此成为了师徒，建立了十分深厚的情谊。"
+    },
+    {
+      "source": "严嵩",
+      "target": "陆炳",
+      "relation": "同僚",
+      "original_text": "对于徐阶而言，这个人的死实在是一件天大的好事，因为陆炳虽然为人尚可，却是严嵩的重要盟友，此人十分精明，如若要解决严嵩，必然要过他这一关。"
+    },
+    {
+      "source": "徐阶",
+      "target": "聂豹",
+      "relation": "师生",
+      "original_text": "但出人意料的是，此派的代表人物非但不是王守仁的嫡传弟子，甚至压根儿就没拜师，他就是徐阶的老师聂豹。"
+    },
+    {
+      "source": "王守仁",
+      "target": "王畿",
+      "relation": "师生",
+      "original_text": "虽说名不正，言不顺，但聂豹凭借他多年的刻苦钻研与扎实的学术功底，成为了江右学派的学术领袖之一，而在天泉桥上得到真传的两位嫡传弟子钱德洪与王畿，却部分修正了王守仁的理论，成为了王学左派，又称浙中学派，所以徐阶和唐顺之虽同为王守仁的二代弟子，却分属于不同的派别。"
+    },
+    {
+      "source": "王守仁",
+      "target": "王艮",
+      "relation": "师生",
+      "original_text": "作为左派的第二分支，泰州学派的观点最为激进，也最为尖锐，而创立此派者，正是王守仁那位最不安分的弟子王艮。"
+    },
+    {
+      "source": "何心隐",
+      "target": "梁汝元",
+      "relation": "其他关联",
+      "original_text": "何心隐，原名梁汝元，正德十一年（1517）生，这位仁兄虽非高官显贵，且外貌平凡，却是一个极为厉害的人物，他交际广泛，社会关系复杂，用今天的话说，是个黑白两道都吃得开的角色。"
+    },
+    {
+      "source": "徐阶",
+      "target": "聂豹",
+      "relation": "师生",
+      "original_text": "除去那些小鱼小虾和徐阶自己不说，那位暗语中曾经出现的礼部尚书欧阳德，就是心学的忠实信徒，而徐阶的老师聂豹，也曾担任吏部尚书、太子太保，如果把这些老家伙也忽略不计，也还有户部右侍郎赵贞吉，礼部左侍郎、张居正的老同学李春芳等等。"
+    },
+    {
+      "source": "严世蕃",
+      "target": "罗龙文",
+      "relation": "同僚",
+      "original_text": "天真的罗龙文并不知道，作为严世蕃的重要同党，从他逃跑到投奔倭寇，都有人在一旁监视着他，看着他由逃犯成为抢劫犯，却从来没有人去制止。"
+    },
+    {
+      "source": "徐阶",
+      "target": "林润",
+      "relation": "朋友",
+      "original_text": "虽然他不如徐阶有前途，但他有一个要好的朋友，这个人的名字叫林润。"
+    },
+    {
+      "source": "严世蕃",
+      "target": "严绍庭",
+      "relation": "父子",
+      "original_text": "徐阶的预料一点没错，就在谕令颁布的当天，严世蕃的儿子、锦衣卫严绍庭便连夜出发赶去报信。"
+    },
+    {
+      "source": "上海滩",
+      "target": "杜月笙",
+      "relation": "其他关联",
+      "original_text": "比如后来的上海滩第一老流氓杜月笙，也曾用过这手。"
+    },
+    {
+      "source": "蒋介石",
+      "target": "蒋经国",
+      "relation": "父子",
+      "original_text": "当时正值解放前夕，蒋介石之子蒋经国奉命到上海整顿金融秩序，打击投机，干得热火朝天，结果搞到了杜月笙的头上，不但毫不留情，还明确表示整的就是你。"
+    },
+    {
+      "source": "严世蕃",
+      "target": "徐阶",
+      "relation": "敌对",
+      "original_text": "但严世蕃却没有杜月笙的运气，因为他的对手是徐阶，是一个足以与他匹敌的人。"
+    },
+    {
+      "source": "徐阶",
+      "target": "袁炜",
+      "relation": "师生",
+      "original_text": "而这位袁炜，偏偏还是徐阶的学生。"
+    },
+    {
+      "source": "明代",
+      "target": "海瑞",
+      "relation": "其他关联",
+      "original_text": "作为一位有着极高知名度的历史人物，海瑞先生有一个非同寻常的荣誉称号――明代第一清官。"
+    },
+    {
+      "source": "海瑞",
+      "target": "海笔架",
+      "relation": "其他关联",
+      "original_text": "虽然他说话声音不大，但大家都听到了，由于这个比喻实在太过形象，所以自此以后，海瑞先生就有了第二外号――海笔架，两个外号排名不分先后，可随意使用。"
+    },
+    {
+      "source": "翰林院",
+      "target": "张居正",
+      "relation": "其他关联",
+      "original_text": "但在当时，这位仁兄的进步还是很快的，当张居正还是个从五品翰林院学士的时候，他已经是正二品礼部尚书了。"
+    },
+    {
+      "source": "嘉靖",
+      "target": "裕王",
+      "relation": "父子",
+      "original_text": "自从嘉靖二十八年（1549）太子去世以后，嘉靖就没有立过接班人，不但不立，口风还非常之紧，对剩下的两个儿子裕王、景王若即若离，时远时近。"
+    },
+    {
+      "source": "嘉靖",
+      "target": "景王",
+      "relation": "父子",
+      "original_text": "自从嘉靖二十八年（1549）太子去世以后，嘉靖就没有立过接班人，不但不立，口风还非常之紧，对剩下的两个儿子裕王、景王若即若离，时远时近。"
+    },
+    {
+      "source": "朱重八",
+      "target": "朱五四",
+      "relation": "父子",
+      "original_text": "当然，和朱重八的父亲朱五四比起来，张文明的生活要强得多，起码不愁吃穿，有份正经工作，但要总拿穷人朱五四开涮，也实在没啥意思，毕竟和他的同龄人比起来，张文明这一辈子算是相当的失败。"
+    },
+    {
+      "source": "张文明",
+      "target": "张白圭",
+      "relation": "父子",
+      "original_text": "所谓考试，是考县学，也就是所谓的考秀才，张文明领着儿子随即去了考场，那一年，张白圭十二岁。"
+    },
+    {
+      "source": "荆州",
+      "target": "李士翱",
+      "relation": "其他关联",
+      "original_text": "张白圭的运气很好，那一年的秀才考官是荆州知府李士翱。"
+    },
+    {
+      "source": "张文明",
+      "target": "张白圭",
+      "relation": "父子",
+      "original_text": "他约见了张文明和他的儿子张白圭，在几番交谈和极度称赞之后，李知府有了这样一个念头："
+    },
+    {
+      "source": "湖广",
+      "target": "顾璘",
+      "relation": "其他关联",
+      "original_text": "在考试开始之前，考官照例要向领导介绍一下这一科的考生情况，于是湖广第一号人物顾璘得知，有一个十三岁的孩子也来考试了。"
+    },
+    {
+      "source": "张居正",
+      "target": "张文明",
+      "relation": "父子",
+      "original_text": "事情是这样的，虽然张居正的父亲张文明只是一个穷秀才，但他的祖父张镇却是有体面工作的，具体说来，他是辽王府的护卫。"
+    },
+    {
+      "source": "张居正",
+      "target": "张镇",
+      "relation": "祖孙",
+      "original_text": "事情是这样的，虽然张居正的父亲张文明只是一个穷秀才，但他的祖父张镇却是有体面工作的，具体说来，他是辽王府的护卫。"
+    },
+    {
+      "source": "辽王府",
+      "target": "张镇",
+      "relation": "其他关联",
+      "original_text": "事情是这样的，虽然张居正的父亲张文明只是一个穷秀才，但他的祖父张镇却是有体面工作的，具体说来，他是辽王府的护卫。"
+    },
+    {
+      "source": "朝廷",
+      "target": "徐阶",
+      "relation": "其他关联",
+      "original_text": "此时徐阶的职务是礼部尚书兼内阁大学士，已经成为了朝廷的高级官员，在张居正看来，他是可以和严嵩干一仗的。"
+    },
+    {
+      "source": "徐阶",
+      "target": "张居正",
+      "relation": "其他关联",
+      "original_text": "但无论局势多么紧张，作为徐阶最得意的门生，张居正却始终没有上阵，只是安心整理公文，教他的学生。"
+    },
+    {
+      "source": "高拱",
+      "target": "张居正",
+      "relation": "同僚",
+      "original_text": "在那一刻，五十二岁的高拱与三十九岁的张居正结成了联盟，一个雄心万丈，于危难中力挽狂澜、建功立业的志向就此立下。"
+    },
+    {
+      "source": "李登云",
+      "target": "高拱",
+      "relation": "姻亲",
+      "original_text": "这下子胡应嘉懵了，虽说一篇文章搞倒了一个副部长，也算颇有成就，但问题在于，这位李登云有个亲家，名叫高拱。"
+    },
+    {
+      "source": "徐阶",
+      "target": "胡应嘉",
+      "relation": "其他关联",
+      "original_text": "顺便提一下，胡应嘉是徐阶的老乡。"
+    },
+    {
+      "source": "翰林院",
+      "target": "张居正",
+      "relation": "其他关联",
+      "original_text": "此时的张居正只是一个翰林院学士，还不是内阁成员，自然也没有值班的义务，所以当他从热被窝里被人叫出来、顶着北京十二月的寒风跑进宫时，还是一头雾水。"
+    },
+    {
+      "source": "明代",
+      "target": "李时珍",
+      "relation": "其他关联",
+      "original_text": "这就是明代医生李时珍的觉悟，以及他抛弃荣华富贵，历经困苦三十年著书救人的唯一动机与目的。"
+    },
+    {
+      "source": "《西游记》",
+      "target": "吴承恩",
+      "relation": "其他关联",
+      "original_text": "至于《西游记》，我们目前得知的是，其作者为吴承恩，江苏淮安人，其他情况不是不详，就是存在争议。"
+    },
+    {
+      "source": "西门庆",
+      "target": "潘金莲",
+      "relation": "夫妻",
+      "original_text": "西门庆的老婆说起来也就潘金莲那么几位，严世蕃那就多了去了，基本都是两位数起算；"
+    },
+    {
+      "source": "陈以勤",
+      "target": "李春芳",
+      "relation": "师生",
+      "original_text": "其实这种排序本也说不准，要说起来，排第二的李春芳还是陈以勤的学生，谁让人家进步快呢？"
+    },
+    {
+      "source": "高拱",
+      "target": "齐康",
+      "relation": "师生",
+      "original_text": "这回高拱扛不住了，可还没等他开始反击，另一个人却蹦了出来，此人就是他的学生齐康。"
+    },
+    {
+      "source": "高学士",
+      "target": "郭朴",
+      "relation": "其他关联",
+      "original_text": "这下再也扛不住了，隆庆元年（1567），屁股还没坐热的高学士主动提出辞职回家，一个月后，他的同乡好友郭朴也退了休。"
+    },
+    {
+      "source": "陈洪",
+      "target": "高拱",
+      "relation": "其他关联",
+      "original_text": "但太监是不能自己随意出宫的，有钱没处花，有劲没处使，于是邵大侠就成为了陈太监的联络员，而高拱，就是陈洪的第一个同盟者。"
+    },
+    {
+      "source": "高拱",
+      "target": "蔡先生",
+      "relation": "师生",
+      "original_text": "朝廷里的言官突然发难，攻击徐阶教子不严，而一个叫蔡国熙的人被任命为苏州兵备使，专职处理此案，很巧的是，这位蔡先生恰好是高拱的学生，还恰好和徐阶有点矛盾。"
+    },
+    {
+      "source": "明代",
+      "target": "徐阶",
+      "relation": "其他关联",
+      "original_text": "徐阶是明代公认的顶级政治家，他的权谋手段和政务能力除张居正外，可谓无人匹敌，但这位高兄在历史上却能与之齐名，是因为他虽在很多地方不如徐阶，却在一点上远远超越了这位前辈――用人。"
+    },
+    {
+      "source": "海瑞",
+      "target": "朱衡",
+      "relation": "其他关联",
+      "original_text": "这一派带头的，就是骂神欧阳一敬手下唯一的幸存者英国公张溶，而海瑞的那位后台老板朱衡也是反对派的干将，真可谓是一脉相承。"
+    },
+    {
+      "source": "反对派",
+      "target": "张溶",
+      "relation": "归属",
+      "original_text": "他找到了反对派首领张溶，可还没等他说话，张溶就叫嚣起来："
+    },
+    {
+      "source": "大明王朝",
+      "target": "高拱",
+      "relation": "其他关联",
+      "original_text": "潘季驯、殷正茂和王崇古的任用，证明了高拱是一个无比卓越的优秀政治家，在他的统领下，大明王朝开始重新焕发生机活力，而他的声名也随之达到了最高峰。"
+    },
+    {
+      "source": "高拱",
+      "target": "张居正",
+      "relation": "朋友",
+      "original_text": "其实一直以来，高拱虽说对张居正抱有戒心，却还是把他当朋友的，直到有一天，他听到了那个传闻。"
+    },
+    {
+      "source": "高拱",
+      "target": "雒遒",
+      "relation": "其他关联",
+      "original_text": "但老滑头毕竟是老滑头，在短暂惊慌之后，高拱恢复了镇定，叫来了自己的心腹大臣雒遒、程文，整夜商议之后，他们订下了一个几近完美的攻击计划。"
+    },
+    {
+      "source": "张居正",
+      "target": "徐阶",
+      "relation": "师生",
+      "original_text": "张猛人的第一大特征是打落水狗，在这一点上，他和他的老师徐阶有一拼，一旦动手，打残是不足的，打死是不够的，要打到对手做鬼了都不敢来找你，这才叫高手。"
+    },
+    {
+      "source": "张居正",
+      "target": "杨博",
+      "relation": "其他关联",
+      "original_text": "别人来可以装傻，这个人就不行了，因为他不但是老资格，还曾是张居正的偶像――杨博。"
+    },
+    {
+      "source": "杨博",
+      "target": "杨俊卿",
+      "relation": "父子",
+      "original_text": "杨博和高拱确实没有关系，但他有个儿子，名叫杨俊卿，而很巧的是，杨俊卿找了个老婆，岳父大人偏偏就是王崇古。"
+    },
+    {
+      "source": "张居正",
+      "target": "冯保",
+      "relation": "朋友",
+      "original_text": "事实证明，这个安排充分证明了张居正卓越的政治天才，却苦了他的朋友冯保，因为很快，这位冯太监就将成为中国司法史上的著名笑柄。"
+    },
+    {
+      "source": "张居正",
+      "target": "高拱",
+      "relation": "朋友",
+      "original_text": "高拱算是涉险过关了，无论如何，他还算是张居正的朋友，对朋友尚且如此，仇人就更不用说了。"
+    },
+    {
+      "source": "辽东",
+      "target": "李成梁",
+      "relation": "其他关联",
+      "original_text": "万历三年（1575），辽东第一号猛人、总兵李成梁一顿穷追猛打，大败了蒙古骑兵，史称“辽东大捷”。"
+    },
+    {
+      "source": "大明帝国",
+      "target": "张居正",
+      "relation": "其他关联",
+      "original_text": "当然了，作为大明帝国的实际统治者，做了这么多工作，也受了这么多的苦，再过苦日子似乎也有点说不过去，而在这一点上，张居正同志是个明白人。"
+    },
+    {
+      "source": "隆庆皇帝",
+      "target": "朱翊钧",
+      "relation": "父子",
+      "original_text": "万历皇帝朱翊钧，嘉靖四十二年（1563）出生，是隆庆皇帝的第三个儿子。"
+    },
+    {
+      "source": "李太后",
+      "target": "隆庆皇帝",
+      "relation": "夫妻",
+      "original_text": "从看到张居正的第一眼起，李太后就意识到，这是一个极有利用价值的人，不但能谋善断，而且政务能力极强，加上她的丈夫隆庆皇帝为人老实、胆小怕事不说，还是个老病号，哪天脚一蹬就咽了气，那都是说不准的事情。"
+    },
+    {
+      "source": "霍光",
+      "target": "霍去病",
+      "relation": "其他关联",
+      "original_text": "霍光，是汉代人物，有个哥哥叫霍去病，但在历史上他比这位名人还有名，干过许多大事，就不多说了，其中最大的一件事情，就是废过皇帝。"
+    },
+    {
+      "source": "张四维",
+      "target": "张允龄",
+      "relation": "父子",
+      "original_text": "张四维的父亲，叫做张允龄，是一名普通的山西商人，不算什么人物，但他母亲王氏却不同凡响——王崇古的姐姐。"
+    },
+    {
+      "source": "张四维",
+      "target": "王氏",
+      "relation": "父子",
+      "original_text": "张四维的父亲，叫做张允龄，是一名普通的山西商人，不算什么人物，但他母亲王氏却不同凡响——王崇古的姐姐。"
+    },
+    {
+      "source": "王崇古",
+      "target": "王氏",
+      "relation": "姐弟",
+      "original_text": "张四维的父亲，叫做张允龄，是一名普通的山西商人，不算什么人物，但他母亲王氏却不同凡响——王崇古的姐姐。"
+    },
+    {
+      "source": "王崇古",
+      "target": "张四维",
+      "relation": "其他亲属",
+      "original_text": "也就是说，张四维是王崇古的外甥。"
+    },
+    {
+      "source": "张四维",
+      "target": "张甲徽",
+      "relation": "父子",
+      "original_text": "后来张四维生了两个儿子，一个叫张甲徽，一个叫张定徽，他们两个几乎同时结婚，老婆却是亲姐妹——杨博的两个孙女。"
+    },
+    {
+      "source": "张四维",
+      "target": "张定徽",
+      "relation": "父子",
+      "original_text": "后来张四维生了两个儿子，一个叫张甲徽，一个叫张定徽，他们两个几乎同时结婚，老婆却是亲姐妹——杨博的两个孙女。"
+    },
+    {
+      "source": "王崇古",
+      "target": "张四维",
+      "relation": "其他亲属",
+      "original_text": "三，张四维是王崇古的外甥，也是杨博的亲家。"
+    },
+    {
+      "source": "张居正",
+      "target": "张敬修",
+      "relation": "其他关联",
+      "original_text": "自杀的人，是张居正的长子张敬修，但在死前，他终于发觉了那个潜伏幕后的仇人，并在自己的遗书中发出了血泪的控诉："
+    },
+    {
+      "source": "内阁",
+      "target": "申时行",
+      "relation": "其他关联",
+      "original_text": "恰好张四维两个月前死了爹，回家守制去了，他这一走，原先的内阁第二号人物申时行，就成为了朝廷首辅。"
+    },
+    {
+      "source": "明朝",
+      "target": "南京",
+      "relation": "所在地",
+      "original_text": "南京是明朝的第二首都，从六部到都察院，所有北京有的中央机构它都有，但毕竟皇帝大人住北京，所以除了南京户部（管理南方户籍）和南京兵部（统领南京军队）外，大多数机构都是摆设。"
+    },
+    {
+      "source": "海瑞",
+      "target": "王用汲",
+      "relation": "朋友",
+      "original_text": "在海瑞死后，他的好友佥都御史王用汲来为他收尸，遍寻海瑞的住处后，他只找到了几件打着补丁的破衣服，和几口装着破衣服的破箱子。"
+    },
+    {
+      "source": "南京都察院",
+      "target": "史海瑞",
+      "relation": "其他关联",
+      "original_text": "为官三十年，二品正部级南京都察院右都御史海瑞，这就是他的全部财产。"
+    },
+    {
+      "source": "朝鲜",
+      "target": "李昖",
+      "relation": "其他关联",
+      "original_text": "朝鲜国王李昖逃亡平壤，余者待查。”"
+    },
+    {
+      "source": "朝鲜",
+      "target": "李昖",
+      "relation": "其他关联",
+      "original_text": "但要占据中国，必须征服朝鲜，于是他开始和朝鲜国王李昖谈判，要求他们让路，帮助自己进攻明朝。"
+    },
+    {
+      "source": "第二军",
+      "target": "加藤清正",
+      "relation": "其他关联",
+      "original_text": "第二军军长加藤清正，和第五军军长福岛正则是铁杆兄弟。"
+    },
+    {
+      "source": "第三军",
+      "target": "黑田长政",
+      "relation": "其他关联",
+      "original_text": "第三军军长黑田长政，在日本被称为“兵法大家”，据说精通兵法。"
+    },
+    {
+      "source": "第六军",
+      "target": "小早川隆景",
+      "relation": "其他关联",
+      "original_text": "第六军军长小早川隆景，和第七军军长毛利辉元是亲戚关系。"
+    },
+    {
+      "source": "第七军",
+      "target": "毛利辉元",
+      "relation": "其他关联",
+      "original_text": "第六军军长小早川隆景，和第七军军长毛利辉元是亲戚关系。"
+    },
+    {
+      "source": "第四军",
+      "target": "岛津义弘",
+      "relation": "其他关联",
+      "original_text": "最后一个拉出去评论的，是第四军军长岛津义弘。"
+    },
+    {
+      "source": "第二军",
+      "target": "加藤清正",
+      "relation": "其他关联",
+      "original_text": "特别是第二军的军长加藤清正，此人极其残忍，战场对垒不知所谓，未见有何高明，却十分喜爱杀害平民，屠城放火。"
+    },
+    {
+      "source": "朝鲜",
+      "target": "李昖",
+      "relation": "其他关联",
+      "original_text": "此时，被追到鸭绿江边的朝鲜国王李昖却没有这个心思。"
+    },
+    {
+      "source": "日本海军",
+      "target": "九鬼嘉隆",
+      "relation": "军事指挥",
+      "original_text": "而在这些海盗中，最为强悍者，无疑是日本海军统帅九鬼嘉隆。"
+    },
+    {
+      "source": "日本",
+      "target": "毛利辉元",
+      "relation": "其他关联",
+      "original_text": "此人在海上抢了几十年，水战经验十分丰富，后来归依织田信长，在与战国时期日本最强海军诸侯毛利辉元（即第七军军长）作战时，表现十分出色，为其统一日本立下了汗马功劳。"
+    },
+    {
+      "source": "日本",
+      "target": "九鬼嘉隆",
+      "relation": "其他关联",
+      "original_text": "日本海军统帅除九鬼嘉隆外，还有藤堂高虎、加藤嘉明、胁坂安治三人。"
+    },
+    {
+      "source": "水军",
+      "target": "元均",
+      "relation": "军事指挥",
+      "original_text": "水军主帅元均更是带头溜号，所谓的主力部队，就是这么个水平。"
+    },
+    {
+      "source": "日本海军",
+      "target": "藤堂高虎",
+      "relation": "军事指挥",
+      "original_text": "停留在这里的，是日本海军主帅藤堂高虎的上百条战船。"
+    },
+    {
+      "source": "九州",
+      "target": "龟井真钜",
+      "relation": "其他关联",
+      "original_text": "七月十日，李舜臣到达唐浦，发现敌船二十一艘，发起攻击，敌军全灭，舰队指挥官、九州大名龟井真钜被击毙。"
+    },
+    {
+      "source": "日军",
+      "target": "加藤嘉明",
+      "relation": "军事指挥",
+      "original_text": "七月十二日，李舜臣遭遇日军主将加藤嘉明主力舰队，双方开战，三十三艘日军战舰被击沉，加藤军主力覆灭。"
+    },
+    {
+      "source": "忠清道义军",
+      "target": "赵宪",
+      "relation": "归属",
+      "original_text": "万历二十年九月六日，忠清道义军首领赵宪，率领民兵攻击黑田长政第三军，经过激战，黑田长政输了。"
+    },
+    {
+      "source": "第一军",
+      "target": "小西行长",
+      "relation": "其他关联",
+      "original_text": "搞笑的是，那位而今在日本国内评价一般的第一军军长小西行长，在战争中却表现得很不错，之所以没人捧，主要是因为他后来在日本关原之战中被人打败，下场也惨，被泼了无数污水，成了反面典型。"
+    },
+    {
+      "source": "李成梁",
+      "target": "祖承训",
+      "relation": "其他关联",
+      "original_text": "祖承训，辽东宁远人，原先是李成梁的家丁，随同李成梁四处征战，有着丰富的军事经验，勇猛善战，是一个看上去很合适的出征人选。"
+    },
+    {
+      "source": "朝鲜",
+      "target": "柳成龙",
+      "relation": "其他关联",
+      "original_text": "更滑稽的是，他并非不知道这一点，在部队刚到朝鲜时，朝鲜重臣柳成龙出来迎接，顺便数了数队伍，觉得不对劲，又不好明讲，便对祖承训说道："
+    },
+    {
+      "source": "朝鲜",
+      "target": "李昖",
+      "relation": "其他关联",
+      "original_text": "于是大家心里有了底，把他引见给了朝鲜国王李昖。"
+    },
+    {
+      "source": "朝鲜",
+      "target": "柳成龙",
+      "relation": "其他关联",
+      "original_text": "话说回来，朝鲜也有精明人，大臣柳成龙就是一个。"
+    },
+    {
+      "source": "山东",
+      "target": "张宗昌",
+      "relation": "其他关联",
+      "original_text": "曾盘踞山东多年的著名军阀张宗昌，就有着同样的特性。"
+    },
+    {
+      "source": "李成梁",
+      "target": "李如松",
+      "relation": "父子",
+      "original_text": "李如松，是李成梁的儿子。"
+    },
+    {
+      "source": "明军",
+      "target": "宋应昌",
+      "relation": "其他关联",
+      "original_text": "说起来，宋应昌是兵部的副部长，明军的第二把手，总兵都是他的下属。"
+    },
+    {
+      "source": "明代",
+      "target": "冯梦龙",
+      "relation": "其他关联",
+      "original_text": "比如明代著名文学家冯梦龙（三言的作者）就曾编过这么个段子，说有一位武将，上阵打仗，眼看就要被人击败，突然间天降神兵，打垮了敌人。"
+    },
+    {
+      "source": "李如松",
+      "target": "李如樟",
+      "relation": "兄弟",
+      "original_text": "敌人如此顽强，实在出乎李如松的意料，于是他派出了自己的弟弟李如樟，在深夜发动进攻。"
+    },
+    {
+      "source": "李如松",
+      "target": "李如梅",
+      "relation": "兄弟",
+      "original_text": "作为大明最为精锐的骑兵部队，辽东铁骑的人数并不多，加起来不过万人，分别由李成梁旧部、家将、儿子们统管，除了李如松有三千人外，他的弟弟李如梅、李如桢、李如梧以及心腹家丁祖承训、查大受等都只有一千余人，所谓浓缩的才是精华，应该就是这个意思。"
+    },
+    {
+      "source": "李如松",
+      "target": "李如柏",
+      "relation": "兄弟",
+      "original_text": "李如柏是李如松的弟弟，自然是嫡系；"
+    },
+    {
+      "source": "李如松",
+      "target": "李如柏",
+      "relation": "其他关联",
+      "original_text": "李如柏是李如松的弟弟，自然是嫡系；"
+    },
+    {
+      "source": "李如松",
+      "target": "张世爵",
+      "relation": "君臣",
+      "original_text": "张世爵虽也是李如松的手下，却算不上铁杆。"
+    },
+    {
+      "source": "朝廷",
+      "target": "宋应昌",
+      "relation": "其他关联",
+      "original_text": "按明代的说法，李如松是军事主官，宋应昌是朝廷特派员，根据规定，李如松见宋应昌时，必须整装进见，并主动行礼。"
+    },
+    {
+      "source": "戚继光",
+      "target": "李如松",
+      "relation": "其他关联",
+      "original_text": "作为戚继光的部将，吴惟忠有极为丰富的战斗经验，而且他大半辈子都在打日本人，应该算是灭倭专家，对这种专业型人才，李如松自然要捧。"
+    },
+    {
+      "source": "神机营",
+      "target": "骆尚志",
+      "relation": "其他关联",
+      "original_text": "骆尚志，号云谷，浙江绍兴余姚人，时任神机营参将。"
+    },
+    {
+      "source": "朝鲜",
+      "target": "李昖",
+      "relation": "其他关联",
+      "original_text": "朝鲜国王李昖站在对岸，亲自迎接援军的到来，被人追砍了几个月，又被忽悠了若干天，来来往往，就没见过实在的，现在，他终于等来了真正的希望。"
+    },
+    {
+      "source": "李如松",
+      "target": "李宁",
+      "relation": "其他关联",
+      "original_text": "李宁是李如松的部将，性格简单粗暴，天天喊打喊杀，这天正好待在大营外，先听说来了日本人，又听说李提督要处理这些人，当即二杆子精神大爆发，带着几个人，这就进了大营。"
+    },
+    {
+      "source": "李如松",
+      "target": "李如柏",
+      "relation": "兄弟",
+      "original_text": "这次也不例外，李如松的弟弟李如柏亲自出马，且表演得十分卖力（哭告免死）。"
+    },
+    {
+      "source": "李如松",
+      "target": "李如柏",
+      "relation": "兄弟",
+      "original_text": "作为李如松的弟弟和属下，李如柏认为，这个命令是对自己的惩罚，也是另一次杀鸡儆猴的把戏。"
+    },
+    {
+      "source": "神机营",
+      "target": "骆尚志",
+      "relation": "其他关联",
+      "original_text": "“神机营参将骆尚志，率南军精锐两千，辽东副总兵祖承训，率军八千，攻击南城含毯门，由我亲自督战，务求必克！”"
+    },
+    {
+      "source": "佟图赖",
+      "target": "佟国纲",
+      "relation": "父子",
+      "original_text": "而佟图赖的儿子也混得不错，一个叫佟国纲，战功显赫，跟康熙西征噶尔丹时战死；"
+    },
+    {
+      "source": "毛文龙",
+      "target": "袁崇焕",
+      "relation": "其他关联",
+      "original_text": "后来这位毛文龙由于升了官，开始飞扬跋扈，不把上级放在眼里，结果被领导干掉了，这位领导叫袁崇焕。"
+    },
+    {
+      "source": "大西门",
+      "target": "李如柏",
+      "relation": "军事指挥",
+      "original_text": "大西门主将李如柏更悬，脑袋上挨了日军一枪，好在头盔质量好，躲过了一劫（锦厚未至重伤）。"
+    },
+    {
+      "source": "查大受",
+      "target": "查应奎",
+      "relation": "其他关联",
+      "original_text": "第二天（正月初九），查大受的家丁查应奎起得很早，来到了北城要地牡丹台。"
+    },
+    {
+      "source": "朝鲜",
+      "target": "柳成龙",
+      "relation": "其他关联",
+      "original_text": "第二版本是朝鲜大臣柳成龙给国王的报告，说法也差不多，李如松料敌如神，在日军逃遁之后发动攻击，大败日军。"
+    },
+    {
+      "source": "宁夏叛军",
+      "target": "哱拜",
+      "relation": "归属",
+      "original_text": "因为根据李如松的性格，以及宁夏叛军首领哱拜的最终结局，我们大致可以得出这样一个结论："
+    },
+    {
+      "source": "李如松",
+      "target": "李如柏",
+      "relation": "兄弟",
+      "original_text": "而攻击开城的，是李如松的弟弟李如柏。"
+    },
+    {
+      "source": "李如松",
+      "target": "杨元",
+      "relation": "其他关联",
+      "original_text": "万历二十一年（1593）正月二十七日，李如松率副将杨元、李如柏、张世爵，统领两千骑兵向王京前进。"
+    },
+    {
+      "source": "李如松",
+      "target": "李如柏",
+      "relation": "其他关联",
+      "original_text": "万历二十一年（1593）正月二十七日，李如松率副将杨元、李如柏、张世爵，统领两千骑兵向王京前进。"
+    },
+    {
+      "source": "李如松",
+      "target": "张世爵",
+      "relation": "其他关联",
+      "original_text": "万历二十一年（1593）正月二十七日，李如松率副将杨元、李如柏、张世爵，统领两千骑兵向王京前进。"
+    },
+    {
+      "source": "日本东北部",
+      "target": "伊达政宗",
+      "relation": "其他关联",
+      "original_text": "该兵种的主要使用者，是日本东北部的诸侯伊达政宗，由于兼具骑兵的突击性和火枪的攻击力，具有极大的杀伤威力。"
+    },
+    {
+      "source": "李如松",
+      "target": "李如梅",
+      "relation": "兄弟",
+      "original_text": "紧急关头，还是兄弟靠得住，眼看李如松即将光荣殉职，弟弟李如梅出手了。"
+    },
+    {
+      "source": "日军",
+      "target": "立花宗茂",
+      "relation": "军事指挥",
+      "original_text": "日军主将立花宗茂，性格顽固，在日本国内是出了名的硬骨头，素以善战闻名，这回也打得撑不住了，竟然主动找到小早川隆景接替自己的位置，退出了战场。"
+    },
+    {
+      "source": "朝鲜",
+      "target": "王京",
+      "relation": "所在地",
+      "original_text": "但停下来并不能解决问题，因为作为朝鲜的都城，王京是必须攻克的。"
+    },
+    {
+      "source": "李如松",
+      "target": "李如梅",
+      "relation": "兄弟",
+      "original_text": "因为就在不久前，他带着李如松的弟弟李如梅出击蒙古，结果打了败仗，死伤几百人，本来要处理他，结果正好朝鲜打仗，上面顺水推舟，让他戴罪立功，就这么过来了。"
+    },
+    {
+      "source": "清朝",
+      "target": "鄂尔泰",
+      "relation": "其他关联",
+      "original_text": "清朝名臣鄂尔泰曾经说过一句话：大事不糊涂，小事必然糊涂。"
+    },
+    {
+      "source": "左路军",
+      "target": "小西行长",
+      "relation": "军事指挥",
+      "original_text": "左路军统帅小西行长，率四万九千人，进攻全罗道重镇南原。"
+    },
+    {
+      "source": "右路军",
+      "target": "加藤清正",
+      "relation": "军事指挥",
+      "original_text": "右路军统帅加藤清正，统军六万五千人，进攻全州。"
+    },
+    {
+      "source": "全州",
+      "target": "陈愚衷",
+      "relation": "军事指挥",
+      "original_text": "比如全州，守将陈愚衷，守军两千五百人。"
+    },
+    {
+      "source": "水军",
+      "target": "李舜臣",
+      "relation": "其他关联",
+      "original_text": "同为水军将领的元均看他不顺眼，便找了几个志同道合的哥们，整了李舜臣一把。"
+    },
+    {
+      "source": "第三军",
+      "target": "黑田长政",
+      "relation": "其他关联",
+      "original_text": "第三军军长黑田长政闻讯，当即带领三千人前来支援，可慌乱之间毫无作用，自己的军队反而被败退的前军冲乱，只得落荒而逃。"
+    },
+    {
+      "source": "左路军",
+      "target": "李如梅",
+      "relation": "军事指挥",
+      "original_text": "左路军，统帅李如梅、杨镐，一万六千人，进军忠州。"
+    },
+    {
+      "source": "左路军",
+      "target": "杨镐",
+      "relation": "军事指挥",
+      "original_text": "左路军，统帅李如梅、杨镐，一万六千人，进军忠州。"
+    },
+    {
+      "source": "中路军",
+      "target": "高策",
+      "relation": "军事指挥",
+      "original_text": "中路军，统帅高策，一万一千人，进军宜宁。"
+    },
+    {
+      "source": "釜山",
+      "target": "蔚山",
+      "relation": "所在地",
+      "original_text": "蔚山，是釜山的最后屏障，战略位置极为重要，交通便利且可直达大海，是日军的重要据点。"
+    },
+    {
+      "source": "中路军",
+      "target": "董一元",
+      "relation": "军事指挥",
+      "original_text": "中路军，统帅董一元，所部两万六千人，攻击泗川。"
+    },
+    {
+      "source": "西路军",
+      "target": "刘綎",
+      "relation": "军事指挥",
+      "original_text": "西路军，统帅刘綎，所部两万人，攻击顺天。"
+    },
+    {
+      "source": "西路军",
+      "target": "刘綎",
+      "relation": "军事指挥",
+      "original_text": "第一个到达目的地的，是西路军，主帅刘綎。"
+    },
+    {
+      "source": "刘綎",
+      "target": "刘显",
+      "relation": "父子",
+      "original_text": "刘綎的父亲叫做刘显，是明军的高级军官，而且经常领兵出战，基本上没怎么在家待过。"
+    },
+    {
+      "source": "内城",
+      "target": "岛津义弘",
+      "relation": "其他关联",
+      "original_text": "内城的守备者，正是岛津义弘，他倒不怎么慌张，因为城内还驻扎着第五军主力一万余人，且地势险要，三面环水，易守难攻。"
+    },
+    {
+      "source": "明军",
+      "target": "彭信古",
+      "relation": "其他关联",
+      "original_text": "爆炸发生在明军部将彭信古的大营中，并引发了营中火药连锁效应，许多明军士兵被当场炸死，火光冲天而起，军心顿时大乱。"
+    },
+    {
+      "source": "水军",
+      "target": "李舜臣",
+      "relation": "其他关联",
+      "original_text": "水军统制使李舜臣，率五千人，埋伏于露梁海南侧的观音浦。"
+    },
+    {
+      "source": "明朝海军",
+      "target": "俞大猷",
+      "relation": "其他关联",
+      "original_text": "俞大猷熟悉海战，是唯一堪与徐海对敌的明朝海军将领。"
+    },
+    {
+      "source": "日军",
+      "target": "藤堂高虎",
+      "relation": "军事指挥",
+      "original_text": "此时，明朝水军尚未到来，日军主帅藤堂高虎率领舰队横扫朝鲜海峡，无人可挡，而李舜臣，什么都没有。"
+    },
+    {
+      "source": "日军",
+      "target": "波多信",
+      "relation": "其他关联",
+      "original_text": "经过激战，李舜臣轻松获胜，并击沉四十余艘敌舰，歼灭日水军三千余人，日军将领波多信时被击毙，藤堂高虎身负重伤，差点被生擒，日军大败，史称鸣梁海之战。"
+    },
+    {
+      "source": "陈璘",
+      "target": "陈九经",
+      "relation": "父子",
+      "original_text": "事发突然，船上的所有人目瞪口呆，来不及做出任何反应，关键时刻，陈璘的儿子陈九经出场了。"
+    },
+    {
+      "source": "苏军",
+      "target": "瓦杜丁",
+      "relation": "军事指挥",
+      "original_text": "在这世上，有些事情是说不准的，比如二战时的苏军大将瓦杜丁，自出道以来身经百战，什么恶仗、硬仗、找死仗都打过，斯大林格勒挺过来了，库尔斯克打赢了，追得德军名将曼斯坦因到处跑。"
+    },
+    {
+      "source": "德军",
+      "target": "曼斯坦因",
+      "relation": "军事指挥",
+      "original_text": "在这世上，有些事情是说不准的，比如二战时的苏军大将瓦杜丁，自出道以来身经百战，什么恶仗、硬仗、找死仗都打过，斯大林格勒挺过来了，库尔斯克打赢了，追得德军名将曼斯坦因到处跑。"
+    },
+    {
+      "source": "张居正",
+      "target": "徐阶",
+      "relation": "师生",
+      "original_text": "明代三百年中，在这行里，真正达到登峰造极的水平，混到惊天地、泣鬼神的，当属张居正的老师――徐阶。"
+    },
+    {
+      "source": "苏州",
+      "target": "徐尚珍",
+      "relation": "其他关联",
+      "original_text": "但不幸中的万幸是，这个别人，倒也并非普通人，而是当时的苏州知府徐尚珍。"
+    },
+    {
+      "source": "张居正",
+      "target": "张嗣修",
+      "relation": "父子",
+      "original_text": "万历十二年（1584）三月，御史丁此吕首先发难，攻击张居正之子张嗣修当年科举中第，是走后门的关系户云云。"
+    },
+    {
+      "source": "江东之",
+      "target": "刘尚志",
+      "relation": "朋友",
+      "original_text": "部长垮台，首辅被整，闹到这个份儿上，已经是人人自危，鬼才知道下个倒霉的是谁，连江东之当年的好友，刑科给事中刘尚志也憋不住了，站出来大吼一声："
+    },
+    {
+      "source": "明军",
+      "target": "李联芳",
+      "relation": "军事指挥",
+      "original_text": "事情闹大了，因为李联芳是明军高级将领，鞑靼部落把他干掉了，是对明朝政府的严重挑衅。"
+    },
+    {
+      "source": "普鲁士",
+      "target": "克劳塞维茨",
+      "relation": "其他关联",
+      "original_text": "但普鲁士伟大的军事家克劳塞维茨说过，战争是政治的继续。"
+    },
+    {
+      "source": "大理寺",
+      "target": "雒于仁",
+      "relation": "其他关联",
+      "original_text": "万历十七年（1589）十二月，明代，不，是中国历史上胆最大、气最足的奏疏问世了，其作者，是大理寺官员雒于仁。"
+    },
+    {
+      "source": "雒于仁",
+      "target": "雒遵",
+      "relation": "父子",
+      "original_text": "雒于仁的父亲，叫做雒遵，当年曾是高拱的学生，干过吏科都给事中。"
+    },
+    {
+      "source": "高拱",
+      "target": "雒遵",
+      "relation": "师生",
+      "original_text": "雒于仁的父亲，叫做雒遵，当年曾是高拱的学生，干过吏科都给事中。"
+    },
+    {
+      "source": "万历",
+      "target": "朱常洛",
+      "relation": "父子",
+      "original_text": "申时行不敢怠慢，即刻回到了宫中，在那里，他看见了万历和他的两个儿子，皇长子朱常洛，以及皇三子朱常洵。"
+    },
+    {
+      "source": "万历",
+      "target": "朱常洵",
+      "relation": "父子",
+      "original_text": "申时行不敢怠慢，即刻回到了宫中，在那里，他看见了万历和他的两个儿子，皇长子朱常洛，以及皇三子朱常洵。"
+    },
+    {
+      "source": "罗大纮",
+      "target": "胡汝宁",
+      "relation": "其他关联",
+      "original_text": "此时申时行已经发现了密信外泄，他十分紧张，立刻找到了罗大纮的领导，礼部科给事中胡汝宁，让他去找罗大纮谈判。"
+    },
+    {
+      "source": "王锡爵",
+      "target": "顾允成",
+      "relation": "其他关联",
+      "original_text": "先是顾允成、张辅之等一群王锡爵的老乡上门，劝他认清形势，早日解决问题。"
+    },
+    {
+      "source": "王锡爵",
+      "target": "王就学",
+      "relation": "其他关联",
+      "original_text": "王就学是王锡爵的门生，自己人当然不用客气，一进老师家门就哭，边哭还边说："
+    },
+    {
+      "source": "孙鑨",
+      "target": "吕胤昌",
+      "relation": "其他亲属",
+      "original_text": "因为这两个人的官虽不大，身份却很特殊，王三余是**星的亲家，吕胤昌是孙鑨的外甥。"
+    },
+    {
+      "source": "王锡爵",
+      "target": "罗万化",
+      "relation": "其他关联",
+      "original_text": "不可思议的事情还在后面，当初孙鑨刚被免职的时候，吏部没有部长，王锡爵打算趁机换人，推荐自己的亲信罗万化接班。"
+    },
+    {
+      "source": "吏部",
+      "target": "顾宪成",
+      "relation": "其他关联",
+      "original_text": "作为吏部官员，顾宪成明知这家伙曾把皇帝折腾得七荤八素，竟然还要推荐此人，明摆着就是跟皇帝过不去。"
+    },
+    {
+      "source": "天下",
+      "target": "刘伯温",
+      "relation": "其他关联",
+      "original_text": "自明开国以来，无论多大能耐，无论有何背景，包括那位天下第一神算刘伯温，如果下野之后没能重新上台，慢慢地就边缘化了，然后走向同一结局——完蛋，从无例外。"
+    },
+    {
+      "source": "宋代",
+      "target": "杨时",
+      "relation": "其他关联",
+      "original_text": "其实地方是有的，在无锡县城的东头，有一个宋代学者杨时讲过学的场地，但年久失修，又太破，实在没法用，所以这事也就搁置了下来。"
+    },
+    {
+      "source": "常州",
+      "target": "欧阳东凤",
+      "relation": "其他关联",
+      "original_text": "七年后，出钱的主终于找到了，常州知府欧阳东凤和顾宪成关系不错，听说此事，大笔一挥就给办了，拨出专款修缮此地。"
+    },
+    {
+      "source": "沈鲤",
+      "target": "郭正域",
+      "relation": "其他关联",
+      "original_text": "他随即恢复工作，以内阁首辅的身份亲自指挥东厂锦衣卫搜捕，而且还一反往日装孙子的常态，明目张胆地对沈鲤的亲信、礼部侍郎郭正域下手，把郭侍郎的老乡、朋友、下属、仆人全都拉去审问。"
+    },
+    {
+      "source": "郑贵妃",
+      "target": "郑国泰",
+      "relation": "兄弟",
+      "original_text": "郑国泰，是郑贵妃的弟弟。"
+    },
+    {
+      "source": "沈一贯",
+      "target": "萧大亨",
+      "relation": "其他关联",
+      "original_text": "萧大亨，时任刑部尚书，是沈一贯的亲信，接到指令后心领神会，在审讯时故意诱供，让秀才说出幕后主使。"
+    },
+    {
+      "source": "王锡爵",
+      "target": "王时敏",
+      "relation": "祖孙",
+      "original_text": "王时敏，是王锡爵的孙子，李三才之所以认定此信系他所写，是因为这位王时敏还有一个身份——著名书法家。"
+    },
+    {
+      "source": "都察院",
+      "target": "李三才",
+      "relation": "其他关联",
+      "original_text": "作为凤阳巡抚，李三才算是封疆大吏，而且他本身就是都察院的高级官员，对朝廷的政治动向十分关心，皇帝为什么找王锡爵，找王锡爵干什么，他都一清二楚，唯一不清楚的，就是王锡爵的答复。"
+    },
+    {
+      "source": "王锡爵",
+      "target": "李三才",
+      "relation": "师生",
+      "original_text": "最关键的问题来了，既然是王锡爵的学生，还算他的亲信，李三才同志为什么要背后一刀，痛下杀手呢？"
+    },
+    {
+      "source": "李三才",
+      "target": "王锡爵",
+      "relation": "师生",
+      "original_text": "因为在李三才的心中，有一个人，比王锡爵更加重要，为了这个人，他可以出卖自己的老师。"
+    },
+    {
+      "source": "郑贵妃",
+      "target": "郑国泰",
+      "relation": "兄弟",
+      "original_text": "这个人，就是郑贵妃的弟弟郑国泰。"
+    },
+    {
+      "source": "浙党",
+      "target": "刘廷元",
+      "relation": "归属",
+      "original_text": "刘廷元、胡士相不是郑国泰的人，郑先生这种白痴是没有组织能力的，他们真正的身份，是浙党成员。"
+    },
+    {
+      "source": "浙党",
+      "target": "胡士相",
+      "relation": "归属",
+      "original_text": "刘廷元、胡士相不是郑国泰的人，郑先生这种白痴是没有组织能力的，他们真正的身份，是浙党成员。"
+    },
+    {
+      "source": "朱元璋",
+      "target": "凤阳",
+      "relation": "所在地",
+      "original_text": "而凤阳，因为是朱元璋的老家，还特别穷，特事特办，也给列了进去。"
+    },
+    {
+      "source": "插汉部",
+      "target": "土蛮",
+      "relation": "归属",
+      "original_text": "蒙古方面：插汉部，首领土蛮。"
+    },
+    {
+      "source": "泰宁部",
+      "target": "速巴亥",
+      "relation": "归属",
+      "original_text": "泰宁部，首领速巴亥。"
+    },
+    {
+      "source": "朵颜部",
+      "target": "董狐狸",
+      "relation": "归属",
+      "original_text": "朵颜部，首领董狐狸。"
+    },
+    {
+      "source": "建州女真",
+      "target": "王杲",
+      "relation": "其他关联",
+      "original_text": "当时的建州女真，头领叫做王杲。"
+    },
+    {
+      "source": "王杲",
+      "target": "阿台",
+      "relation": "父子",
+      "original_text": "但在乱军之中，有一个人跑了，这个人叫阿台，是王杲的儿子。"
+    },
+    {
+      "source": "叶赫部",
+      "target": "清佳努",
+      "relation": "归属",
+      "original_text": "万历十一年（1583），叶赫部首领贝勒清佳努率两千余人来到开原，准备进行马市贸易。"
+    },
+    {
+      "source": "觉昌安",
+      "target": "塔克世",
+      "relation": "父子",
+      "original_text": "和觉昌安一起进城的，还有他的儿子塔克世，同样死在城里。"
+    },
+    {
+      "source": "努尔哈赤",
+      "target": "阿台",
+      "relation": "姻亲",
+      "original_text": "现在，先洗把脸，整理一下他们之间的关系：努尔哈赤的母亲是王杲的女儿，也就是说，阿台是努尔哈赤的舅舅，但是阿台又娶了努尔哈赤的堂姐，所以他又是努尔哈赤的堂姐夫。"
+    },
+    {
+      "source": "努尔哈赤",
+      "target": "阿台",
+      "relation": "姻亲",
+      "original_text": "现在，先洗把脸，整理一下他们之间的关系：努尔哈赤的母亲是王杲的女儿，也就是说，阿台是努尔哈赤的舅舅，但是阿台又娶了努尔哈赤的堂姐，所以他又是努尔哈赤的堂姐夫。"
+    },
+    {
+      "source": "努尔哈赤",
+      "target": "塔克世",
+      "relation": "父子",
+      "original_text": "这还好，要换到努尔哈赤他爹塔克世这辈，就更乱了，因为阿台既是他的侄女婿，又是他的小舅子。"
+    },
+    {
+      "source": "李成梁",
+      "target": "觉昌安",
+      "relation": "朋友",
+      "original_text": "我并不是阴谋论者，却惊奇地发现，在无数的清代史料书籍中，都详细描述了觉昌安的惨死、李成梁的冷漠残酷、努尔哈赤的无助，却不约而同地忽略了这样一个细节――努尔哈赤的祖父觉昌安，是李成梁的朋友。"
+    },
+    {
+      "source": "努尔哈赤",
+      "target": "觉昌安",
+      "relation": "祖孙",
+      "original_text": "我并不是阴谋论者，却惊奇地发现，在无数的清代史料书籍中，都详细描述了觉昌安的惨死、李成梁的冷漠残酷、努尔哈赤的无助，却不约而同地忽略了这样一个细节――努尔哈赤的祖父觉昌安，是李成梁的朋友。"
+    },
+    {
+      "source": "李成梁",
+      "target": "李如柏",
+      "relation": "父子",
+      "original_text": "更不可思议的是，据说努尔哈赤和李成梁还是亲家：努尔哈赤的弟弟，叫做舒尔哈齐，这位舒尔哈齐有个女儿，嫁给了李成梁的儿子李如柏做妾。"
+    },
+    {
+      "source": "明史",
+      "target": "孟森",
+      "relation": "其他关联",
+      "original_text": "他经常给李成梁送礼，东西是一车车地拉，拍起马屁来，可谓“无所不用其极”（明史学者孟森语）。"
+    },
+    {
+      "source": "辽东",
+      "target": "六堡",
+      "relation": "所在地",
+      "original_text": "六堡，是明代在辽东一带的军事基地，是遏制女真的重要堡垒，也是辽东重镇抚顺、清河的唯一屏障。"
+    },
+    {
+      "source": "抚顺城",
+      "target": "李永芳",
+      "relation": "军事指挥",
+      "original_text": "李永芳，是抚顺城的守将之一，简单介绍一下――是个叛徒。"
+    },
+    {
+      "source": "马林",
+      "target": "马芳",
+      "relation": "父子",
+      "original_text": "马林的父亲，是马芳。"
+    },
+    {
+      "source": "浙党",
+      "target": "方从哲",
+      "relation": "其他关联",
+      "original_text": "当时的朝廷首辅，是浙党的铁杆方从哲。"
+    },
+    {
+      "source": "明军",
+      "target": "杜松",
+      "relation": "军事指挥",
+      "original_text": "二月二十八日，明军先锋杜松抵达抚顺近郊。"
+    },
+    {
+      "source": "努尔哈赤",
+      "target": "舒尔哈齐",
+      "relation": "兄弟",
+      "original_text": "因为许多人都依稀记得，他是李成梁的儿子，而且他还曾经娶过一个女子，这位女子偏偏就是努尔哈赤的弟弟舒尔哈齐的女儿。"
+    },
+    {
+      "source": "东林党",
+      "target": "李三才",
+      "relation": "其他关联",
+      "original_text": "作为东林党的重量级人物，李三才在这方面的名声，那真是相当的大。"
+    },
+    {
+      "source": "浙党",
+      "target": "沈一贯",
+      "relation": "归属",
+      "original_text": "当时的首辅，是浙党首领沈一贯，对于这位东林党下属，自然很不待见，于是，他决定换人。"
+    },
+    {
+      "source": "东林党",
+      "target": "李三才",
+      "relation": "其他关联",
+      "original_text": "此时的李三才已经升到了户部尚书，作为东林党的干将，他将进入内阁，更进一步。"
+    },
+    {
+      "source": "万历",
+      "target": "朱常洛",
+      "relation": "其他关联",
+      "original_text": "虽然几十年来，万历都不喜欢自己的长子朱常洛，但在生命的最后一刻，他终于作出了抉择，将皇位传给了这个久经考验的儿子。"
+    },
+    {
+      "source": "万历",
+      "target": "朱常洛",
+      "relation": "父子",
+      "original_text": "虽然几十年来，万历都不喜欢自己的长子朱常洛，但在生命的最后一刻，他终于作出了抉择，将皇位传给了这个久经考验的儿子。"
+    },
+    {
+      "source": "内阁",
+      "target": "刘一璟",
+      "relation": "归属",
+      "original_text": "刘一璟、韩爌，是东阁大学士，内阁成员，周嘉谟是吏部尚书，邹元标是大理寺丞，孙如游是礼部侍郎。"
+    },
+    {
+      "source": "内阁",
+      "target": "韩爌",
+      "relation": "归属",
+      "original_text": "刘一璟、韩爌，是东阁大学士，内阁成员，周嘉谟是吏部尚书，邹元标是大理寺丞，孙如游是礼部侍郎。"
+    },
+    {
+      "source": "明光宗",
+      "target": "李选侍",
+      "relation": "其他关联",
+      "original_text": "光宗同志的意思是，自己的后妃李选侍，现在只有一个女儿，她伺候自己那么多年，太不容易，考虑给她升官，封皇贵妃。"
+    },
+    {
+      "source": "皇帝",
+      "target": "李选侍",
+      "relation": "夫妻",
+      "original_text": "原因很简单，这位李选侍毕竟是皇帝的老婆，皇帝大人都不管，谁去管。"
+    },
+    {
+      "source": "朝廷",
+      "target": "方从哲",
+      "relation": "其他关联",
+      "original_text": "此前的三天里，光宗的身体丝毫不见好转，于是在这一天，他再次召见了首辅方从哲等朝廷重臣。"
+    },
+    {
+      "source": "张维贤",
+      "target": "张玉",
+      "relation": "其他关联",
+      "original_text": "前面几位大家都熟，而最后这位张维贤，是最高世袭公爵，他的祖先，就是跟随明成祖朱棣在靖难中阵亡的第一名将张玉。"
+    },
+    {
+      "source": "明光宗",
+      "target": "李选侍",
+      "relation": "其他关联",
+      "original_text": "现在，李选侍是明光宗的妃子，熹宗是光宗的儿子，后来……"
+    },
+    {
+      "source": "明光宗",
+      "target": "明熹宗",
+      "relation": "父子",
+      "original_text": "现在，李选侍是明光宗的妃子，熹宗是光宗的儿子，后来……"
+    },
+    {
+      "source": "东林党",
+      "target": "高攀龙",
+      "relation": "其他关联",
+      "original_text": "东林党人高攀龙，任光禄丞，后升任光禄少卿。"
+    },
+    {
+      "source": "东林党",
+      "target": "邹元标",
+      "relation": "其他关联",
+      "original_text": "东林党人邹元标，任大理寺卿，后任刑部右侍郎、都察院左都御史。"
+    },
+    {
+      "source": "东林党",
+      "target": "方从哲",
+      "relation": "其他关联",
+      "original_text": "而且此时东林党掌权，方老头识时务，也不打算待了，准备回家养老去了。"
+    },
+    {
+      "source": "李可灼",
+      "target": "方从哲",
+      "relation": "其他关联",
+      "original_text": "所谓此贼，不是李可灼，而是内阁首辅，他的顶头上司方从哲。"
+    },
+    {
+      "source": "王化贞",
+      "target": "熊廷弼",
+      "relation": "其他关联",
+      "original_text": "从级别上看，熊廷弼是王化贞的上级。"
+    },
+    {
+      "source": "小品",
+      "target": "陈佩斯",
+      "relation": "其他关联",
+      "original_text": "――小品演员陈佩斯"
+    },
+    {
+      "source": "楚党",
+      "target": "熊廷弼",
+      "relation": "归属",
+      "original_text": "因为最原始的史料告诉我们，熊廷弼是湖广人，他是楚党的成员，而在大多数时间里，楚党是东林党的敌人。"
+    },
+    {
+      "source": "西平堡",
+      "target": "罗一贯",
+      "relation": "军事指挥",
+      "original_text": "因为西平堡守将罗一贯，是个比较一贯的人。"
+    },
+    {
+      "source": "王守仁",
+      "target": "冀元亨",
+      "relation": "师生",
+      "original_text": "不是王守仁，王守仁的传记里，还搭配了他的门人冀元亨。"
+    },
+    {
+      "source": "张居正",
+      "target": "徐阶",
+      "relation": "师生",
+      "original_text": "也不是张居正，张大人和他的老师徐阶、老对头高拱在一个传记里。"
+    },
+    {
+      "source": "张居正",
+      "target": "高拱",
+      "relation": "敌对",
+      "original_text": "也不是张居正，张大人和他的老师徐阶、老对头高拱在一个传记里。"
+    },
+    {
+      "source": "孙承宗",
+      "target": "朱由校",
+      "relation": "师生",
+      "original_text": "但对于孙承宗而言，这没有什么影响，因为他已经找到了一个新的学生――朱由校。"
+    },
+    {
+      "source": "辽西",
+      "target": "宁远",
+      "relation": "其他关联",
+      "original_text": "宁远，即今辽宁兴城，位居辽西走廊中央，距山海关两百余里，是辽西的重要据点，位置非常险要。"
+    },
+    {
+      "source": "辽东",
+      "target": "祖大寿",
+      "relation": "军事指挥",
+      "original_text": "这就是当时的懒散游击将军，后来的辽东名将祖大寿的首次亮相。"
+    },
+    {
+      "source": "袁崇焕",
+      "target": "祖大寿",
+      "relation": "其他关联",
+      "original_text": "祖大寿，袁崇焕的第一个助手。"
+    },
+    {
+      "source": "袁崇焕",
+      "target": "吴襄",
+      "relation": "其他关联",
+      "original_text": "吴襄，袁崇焕的第二个助手。"
+    },
+    {
+      "source": "王化贞",
+      "target": "祖大寿",
+      "relation": "君臣",
+      "original_text": "在逃到宁远之前，吴襄和祖大寿是王化贞的下属，在王化贞到来之前，他们是毛文龙的下属。"
+    },
+    {
+      "source": "毛文龙",
+      "target": "祖大寿",
+      "relation": "君臣",
+      "original_text": "在逃到宁远之前，吴襄和祖大寿是王化贞的下属，在王化贞到来之前，他们是毛文龙的下属。"
+    },
+    {
+      "source": "宁前地区",
+      "target": "袁崇焕",
+      "relation": "其他关联",
+      "original_text": "准确地说，袁崇焕，是宁前地区镇守者，朝廷四品文官。"
+    },
+    {
+      "source": "朝廷",
+      "target": "袁崇焕",
+      "relation": "其他关联",
+      "original_text": "准确地说，袁崇焕，是宁前地区镇守者，朝廷四品文官。"
+    },
+    {
+      "source": "岛军区",
+      "target": "毛总兵",
+      "relation": "其他关联",
+      "original_text": "一般说来，总镇总兵管辖的地方很大，不是省军区司令，也是地区军区司令，只有毛总兵，是岛军区司令。"
+    },
+    {
+      "source": "袁崇焕",
+      "target": "毛文龙",
+      "relation": "其他关联",
+      "original_text": "毛文龙，袁崇焕的第三个帮助者，现在的上级、未来的敌人。"
+    },
+    {
+      "source": "袁崇焕",
+      "target": "满桂",
+      "relation": "其他关联",
+      "original_text": "满桂，袁崇焕的第四个帮助者，三年后的共经生死的战友，七年后置于死地的对手。"
+    },
+    {
+      "source": "袁崇焕",
+      "target": "赵率教",
+      "relation": "其他关联",
+      "original_text": "赵率教，袁崇焕的第五个帮助者。"
+    },
+    {
+      "source": "辽东",
+      "target": "锦州城",
+      "relation": "所在地",
+      "original_text": "锦州，辽东重镇，自古为入关要道，且地势险要，更重要的是，锦州城的一面靠海。"
+    },
+    {
+      "source": "后金",
+      "target": "努尔哈赤",
+      "relation": "其他关联",
+      "original_text": "在后金的军队中，最优秀的将领无疑是努尔哈赤，但正如孙承宗一样，他的属下，也有很多相当厉害的猛人。"
+    },
+    {
+      "source": "阳谷县",
+      "target": "武松",
+      "relation": "其他关联",
+      "original_text": "每年都有无数热血青年前来报考，没关系还当不上，也着实吸引了许多杰出人才，比如阳谷县的都头武松同志，就是其中的优秀榜样。"
+    },
+    {
+      "source": "东林党",
+      "target": "顾宪成",
+      "relation": "其他关联",
+      "original_text": "关于**星先生的简历，之前已经介绍过了，从东林党创始人顾宪成时代开始，他就是东林党的领导，原先干人事，回家待了二十多年，人老心不老，又回来干人事。"
+    },
+    {
+      "source": "东林党",
+      "target": "顾宪成",
+      "relation": "其他关联",
+      "original_text": "关于**星先生的简历，之前已经介绍过了，从东林党创始人顾宪成时代开始，他就是东林党的领导，原先干人事，回家待了二十多年，人老心不老，又回来干人事。"
+    },
+    {
+      "source": "东林党",
+      "target": "顾宪成",
+      "relation": "其他关联",
+      "original_text": "一直以来，东林党的最高领导人（或者叫精神领袖）是三个人，他们分别是顾宪成、邹元标以及**星。"
+    },
+    {
+      "source": "齐党",
+      "target": "亓诗教",
+      "relation": "归属",
+      "original_text": "如果你记性好，应该记得这几位倒霉蛋的身份：亓诗教，齐党首领；"
+    },
+    {
+      "source": "浙党",
+      "target": "赵兴邦",
+      "relation": "其他关联",
+      "original_text": "赵兴邦，浙党骨干；"
+    },
+    {
+      "source": "楚党",
+      "target": "吴亮嗣",
+      "relation": "归属",
+      "original_text": "官应震、吴亮嗣，楚党首领。"
+    },
+    {
+      "source": "仓库",
+      "target": "魏忠贤",
+      "relation": "其他关联",
+      "original_text": "失业后的魏忠贤无计可施，只能回到宫里，当了一个仓库保管员。"
+    },
+    {
+      "source": "魏忠贤",
+      "target": "杨涟",
+      "relation": "敌对",
+      "original_text": "正是在这次斗争中，魏忠贤认识了他宿命中的对手——杨涟。"
+    },
+    {
+      "source": "朱由校",
+      "target": "王才人",
+      "relation": "母子",
+      "original_text": "朱由校的母亲王才人死得很早，他爹当了几十年太子，自己命都难保。"
+    },
+    {
+      "source": "王安",
+      "target": "魏朝",
+      "relation": "君臣",
+      "original_text": "客氏就不用说了，皇帝的乳母，宫里的红人，不到四十，“妖艳美貌，品行淫荡”，而魏朝是王安的下属，任职乾清宫管事太监，还管兵仗局，是太监里的成功人士，可谓门当户对。"
+    },
+    {
+      "source": "李清照",
+      "target": "王氏",
+      "relation": "姻亲",
+      "original_text": "我想起了当年读过的那段记载，秦桧想杀岳飞，却拿不定主意干不干，于是他的老婆、李清照的表亲王氏告诉他，一定要干，必须要干，不干不行，于是他干了。"
+    },
+    {
+      "source": "魏广微",
+      "target": "魏允贞",
+      "relation": "父子",
+      "original_text": "魏广微的父亲，叫做魏允贞，魏允贞有一个最好的朋友，叫做**星。"
+    },
+    {
+      "source": "魏广微",
+      "target": "魏允贞",
+      "relation": "父子",
+      "original_text": "魏广微之父魏允贞，字见泉。"
+    },
+    {
+      "source": "魏忠贤",
+      "target": "冯铨",
+      "relation": "同僚",
+      "original_text": "除了这两人外，魏忠贤的党羽还有很多，如冯铨、施凤来、崔呈秀、许显纯等，后人统称为：五虎、五彪、十狗、十孩儿，光这四拨人加起来，就已有三十个。"
+    },
+    {
+      "source": "魏忠贤",
+      "target": "崔呈秀",
+      "relation": "同僚",
+      "original_text": "除了这两人外，魏忠贤的党羽还有很多，如冯铨、施凤来、崔呈秀、许显纯等，后人统称为：五虎、五彪、十狗、十孩儿，光这四拨人加起来，就已有三十个。"
+    },
+    {
+      "source": "魏忠贤",
+      "target": "许显纯",
+      "relation": "同僚",
+      "original_text": "除了这两人外，魏忠贤的党羽还有很多，如冯铨、施凤来、崔呈秀、许显纯等，后人统称为：五虎、五彪、十狗、十孩儿，光这四拨人加起来，就已有三十个。"
+    },
+    {
+      "source": "东林党",
+      "target": "汪文言",
+      "relation": "其他关联",
+      "original_text": "作为东林党的智囊，汪文言起着极其关键的作用，左推右挡来回忽悠，拥立了皇帝，搞垮了三党，人送外号“天下第一布衣”。"
+    },
+    {
+      "source": "汪文言",
+      "target": "王安",
+      "relation": "其他关联",
+      "original_text": "毕竟连汪文言的后台王安，都死在了魏忠贤的手中。"
+    },
+    {
+      "source": "左光斗",
+      "target": "阮大铖",
+      "relation": "其他关联",
+      "original_text": "原因在于，左光斗是阮大铖的老乡，当年阮大铖进京，就是左光斗抬举的。"
+    },
+    {
+      "source": "东林党",
+      "target": "黄尊素",
+      "relation": "其他关联",
+      "original_text": "在以书生为主的东林党里，黄尊素是个异类，此人深谋远虑，凡事三思而行，擅长权谋，与汪文言并称为东林党两大智囊。"
+    },
+    {
+      "source": "东林党",
+      "target": "汪文言",
+      "relation": "其他关联",
+      "original_text": "在以书生为主的东林党里，黄尊素是个异类，此人深谋远虑，凡事三思而行，擅长权谋，与汪文言并称为东林党两大智囊。"
+    },
+    {
+      "source": "东林党",
+      "target": "叶向高",
+      "relation": "同僚",
+      "original_text": "自始至终，叶向高都是东林党的盟友，且身居首辅，是压制魏忠贤的最后力量，但杨先生就是不告诉他，偏不买他的账。"
+    },
+    {
+      "source": "清代桐城派",
+      "target": "方苞",
+      "relation": "其他关联",
+      "original_text": "所谓布袋压身，是监狱里杀人的不二法门，专门用来处理那些不好杀，却又不能不杀的犯人，具体操作程序是，找到一只布袋，里面装满土，晚上趁犯人睡觉时压在他身上，按照清代桐城派著名学者方苞的说法（当年曾经蹲过黑牢），基本上是晚上压住，天亮就死，品质有保障。"
+    },
+    {
+      "source": "东厂",
+      "target": "文之炳",
+      "relation": "其他关联",
+      "original_text": "这次带队抓人的东厂特务，名叫文之炳，可谓是王八蛋中的王八蛋，得寸进尺，竟然加价，要了还要。"
+    },
+    {
+      "source": "周顺昌",
+      "target": "周文元",
+      "relation": "其他关联",
+      "original_text": "五人中，周文元是周顺昌的轿夫，其余四人并未见过周顺昌，与他也无任何关系。"
+    },
+    {
+      "source": "明代",
+      "target": "张溥",
+      "relation": "其他关联",
+      "original_text": "五人死后，明代著名文人张溥感其忠义，挥笔写就一文，是为《五人墓碑记》，四百年余后，被编入中学语文课本。"
+    },
+    {
+      "source": "努尔哈赤",
+      "target": "阿敏",
+      "relation": "叔侄",
+      "original_text": "而四大贝勒里，阿敏是努尔哈赤的侄子，没资格，排除；"
+    },
+    {
+      "source": "后金",
+      "target": "沈阳",
+      "relation": "所在地",
+      "original_text": "天启六年（1626）十月，袁崇焕代表团来到了后金首都沈阳，他们此来的目的是吊丧，同时祝贺皇太极上任。"
+    },
+    {
+      "source": "孙承宗",
+      "target": "袁崇焕",
+      "relation": "师生",
+      "original_text": "无论如何，袁崇焕出头了，虽说他是孙承宗的学生、东林党的成员，但边界得有人守吧，所以阉党不难为他，反正好人坏人都不管他，任他在那闹腾。"
+    },
+    {
+      "source": "东林党",
+      "target": "袁崇焕",
+      "relation": "归属",
+      "original_text": "无论如何，袁崇焕出头了，虽说他是孙承宗的学生、东林党的成员，但边界得有人守吧，所以阉党不难为他，反正好人坏人都不管他，任他在那闹腾。"
+    },
+    {
+      "source": "锦州城",
+      "target": "赵率教",
+      "relation": "军事指挥",
+      "original_text": "锦州城的守将是赵率教。"
+    },
+    {
+      "source": "锦州",
+      "target": "赵率教",
+      "relation": "军事指挥",
+      "original_text": "四下一打量，官最大的也就是自己了，无可奈何，锦州守将赵率教就此出场。"
+    },
+    {
+      "source": "代善",
+      "target": "萨哈廉",
+      "relation": "父子",
+      "original_text": "但在后金方面，死的就不只是马了，其伤亡极为惨重，贝勒济尔哈朗重伤，大贝勒代善的两个儿子萨哈廉和瓦克达重伤，将领觉罗拜山、备御巴希战死，仅仅一天，后金损失高达四千余人。"
+    },
+    {
+      "source": "魏忠贤",
+      "target": "河北肃宁",
+      "relation": "所在地",
+      "original_text": "除了自己住的地方外，魏忠贤也没忘了家乡，他的老家河北肃宁，一向很穷，以出太监闻名，现在终于也露了脸。"
+    },
+    {
+      "source": "天启",
+      "target": "崇祯",
+      "relation": "兄弟",
+      "original_text": "天启认为，崇祯是他的弟弟，一个听话的弟弟；"
+    },
+    {
+      "source": "魏忠贤",
+      "target": "王体乾",
+      "relation": "其他关联",
+      "original_text": "而王体乾是魏忠贤的死党，对于这点，魏忠贤知道，崇祯也知道。"
+    },
+    {
+      "source": "魏忠贤",
+      "target": "魏良卿",
+      "relation": "叔侄",
+      "original_text": "几天后，崇祯下令，赐给魏忠贤的侄子魏良卿免死铁券。"
+    },
+    {
+      "source": "阉党",
+      "target": "魏忠贤",
+      "relation": "归属",
+      "original_text": "原因很简单，如果崇祯未必能干得过魏忠贤，到时回头清算，自己也跑不了，而且魏忠贤毕竟是阉党首领，如果首领倒掉，就会全部清盘，彻查阉党，必定会搞到自己头上。"
+    },
+    {
+      "source": "秦军",
+      "target": "王翦",
+      "relation": "军事指挥",
+      "original_text": "历史告诉我们，战国的时候，秦军大将王翦出兵时，一边行军一边给秦王打报告，要官要钱，贪得无厌。"
+    },
+    {
+      "source": "魏公公",
+      "target": "肃宁",
+      "relation": "所在地",
+      "original_text": "这里距离魏公公的老家肃宁，只有几十里。"
+    },
+    {
+      "source": "魏忠贤",
+      "target": "李朝钦",
+      "relation": "君臣",
+      "original_text": "魏忠贤的心腹李朝钦梦中醒来，发现魏忠贤已死，绝望之中，自缢而亡。"
+    },
+    {
+      "source": "魏忠贤",
+      "target": "魏良卿",
+      "relation": "叔侄",
+      "original_text": "最先处理的，是魏忠贤的家属，比如他侄子魏良卿，屁都不懂的蠢人，也封到公爵了（宁国公），还有客氏的儿子侯国兴（锦衣卫都指挥使），统统拉出去剁了。"
+    },
+    {
+      "source": "黄尊素",
+      "target": "黄宗羲",
+      "relation": "其他关联",
+      "original_text": "作为“七君子”中黄尊素的长子，黄宗羲可谓天赋异禀，不但精通儒学，还懂得算术、天文，据说天上飞的，地上跑的，没有他不知道的，被称为三百年来学术之集大成者，与顾炎武、王夫之并称。"
+    },
+    {
+      "source": "阉党",
+      "target": "曹钦程",
+      "relation": "其他关联",
+      "original_text": "比如阉党骨干、太仆寺少卿曹钦程，好不容易捡了条命，回家养老，结果所到之处，都是口水（民争唾其面），实在待不下去，跑到异地他乡买了个房子住，结果被人打听出来，又是一顿猛打，赶走了。"
+    },
+    {
+      "source": "魏大中",
+      "target": "魏学濂",
+      "relation": "父子",
+      "original_text": "先是魏大中的儿子魏学濂上疏，要为父亲魏大中申冤，然后是杨涟的儿子杨之易上疏，为父亲杨涟申冤，几天后，周顺昌的儿子周茂兰又上疏，为父亲周顺昌申冤。"
+    },
+    {
+      "source": "杨涟",
+      "target": "杨之易",
+      "relation": "父子",
+      "original_text": "先是魏大中的儿子魏学濂上疏，要为父亲魏大中申冤，然后是杨涟的儿子杨之易上疏，为父亲杨涟申冤，几天后，周顺昌的儿子周茂兰又上疏，为父亲周顺昌申冤。"
+    },
+    {
+      "source": "周顺昌",
+      "target": "周茂兰",
+      "relation": "父子",
+      "original_text": "先是魏大中的儿子魏学濂上疏，要为父亲魏大中申冤，然后是杨涟的儿子杨之易上疏，为父亲杨涟申冤，几天后，周顺昌的儿子周茂兰又上疏，为父亲周顺昌申冤。"
+    },
+    {
+      "source": "辽东",
+      "target": "毛文龙",
+      "relation": "其他关联",
+      "original_text": "辽东的重量级风云人物毛文龙，就此结束了他传奇的一生。"
+    },
+    {
+      "source": "毛文龙",
+      "target": "毛承禄",
+      "relation": "父子",
+      "original_text": "毛文龙手下这几万人，基本都是他的亲信，要保证这些人不跑，也不散伙，袁崇焕很是花了一番心思，先是换了一批将领，安插自己的亲信，然后又任命毛文龙的儿子毛承禄当部将，这意思是，我虽然杀了你爹，但那是公事，跟你没有关系，照用你，别再闹事。"
+    },
+    {
+      "source": "明末",
+      "target": "李定国",
+      "relation": "其他关联",
+      "original_text": "多年后镇守桂林时，他遇到了明末第一名将李定国，被打得满地找牙，气不过，竟然**了。"
+    },
+    {
+      "source": "毛文龙",
+      "target": "毛承禄",
+      "relation": "父子",
+      "original_text": "再提一句，那位被袁督师提拔的毛文龙之子毛承禄后来也反了，不过运气差点儿，没当上汉奸，就被剁了。"
+    },
+    {
+      "source": "北京",
+      "target": "遵化",
+      "relation": "所在地",
+      "original_text": "遵化位于北京东北面，距离仅两百多公里，一旦失守，北京将无险可守。"
+    },
+    {
+      "source": "孙承宗",
+      "target": "袁崇焕",
+      "relation": "师生",
+      "original_text": "袁崇焕知道了孙承宗的部署，却并未执行，当年的学生，今天的袁督师，已无需服从老师的意见。"
+    },
+    {
+      "source": "大明",
+      "target": "孙承宗",
+      "relation": "其他关联",
+      "original_text": "如此完美高明的计划，大明最伟大的战略家、城里的孙承宗先生竟然没想到？"
+    },
+    {
+      "source": "袁崇焕",
+      "target": "祖大寿",
+      "relation": "君臣",
+      "original_text": "祖大寿是袁崇焕的心腹，而满桂跟袁崇焕有矛盾，黑云龙是他的部下。"
+    },
+    {
+      "source": "袁崇焕",
+      "target": "祖大寿",
+      "relation": "君臣",
+      "original_text": "祖大寿是袁崇焕的心腹，只要他在场，就不怕袁军哗变，而满桂是袁崇焕的死敌，抓了袁崇焕，可以马上接班，如此心计，令人胆寒。"
+    },
+    {
+      "source": "袁崇焕",
+      "target": "满桂",
+      "relation": "敌对",
+      "original_text": "祖大寿是袁崇焕的心腹，只要他在场，就不怕袁军哗变，而满桂是袁崇焕的死敌，抓了袁崇焕，可以马上接班，如此心计，令人胆寒。"
+    },
+    {
+      "source": "明军",
+      "target": "满桂",
+      "relation": "军事指挥",
+      "original_text": "经过整日激战，明军付出重大伤亡，主将满桂战死，但后金军也损失惨重，未能攻破城门，全军撤退。"
+    },
+    {
+      "source": "辽东系",
+      "target": "马世龙",
+      "relation": "其他关联",
+      "original_text": "马世龙也是辽东系将领，跟祖大寿关系很好，当时拿着袁崇焕的信去追祖大寿的，即是此人。"
+    },
+    {
+      "source": "皇太极",
+      "target": "阿敏",
+      "relation": "其他关联",
+      "original_text": "带领援兵的，是皇太极的大哥，四大贝勒之一的阿敏。"
+    },
+    {
+      "source": "皇太极",
+      "target": "阿敏",
+      "relation": "其他关联",
+      "original_text": "阿敏是皇太极的大哥，在四大贝勒里，是很能打的，派他去，显示了皇太极对孙承宗的重视，但我始终怀疑，皇太极跟阿敏是有点儿矛盾的。"
+    },
+    {
+      "source": "钱谦益",
+      "target": "韩敬",
+      "relation": "其他关联",
+      "original_text": "十年前，举人钱谦益从家乡出发，前往北京参加会试，而韩敬，是他同科的同学。"
+    },
+    {
+      "source": "王永光",
+      "target": "章允儒",
+      "relation": "其他关联",
+      "original_text": "温体仁骂：“王永光和章允儒是同伙，结党营私！”"
+    },
+    {
+      "source": "内阁",
+      "target": "钱龙锡",
+      "relation": "其他关联",
+      "original_text": "内阁大臣钱龙锡发言：“没有结党。”"
+    },
+    {
+      "source": "内阁",
+      "target": "李标",
+      "relation": "其他关联",
+      "original_text": "内阁大臣李标发言：“没有结党。”"
+    },
+    {
+      "source": "东林党",
+      "target": "钱谦益",
+      "relation": "归属",
+      "original_text": "事实上，钱谦益确实是东林党的领袖，所以在辩论时，反方务必不断挑事，耍流氓，吸引更多的人来骂自己，都无所谓。"
+    },
+    {
+      "source": "我国",
+      "target": "徐霞客",
+      "relation": "其他关联",
+      "original_text": "比如我国最伟大的地理学家徐霞客，云游各地（驿站），拿着勘合四处转悠，绝对没少用。"
+    },
+    {
+      "source": "皇太极",
+      "target": "莽古尔泰",
+      "relation": "其他关联",
+      "original_text": "围困南城的，是皇太极的哥哥莽古尔泰，此人属于大脑很稀缺，四肢很发达类型，故被称为后金第一猛将（粗人代名词），但这次，他遇上了更猛的祖大寿。"
+    },
+    {
+      "source": "锦州",
+      "target": "丘禾嘉",
+      "relation": "军事指挥",
+      "original_text": "锦州的守将，都是自己的手下，虽然现在有巡抚丘禾嘉坐镇，但只要能潜入城内，召集部下，就能杀掉丘禾嘉，攻陷锦州。"
+    },
+    {
+      "source": "明代",
+      "target": "孙元化",
+      "relation": "其他关联",
+      "original_text": "孙元化，明代伟大的科学家，徐光启的学友，特长是炸药学、弹道学，简而言之，是搞大炮的。"
+    },
+    {
+      "source": "徐光启",
+      "target": "孙元化",
+      "relation": "师生",
+      "original_text": "孙元化，明代伟大的科学家，徐光启的学友，特长是炸药学、弹道学，简而言之，是搞大炮的。"
+    },
+    {
+      "source": "孔有德",
+      "target": "耿仲明",
+      "relation": "其他关联",
+      "original_text": "耿仲明还在城内，作为孔有德的铁杆、老乡、战友兼同事，如果不拉兄弟一把，是不地道的。"
+    },
+    {
+      "source": "孔有德",
+      "target": "耿仲明",
+      "relation": "同僚",
+      "original_text": "耿仲明还在城内，作为孔有德的铁杆、老乡、战友兼同事，如果不拉兄弟一把，是不地道的。"
+    },
+    {
+      "source": "毛文龙",
+      "target": "毛承禄",
+      "relation": "父子",
+      "original_text": "但非常难得，孔有德同志很乐观，他非但没有走，还干起了大买卖，找来了当年的同事李九成、耿仲明、陈友时，还拉上毛文龙的儿子毛承禄，并广泛招募各地犯罪分子，扩编军队。"
+    },
+    {
+      "source": "明代",
+      "target": "登州",
+      "relation": "所在地",
+      "original_text": "登州，是明代重要的军事基地，往宁远、锦州送粮食，大都由此地起航，所以防御极其坚固。"
+    },
+    {
+      "source": "黄龙",
+      "target": "孔有德",
+      "relation": "其他关联",
+      "original_text": "老领导黄龙见到了老部下孔有德，倒也没客气，上去就打，孔先生当即被打懵，部下伤亡过半，连他的亲人都没幸免（他抢劫是带家属的），纷纷坠海而亡。"
+    },
+    {
+      "source": "孔有德",
+      "target": "耿仲明",
+      "relation": "其他关联",
+      "original_text": "之前我说过，孔有德、耿仲明、尚可喜是山东老乡，且全都是挖矿的，现在孔有德决定改行挖人，劝降尚可喜。"
+    },
+    {
+      "source": "孔有德",
+      "target": "尚可喜",
+      "relation": "其他关联",
+      "original_text": "之前我说过，孔有德、耿仲明、尚可喜是山东老乡，且全都是挖矿的，现在孔有德决定改行挖人，劝降尚可喜。"
+    },
+    {
+      "source": "杨鹤",
+      "target": "杨嗣昌",
+      "relation": "父子",
+      "original_text": "这位参政，是杨鹤的儿子，叫做杨嗣昌。"
+    },
+    {
+      "source": "明朝",
+      "target": "关宁铁骑",
+      "relation": "其他关联",
+      "original_text": "关宁铁骑，是明朝最精锐的特种部队，但人数并不多，大致在六千人左右，其中一半，在祖大寿的手中，曹文诏带回来的，只是六分之一。"
+    },
+    {
+      "source": "天下",
+      "target": "关宁铁骑",
+      "relation": "其他关联",
+      "original_text": "曹文诏率领的，是关宁铁骑，所谓天下第一强军，战斗力极强，打起来也顺手。"
+    },
+    {
+      "source": "陕西",
+      "target": "贺人龙",
+      "relation": "军事指挥",
+      "original_text": "比如陕西著名悍将贺人龙，原本是去打李自成，结果被李自成打得落花流水，还围了起来，足足四十多天，断其粮食劝他投降，搞得贺总兵差点儿去啃树皮，差点没撑过来。"
+    },
+    {
+      "source": "王左桂",
+      "target": "李自成",
+      "relation": "君臣",
+      "original_text": "当时王左桂的手下，有几千人，分为八队，他觉得李自成是个有料的人，就让他当了八队的队长。"
+    },
+    {
+      "source": "张献忠",
+      "target": "黄虎",
+      "relation": "其他关联",
+      "original_text": "史料记载，张献忠的长相，是比较魁梧的，他身材高大，面色发黄（所以有个外号叫黄虎），看上去非常威风。"
+    },
+    {
+      "source": "朱元璋",
+      "target": "凤阳",
+      "relation": "所在地",
+      "original_text": "凤阳，位于南直隶（今属安徽），这个地方之所以被当做都城，只是因为它是朱元璋的老家。"
+    },
+    {
+      "source": "明朝",
+      "target": "西北",
+      "relation": "其他关联",
+      "original_text": "当时最能打仗、最狠的兵，除辽东，就是西北，这两个地方的人相当剽悍，战斗力很强，敢于玩命，就算打到最后一个人，也不投降，是明朝主要的兵源产地。"
+    },
+    {
+      "source": "祖大寿",
+      "target": "祖宽",
+      "relation": "其他关联",
+      "original_text": "祖宽，不是祖大寿的亲戚，具体点儿讲，他是祖大寿的佣人。"
+    },
+    {
+      "source": "卢象昇",
+      "target": "卢阎王",
+      "relation": "其他关联",
+      "original_text": "之前我还说过，卢象昇的外号，是卢阎王，虽然长得很白，但手很黑，无论是民军，还是民军家属，只要被他追上，统统都格杀勿论。"
+    },
+    {
+      "source": "辽东系",
+      "target": "祖大乐",
+      "relation": "军事指挥",
+      "original_text": "祖大乐也是辽东系的著名将领，遇上了自然没话说，又是一顿打，高迎祥再次夜奔。"
+    },
+    {
+      "source": "李自成",
+      "target": "邢氏",
+      "relation": "夫妻",
+      "original_text": "这位给李自成送帽子的老婆，叫邢氏，虽然不能肯定李自成有多少老婆，但这个老婆，是比较牛的。"
+    },
+    {
+      "source": "李自成",
+      "target": "高杰",
+      "relation": "其他关联",
+      "original_text": "高杰，米脂人，李自成的老乡，据说打小时候就认识。"
+    },
+    {
+      "source": "清军",
+      "target": "阿济格",
+      "relation": "其他关联",
+      "original_text": "这次进攻的规模很大，人数有十万人，统兵将领是当时清军第一猛将阿济格，此人擅长骑兵突击，非常勇猛。"
+    },
+    {
+      "source": "曹文诏",
+      "target": "曹变蛟",
+      "relation": "叔侄",
+      "original_text": "最能打的将领，如曹变蛟（曹文诏的侄子）、左光先、祖宽，要么在洪承畴手下，要么跟着卢象昇。"
+    },
+    {
+      "source": "高迎祥",
+      "target": "刘哲",
+      "relation": "其他关联",
+      "original_text": "崇祯九年（1636）七月二十日，负伤的高迎祥在山洞中被俘，与他一同被俘的，还有他的心腹将领刘哲、黄龙，他的几万大军已在此前彻底崩溃。"
+    },
+    {
+      "source": "高迎祥",
+      "target": "黄龙",
+      "relation": "其他关联",
+      "original_text": "崇祯九年（1636）七月二十日，负伤的高迎祥在山洞中被俘，与他一同被俘的，还有他的心腹将领刘哲、黄龙，他的几万大军已在此前彻底崩溃。"
+    },
+    {
+      "source": "高迎祥",
+      "target": "李自成",
+      "relation": "其他亲属",
+      "original_text": "据某些史料上说，李自成是高迎祥的外甥，这话估计不怎么靠谱，但关系很铁，那是肯定的。"
+    },
+    {
+      "source": "崇祯",
+      "target": "文震孟",
+      "relation": "师生",
+      "original_text": "在跟同事相处时，他确实很和善，比如对文震孟，相当的客气，但原因在于，文震孟是崇祯的老师，后台很硬，而且当时他正在挖坑，等着文老师跳下去。"
+    },
+    {
+      "source": "钱谦益",
+      "target": "孙承宗",
+      "relation": "师生",
+      "original_text": "关于钱谦益同志，之前介绍的时候，漏了一点，这位仁兄除了是东林党的头头外，还有个关系――他中进士的时候，录取他的老师，叫做孙承宗。"
+    },
+    {
+      "source": "王安",
+      "target": "曹化淳",
+      "relation": "其他关联",
+      "original_text": "我讲过，很久以前，魏忠贤是王安的亲信，但我没有讲过，当时王安的亲信，还有一个曹化淳。"
+    },
+    {
+      "source": "王安",
+      "target": "曹化淳",
+      "relation": "其他关联",
+      "original_text": "钱谦益去找曹化淳帮忙，因为他曾经帮王安写过墓志铭，而曹化淳是王安的亲信，所以看在死人的面子上，多少要帮点儿忙。"
+    },
+    {
+      "source": "熊文灿",
+      "target": "左良玉",
+      "relation": "君臣",
+      "original_text": "崇祯十年（1637）十月，熊文灿正式来到湖广上任，迎接他的，是下属左良玉。"
+    },
+    {
+      "source": "曹文诏",
+      "target": "曹变蛟",
+      "relation": "叔侄",
+      "original_text": "从四川出来的时候，屁股后面跟着一群能人，比如关宁军的主要将领祖大弼、左光先以及曹文诏的侄子曹变蛟等。"
+    },
+    {
+      "source": "朝廷",
+      "target": "刘宇亮",
+      "relation": "其他关联",
+      "original_text": "刘宇亮，时任内阁首辅，朝廷重臣，国难如此，实在看不下去，极为激动，所以站了出来。"
+    },
+    {
+      "source": "左良玉",
+      "target": "张献忠",
+      "relation": "敌对",
+      "original_text": "毕竟左良玉跟张献忠是老对头，而且左大人刚封了将军，正在兴头上，残兵败将拿啥收买左良玉？"
+    },
+    {
+      "source": "杨嗣昌",
+      "target": "襄阳",
+      "relation": "所在地",
+      "original_text": "而襄阳，是杨嗣昌的大本营，重兵集结，无论如何，绝不可能。"
+    },
+    {
+      "source": "万历皇帝",
+      "target": "朱翊钧",
+      "relation": "其他关联",
+      "original_text": "朱翊铭，襄王，万历皇帝的名字，是朱翊钧。"
+    },
+    {
+      "source": "清军",
+      "target": "多尔衮",
+      "relation": "军事指挥",
+      "original_text": "这个举动大大出乎清军的意料，清军总指挥多尔衮（皇太极回家）没有提防，十万人突然扑过来，被打了个措手不及，战败。"
+    },
+    {
+      "source": "陈尚书",
+      "target": "小杨嗣昌",
+      "relation": "其他关联",
+      "original_text": "因为有个人一直在催他，这个人的名字叫陈新甲，时任兵部尚书，而这位陈尚书的外号，叫小杨嗣昌。"
+    },
+    {
+      "source": "松山",
+      "target": "夏承德",
+      "relation": "其他关联",
+      "original_text": "崇祯十五年（1642）二月十八日，在这个值得纪念的日子，松山副将夏承德与清军密约，打开了城门，二月十九日洪承畴被俘。"
+    },
+    {
+      "source": "徐宏祖",
+      "target": "江阴",
+      "relation": "所在地",
+      "original_text": "但外面的世界，跟徐宏祖并没有多大关系，他的老家在江阴，山清水秀，不用搞政治，也不怕被人砍，比较清净。"
+    },
+    {
+      "source": "新西兰",
+      "target": "希拉里",
+      "relation": "其他关联",
+      "original_text": "新西兰登山家希拉里，在登上珠穆朗玛峰后，经常被记者问一个问题：你为什么要爬？"
+    },
+    {
+      "source": "《简明清史》",
+      "target": "戴逸",
+      "relation": "其他关联",
+      "original_text": "《简明清史》，戴逸主编，人民出版社1985年版；"
+    }
+  ],
+  "meta": {
+    "source": "percent4/knowledge_graph_demo",
+    "original_triplets": 1246,
+    "cleaned_nodes": 716,
+    "cleaned_edges": 754,
+    "relation_types": 19
+  }
+}

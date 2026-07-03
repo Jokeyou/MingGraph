@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #080C14;
+  --color-text: #E8E4F0;
+  --color-gold: #FFD740;
+  --color-red: #FFE082;
+  --color-blue: #40C4FF;
+  --color-green: #69F0AE;
+  --color-panel: rgba(8, 12, 25, 0.92);
+  --color-border: rgba(100, 140, 200, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+/* 自定义滚动条 */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #334466;
+  border-radius: 3px;
+}
+
+/* 动画 */
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-in {
+  animation: fade-in 0.3s ease-out;
+}
+
