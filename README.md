@@ -2,8 +2,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Jokeyou/MingGraph/pulls)
+[![Live Demo](https://img.shields.io/badge/在线演示-Vercel-black?logo=vercel)](https://mingraph-app.vercel.app)
 
 > **像 Obsidian 图谱一样拖拽探索明朝三百年，像《明朝那些事儿》一样把故事讲活。**
+>
+> 🔗 在线体验：[**mingraph-app.vercel.app**](https://mingraph-app.vercel.app)
 
 一个面向历史爱好者的交互式知识图谱——拖一拖、点一点，你会发现**历史比小说更好看**。
 
@@ -20,7 +23,10 @@
 
 ## 🎬 快速开始
 
+**在线体验**：[mingraph-app.vercel.app](https://mingraph-app.vercel.app)
+
 ```bash
+# 本地运行
 git clone https://github.com/Jokeyou/MingGraph.git
 cd MingGraph
 npm install
