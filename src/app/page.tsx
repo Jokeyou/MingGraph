@@ -35,9 +35,7 @@ const MapView = dynamic(() => import('@/components/MapView'), {
 });
 
 export default function Home() {
-  const { setData, setStories, selectedNode, edges, nodes, viewMode, setViewMode,
-    showStarfield, showParticles, showRipple,
-    toggleStarfield, toggleParticles, toggleRipple } = useGraphStore();
+  const { setData, setStories, selectedNode, edges, nodes, viewMode } = useGraphStore();
   const [loading, setLoading] = useState(true);
   const [showIntro, setShowIntro] = useState(true);
 
@@ -146,81 +144,17 @@ export default function Home() {
         <NodeDetail />
         <StoryPanel />
 
-        {/* 视图切换 + 图例 — 右上角 */}
-        <div className="absolute top-4 right-4 flex flex-col gap-2 z-20 items-end">
-          {/* 视图切换按钮 */}
-          <div className="flex rounded-lg overflow-hidden border border-[#C8B896]/30 shadow-lg">
-            <button
-              onClick={() => setViewMode('graph')}
-              className={`px-3 py-1.5 text-xs font-medium transition-colors ${
-                viewMode === 'graph'
-                  ? 'bg-[#FFD740] text-[#080C14]'
-                  : 'bg-[#080C19]/80 text-[#8899BB] hover:bg-[#1A2030]'
-              }`}
-            >
-              🌌 图谱
-            </button>
-            <button
-              onClick={() => setViewMode('map')}
-              className={`px-3 py-1.5 text-xs font-medium transition-colors ${
-                viewMode === 'map'
-                  ? 'bg-[#FFD740] text-[#080C14]'
-                  : 'bg-[#080C19]/80 text-[#8899BB] hover:bg-[#1A2030]'
-              }`}
-            >
-              🗺️ 地图
-            </button>
+        {/* 图例 — 右上角（仅图谱模式） */}
+        {viewMode === 'graph' && (
+          <div className="absolute top-4 right-4 flex gap-3 text-xs z-10
+            bg-[#080C19]/80 backdrop-blur-md rounded-lg px-3 py-2
+            border border-[#C8B896]/30 shadow-lg">
+            <span className="text-[#FFD740]">● 人物</span>
+            <span className="text-[#FFD740]">◆ 事件</span>
+            <span className="text-[#FFD740]">■ 地点</span>
+            <span className="text-[#FFD740]">▲ 机构</span>
           </div>
-
-          {/* 特效开关 */}
-          <div className="flex rounded-lg overflow-hidden border border-[#C8B896]/30 shadow-lg">
-            <button
-              onClick={toggleStarfield}
-              title="星空背景（关闭可提升性能）"
-              className={`px-2.5 py-1 text-xs transition-colors ${
-                showStarfield
-                  ? 'bg-[#080C19]/80 text-[#8899BB] hover:bg-[#1A2030]'
-                  : 'bg-[#3a2020]/80 text-[#886666] line-through'
-              }`}
-            >
-              🌟
-            </button>
-            <button
-              onClick={toggleParticles}
-              title="连线粒子（关闭可提升性能）"
-              className={`px-2.5 py-1 text-xs transition-colors border-l border-[#C8B896]/20 ${
-                showParticles
-                  ? 'bg-[#080C19]/80 text-[#8899BB] hover:bg-[#1A2030]'
-                  : 'bg-[#3a2020]/80 text-[#886666] line-through'
-              }`}
-            >
-              ✨
-            </button>
-            <button
-              onClick={toggleRipple}
-              title="点击涟漪（关闭可提升性能）"
-              className={`px-2.5 py-1 text-xs transition-colors border-l border-[#C8B896]/20 ${
-                showRipple
-                  ? 'bg-[#080C19]/80 text-[#8899BB] hover:bg-[#1A2030]'
-                  : 'bg-[#3a2020]/80 text-[#886666] line-through'
-              }`}
-            >
-              🌊
-            </button>
-          </div>
-
-          {/* 图例（仅图谱模式） */}
-          {viewMode === 'graph' && (
-            <div className="flex gap-3 text-xs
-              bg-[#080C19]/80 backdrop-blur-md rounded-lg px-3 py-2
-              border border-[#C8B896]/30 shadow-lg">
-              <span className="text-[#FFD740]">● 人物</span>
-              <span className="text-[#FFD740]">◆ 事件</span>
-              <span className="text-[#FFD740]">■ 地点</span>
-              <span className="text-[#FFD740]">▲ 机构</span>
-            </div>
-          )}
-        </div>
+        )}
       </div>
 
       {/* 时间线 */}

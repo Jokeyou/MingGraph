@@ -8,6 +8,9 @@ export default function SearchBar() {
     filterEmperor, setFilterEmperor,
     filterType, setFilterType,
     zoomToNode, nodes,
+    viewMode, setViewMode,
+    showStarfield, showParticles, showRipple,
+    toggleStarfield, toggleParticles, toggleRipple,
   } = useGraphStore();
 
   const EMPEROR_OPTIONS = [
@@ -108,6 +111,70 @@ export default function SearchBar() {
             清除筛选
           </button>
         )}
+      </div>
+
+      {/* 视图切换 + 特效开关 */}
+      <div className="flex gap-2 flex-wrap">
+        {/* 视图切换 */}
+        <div className="flex rounded-lg overflow-hidden border border-[#6080A0]/25">
+          <button
+            onClick={() => setViewMode('graph')}
+            className={`px-2.5 py-1 text-xs font-medium transition-colors ${
+              viewMode === 'graph'
+                ? 'bg-[#FFD740] text-[#080C14]'
+                : 'bg-[#080C19]/80 text-[#8899BB] hover:bg-[#1A2030]'
+            }`}
+          >
+            🌌 图谱
+          </button>
+          <button
+            onClick={() => setViewMode('map')}
+            className={`px-2.5 py-1 text-xs font-medium transition-colors ${
+              viewMode === 'map'
+                ? 'bg-[#FFD740] text-[#080C14]'
+                : 'bg-[#080C19]/80 text-[#8899BB] hover:bg-[#1A2030]'
+            }`}
+          >
+            🗺️ 地图
+          </button>
+        </div>
+
+        {/* 特效开关 */}
+        <div className="flex rounded-lg overflow-hidden border border-[#6080A0]/25">
+          <button
+            onClick={toggleStarfield}
+            title="星空背景"
+            className={`px-2 py-1 text-xs transition-colors ${
+              showStarfield
+                ? 'bg-[#080C19]/80 text-[#FFE082] hover:bg-[#1A2030]'
+                : 'bg-[#3a2020]/80 text-[#886666]'
+            }`}
+          >
+            🌟
+          </button>
+          <button
+            onClick={toggleParticles}
+            title="连线粒子"
+            className={`px-2 py-1 text-xs transition-colors border-l border-[#6080A0]/20 ${
+              showParticles
+                ? 'bg-[#080C19]/80 text-[#FFE082] hover:bg-[#1A2030]'
+                : 'bg-[#3a2020]/80 text-[#886666]'
+            }`}
+          >
+            ✨
+          </button>
+          <button
+            onClick={toggleRipple}
+            title="点击涟漪"
+            className={`px-2 py-1 text-xs transition-colors border-l border-[#6080A0]/20 ${
+              showRipple
+                ? 'bg-[#080C19]/80 text-[#FFE082] hover:bg-[#1A2030]'
+                : 'bg-[#3a2020]/80 text-[#886666]'
+            }`}
+          >
+            🌊
+          </button>
+        </div>
       </div>
     </div>
   );
