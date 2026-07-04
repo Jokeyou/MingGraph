@@ -4,6 +4,7 @@ import { useEffect, useRef, useCallback } from 'react';
 import * as d3 from 'd3';
 import { useGraphStore } from '@/store';
 import type { GraphNode, GraphEdge } from '@/types';
+import { computeLayout } from '@/lib/layout';
 
 // 星空主题节点颜色
 const NODE_COLORS: Record<string, string> = {
@@ -191,6 +192,24 @@ export default function ForceGraph() {
       radius: NODE_RADIUS[n.importance - 1] || 8,
     }));
 
+    // 🏯 环形布局初始位置
+    const layout = computeLayout(
+      filteredNodes,
+      filteredEdges,
+      w, h
+    );
+    for (const sn of simNodes) {
+      const pos = layout.get(sn.id);
+      if (pos) {
+        sn.x = pos.x;
+        sn.y = pos.y;
+        // 皇帝节点钉住，非皇帝节点松一点
+        const isEmperor = sn.importance >= 4 && sn.type === 'person';
+        sn.fx = isEmperor ? pos.x : null;
+        sn.fy = isEmperor ? pos.y : null;
+      }
+    }
+
     const nodeMap = new Map(simNodes.map((n) => [n.id, n]));
     const simLinks: SimLink[] = filteredEdges
       .filter((e) => nodeMap.has(e.source) && nodeMap.has(e.target))
@@ -350,6 +369,17 @@ export default function ForceGraph() {
         .attr('y2', (d) => (d.target as SimNode).y!);
 
       nodeGroup.attr('transform', (d) => `translate(${d.x},${d.y})`);
+    });
+
+    // 模拟稳定后释放非皇帝节点的固定位置
+    simulation.on('end', () => {
+      simNodes.forEach((n) => {
+        // 只释放非皇帝节点
+        if (n.importance < 4 || n.type !== 'person') {
+          n.fx = null;
+          n.fy = null;
+        }
+      });
     });
 
     // 搜索自动聚焦：等模拟稳定后 zoom 到匹配节点
