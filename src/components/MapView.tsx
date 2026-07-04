@@ -10,9 +10,9 @@ import { HISTORIC_ROUTES } from '@/data/routes';
 // Leaflet CSS（dynamic import 下才能用）
 import 'leaflet/dist/leaflet.css';
 
-// 暗色瓦片（CartoDB Dark Matter，免费无需 key）
-const TILE_URL = 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png';
-const TILE_ATTR = '&copy; <a href="https://carto.com/">CARTO</a>';
+// 瓦片：OSM 德国镜像（国内能访问）
+const TILE_URL = 'https://tile.openstreetmap.de/{z}/{x}/{y}.png';
+const TILE_ATTR = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>';
 
 // 默认图标
 const defaultIcon = L.divIcon({
@@ -158,7 +158,7 @@ export default function MapView() {
         zoom={4}
         minZoom={3}
         maxZoom={10}
-        className="w-full h-full"
+        className="w-full h-full map-dark"
         zoomControl={true}
         style={{ background: '#0F1A28' }}
       >
