@@ -302,11 +302,39 @@ export default function ForceGraph() {
       .attr('font-size', 11)
       .attr('font-family', 'system-ui, sans-serif');
 
+    // 涟漪扩散
+    function triggerRipple(x: number, y: number) {
+      // 3 层涟漪，依次扩散
+      [0, 120, 240].forEach((delay) => {
+        const circle = g.append('circle')
+          .attr('cx', x)
+          .attr('cy', y)
+          .attr('r', 4)
+          .attr('fill', 'none')
+          .attr('stroke', '#FFD740')
+          .attr('stroke-width', 1.5)
+          .attr('opacity', 0.8)
+          .attr('pointer-events', 'none');
+
+        circle.transition()
+          .delay(delay)
+          .duration(900)
+          .ease(d3.easeCubicOut)
+          .attr('r', 70)
+          .attr('opacity', 0)
+          .attr('stroke-width', 0.3)
+          .on('end', () => circle.remove());
+      });
+    }
+
     // 交互
     nodeGroup
       .on('click', (_event, d) => {
         const orig = nodes.find((n) => n.id === d.id);
         selectNode(orig || null);
+        if (d.x !== undefined && d.y !== undefined) {
+          triggerRipple(d.x, d.y);
+        }
       })
       .on('mouseenter', (_event, d) => {
         setHoveredNode(d.id);
