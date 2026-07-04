@@ -67,6 +67,18 @@ export default function ForceGraph() {
       result = result.filter((n) => n.type === filterType);
     }
 
+    // 时间线筛选：只显示生存期与时间范围有交集的节点
+    if (timeRange[0] > 1368 || timeRange[1] < 1644) {
+      result = result.filter((n) => {
+        // 无年份数据 → 始终显示
+        if (!n.birth_year && !n.death_year) return true;
+        const b = n.birth_year || n.death_year || 1500;
+        const d = n.death_year || n.birth_year || 1500;
+        // 生存期与时间范围有交集
+        return b <= timeRange[1] && d >= timeRange[0];
+      });
+    }
+
     // 搜索：显示匹配节点 + 其直接关联节点（保留连线）
     if (searchQuery) {
       const matchedIds = new Set(
@@ -404,7 +416,7 @@ export default function ForceGraph() {
       simulation.stop();
       cancelAnimationFrame(particleFrame);
     };
-  }, [filteredNodes.length, filteredEdges.length, nodes.length, edges.length, filterType, searchQuery]);
+  }, [filteredNodes.length, filteredEdges.length, nodes.length, edges.length, filterType, searchQuery, timeRange[0], timeRange[1]]);
 
   // 选中高亮（独立 effect，不重建模拟）
   useEffect(() => {

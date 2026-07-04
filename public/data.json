@@ -64,7 +64,9 @@
       "id": "朱元璋",
       "name": "朱元璋",
       "type": "person",
-      "importance": 5
+      "importance": 5,
+      "birth_year": 1328,
+      "death_year": 1398
     },
     {
       "id": "濠州",
@@ -82,13 +84,17 @@
       "id": "李善长",
       "name": "李善长",
       "type": "person",
-      "importance": 2
+      "importance": 2,
+      "birth_year": 1314,
+      "death_year": 1390
     },
     {
       "id": "朱文正",
       "name": "朱文正",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1336,
+      "death_year": 1365
     },
     {
       "id": "李贞",
@@ -100,7 +106,9 @@
       "id": "李文忠",
       "name": "李文忠",
       "type": "person",
-      "importance": 2
+      "importance": 2,
+      "birth_year": 1339,
+      "death_year": 1384
     },
     {
       "id": "郭天叙",
@@ -292,7 +300,9 @@
       "id": "徐达",
       "name": "徐达",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1332,
+      "death_year": 1385
     },
     {
       "id": "廖永忠",
@@ -316,7 +326,9 @@
       "id": "常遇春",
       "name": "常遇春",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1330,
+      "death_year": 1369
     },
     {
       "id": "徐达军",
@@ -328,7 +340,9 @@
       "id": "汤和",
       "name": "汤和",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1326,
+      "death_year": 1395
     },
     {
       "id": "张良弼",
@@ -412,13 +426,17 @@
       "id": "刘基",
       "name": "刘基",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1311,
+      "death_year": 1375
     },
     {
       "id": "胡惟庸",
       "name": "胡惟庸",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1320,
+      "death_year": 1380
     },
     {
       "id": "天下",
@@ -460,13 +478,17 @@
       "id": "徐阶",
       "name": "徐阶",
       "type": "person",
-      "importance": 3
+      "importance": 3,
+      "birth_year": 1503,
+      "death_year": 1583
     },
     {
       "id": "张居正",
       "name": "张居正",
       "type": "person",
-      "importance": 3
+      "importance": 3,
+      "birth_year": 1525,
+      "death_year": 1582
     },
     {
       "id": "朱亮祖",
@@ -484,7 +506,9 @@
       "id": "蓝玉",
       "name": "蓝玉",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1340,
+      "death_year": 1393
     },
     {
       "id": "纳哈出",
@@ -562,13 +586,17 @@
       "id": "朱棣",
       "name": "朱棣",
       "type": "person",
-      "importance": 5
+      "importance": 5,
+      "birth_year": 1360,
+      "death_year": 1424
     },
     {
       "id": "朱允炆",
       "name": "朱允炆",
       "type": "person",
-      "importance": 3
+      "importance": 3,
+      "birth_year": 1377,
+      "death_year": 1402
     },
     {
       "id": "高丽",
@@ -598,7 +626,9 @@
       "id": "方孝孺",
       "name": "方孝孺",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1357,
+      "death_year": 1402
     },
     {
       "id": "黄子澄",
@@ -664,7 +694,9 @@
       "id": "朱高炽",
       "name": "朱高炽",
       "type": "person",
-      "importance": 2
+      "importance": 2,
+      "birth_year": 1378,
+      "death_year": 1425
     },
     {
       "id": "李景隆军",
@@ -784,7 +816,9 @@
       "id": "解缙",
       "name": "解缙",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1369,
+      "death_year": 1415
     },
     {
       "id": "胡广",
@@ -814,7 +848,9 @@
       "id": "朱瞻基",
       "name": "朱瞻基",
       "type": "person",
-      "importance": 2
+      "importance": 2,
+      "birth_year": 1399,
+      "death_year": 1435
     },
     {
       "id": "朝鲜",
@@ -850,7 +886,9 @@
       "id": "郑和",
       "name": "郑和",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1371,
+      "death_year": 1433
     },
     {
       "id": "戚祥",
@@ -862,7 +900,9 @@
       "id": "戚继光",
       "name": "戚继光",
       "type": "person",
-      "importance": 2
+      "importance": 2,
+      "birth_year": 1528,
+      "death_year": 1588
     },
     {
       "id": "印度半岛",
@@ -1054,7 +1094,9 @@
       "id": "姚广孝",
       "name": "姚广孝",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1335,
+      "death_year": 1418
     },
     {
       "id": "阿鲁台",
@@ -1108,7 +1150,9 @@
       "id": "朱祁镇",
       "name": "朱祁镇",
       "type": "person",
-      "importance": 3
+      "importance": 3,
+      "birth_year": 1427,
+      "death_year": 1464
     },
     {
       "id": "脱欢",
@@ -1144,7 +1188,9 @@
       "id": "王振",
       "name": "王振",
       "type": "person",
-      "importance": 2
+      "importance": 2,
+      "birth_year": 1370,
+      "death_year": 1449
     },
     {
       "id": "朱勇",
@@ -1198,7 +1244,9 @@
       "id": "朱祁钰",
       "name": "朱祁钰",
       "type": "person",
-      "importance": 2
+      "importance": 2,
+      "birth_year": 1428,
+      "death_year": 1457
     },
     {
       "id": "朝政",
@@ -1210,7 +1258,9 @@
       "id": "于谦",
       "name": "于谦",
       "type": "person",
-      "importance": 2
+      "importance": 2,
+      "birth_year": 1398,
+      "death_year": 1457
     },
     {
       "id": "马顺",
@@ -1234,7 +1284,9 @@
       "id": "朱见深",
       "name": "朱见深",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1447,
+      "death_year": 1487
     },
     {
       "id": "大同",
@@ -1306,7 +1358,9 @@
       "id": "石亨",
       "name": "石亨",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1400,
+      "death_year": 1460
     },
     {
       "id": "石彪",
@@ -1408,7 +1462,9 @@
       "id": "徐有贞",
       "name": "徐有贞",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1407,
+      "death_year": 1472
     },
     {
       "id": "张軏",
@@ -1540,7 +1596,9 @@
       "id": "汪直",
       "name": "汪直",
       "type": "person",
-      "importance": 3
+      "importance": 3,
+      "birth_year": 1450,
+      "death_year": 1500
     },
     {
       "id": "马文升",
@@ -1570,7 +1628,9 @@
       "id": "唐寅",
       "name": "唐寅",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1470,
+      "death_year": 1524
     },
     {
       "id": "徐经",
@@ -1594,7 +1654,9 @@
       "id": "王守仁",
       "name": "王守仁",
       "type": "person",
-      "importance": 3
+      "importance": 3,
+      "birth_year": 1472,
+      "death_year": 1529
     },
     {
       "id": "王华",
@@ -1612,7 +1674,9 @@
       "id": "李东阳",
       "name": "李东阳",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1447,
+      "death_year": 1516
     },
     {
       "id": "罗玘",
@@ -1624,7 +1688,9 @@
       "id": "刘瑾",
       "name": "刘瑾",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1451,
+      "death_year": 1510
     },
     {
       "id": "张彩",
@@ -1636,13 +1702,17 @@
       "id": "朱厚照",
       "name": "朱厚照",
       "type": "person",
-      "importance": 2
+      "importance": 2,
+      "birth_year": 1491,
+      "death_year": 1521
     },
     {
       "id": "杨廷和",
       "name": "杨廷和",
       "type": "person",
-      "importance": 2
+      "importance": 2,
+      "birth_year": 1459,
+      "death_year": 1529
     },
     {
       "id": "梁储",
@@ -1660,7 +1730,9 @@
       "id": "朱祐樘",
       "name": "朱祐樘",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1470,
+      "death_year": 1505
     },
     {
       "id": "辽东",
@@ -1804,7 +1876,9 @@
       "id": "张璁",
       "name": "张璁",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1475,
+      "death_year": 1539
     },
     {
       "id": "毛澄",
@@ -1816,7 +1890,9 @@
       "id": "朱厚熜",
       "name": "朱厚熜",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1507,
+      "death_year": 1567
     },
     {
       "id": "兴献王",
@@ -1900,7 +1976,9 @@
       "id": "夏言",
       "name": "夏言",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1482,
+      "death_year": 1548
     },
     {
       "id": "薛侃",
@@ -1924,7 +2002,9 @@
       "id": "严嵩",
       "name": "严嵩",
       "type": "person",
-      "importance": 2
+      "importance": 2,
+      "birth_year": 1480,
+      "death_year": 1567
     },
     {
       "id": "费宏",
@@ -1948,7 +2028,9 @@
       "id": "严世蕃",
       "name": "严世蕃",
       "type": "person",
-      "importance": 2
+      "importance": 2,
+      "birth_year": 1513,
+      "death_year": 1565
     },
     {
       "id": "锦衣卫南镇抚司",
@@ -2032,7 +2114,9 @@
       "id": "杨继盛",
       "name": "杨继盛",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1516,
+      "death_year": 1555
     },
     {
       "id": "唐顺之",
@@ -2062,7 +2146,9 @@
       "id": "胡宗宪",
       "name": "胡宗宪",
       "type": "person",
-      "importance": 2
+      "importance": 2,
+      "birth_year": 1512,
+      "death_year": 1565
     },
     {
       "id": "王直",
@@ -2122,7 +2208,9 @@
       "id": "俞大猷",
       "name": "俞大猷",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1503,
+      "death_year": 1579
     },
     {
       "id": "戚斌",
@@ -2284,7 +2372,9 @@
       "id": "海瑞",
       "name": "海瑞",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1514,
+      "death_year": 1587
     },
     {
       "id": "海笔架",
@@ -2344,7 +2434,9 @@
       "id": "高拱",
       "name": "高拱",
       "type": "person",
-      "importance": 3
+      "importance": 3,
+      "birth_year": 1513,
+      "death_year": 1578
     },
     {
       "id": "李登云",
@@ -2362,7 +2454,9 @@
       "id": "李时珍",
       "name": "李时珍",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1518,
+      "death_year": 1593
     },
     {
       "id": "《西游记》",
@@ -2476,13 +2570,17 @@
       "id": "冯保",
       "name": "冯保",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1543,
+      "death_year": 1583
     },
     {
       "id": "李成梁",
       "name": "李成梁",
       "type": "person",
-      "importance": 2
+      "importance": 2,
+      "birth_year": 1526,
+      "death_year": 1615
     },
     {
       "id": "隆庆皇帝",
@@ -2494,7 +2592,9 @@
       "id": "朱翊钧",
       "name": "朱翊钧",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1563,
+      "death_year": 1620
     },
     {
       "id": "李太后",
@@ -2560,7 +2660,9 @@
       "id": "申时行",
       "name": "申时行",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1535,
+      "death_year": 1614
     },
     {
       "id": "王用汲",
@@ -2740,7 +2842,9 @@
       "id": "李如松",
       "name": "李如松",
       "type": "person",
-      "importance": 3
+      "importance": 3,
+      "birth_year": 1549,
+      "death_year": 1598
     },
     {
       "id": "宋应昌",
@@ -2812,13 +2916,17 @@
       "id": "毛文龙",
       "name": "毛文龙",
       "type": "person",
-      "importance": 2
+      "importance": 2,
+      "birth_year": 1576,
+      "death_year": 1629
     },
     {
       "id": "袁崇焕",
       "name": "袁崇焕",
       "type": "person",
-      "importance": 3
+      "importance": 3,
+      "birth_year": 1584,
+      "death_year": 1630
     },
     {
       "id": "大西门",
@@ -3106,7 +3214,9 @@
       "id": "朱常洛",
       "name": "朱常洛",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1582,
+      "death_year": 1620
     },
     {
       "id": "朱常洵",
@@ -3130,7 +3240,9 @@
       "id": "王锡爵",
       "name": "王锡爵",
       "type": "person",
-      "importance": 2
+      "importance": 2,
+      "birth_year": 1534,
+      "death_year": 1614
     },
     {
       "id": "顾允成",
@@ -3496,7 +3608,9 @@
       "id": "熊廷弼",
       "name": "熊廷弼",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1569,
+      "death_year": 1625
     },
     {
       "id": "小品",
@@ -3538,13 +3652,17 @@
       "id": "孙承宗",
       "name": "孙承宗",
       "type": "person",
-      "importance": 2
+      "importance": 2,
+      "birth_year": 1563,
+      "death_year": 1638
     },
     {
       "id": "朱由校",
       "name": "朱由校",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1605,
+      "death_year": 1627
     },
     {
       "id": "辽西",
@@ -3658,13 +3776,17 @@
       "id": "魏忠贤",
       "name": "魏忠贤",
       "type": "person",
-      "importance": 3
+      "importance": 3,
+      "birth_year": 1568,
+      "death_year": 1627
     },
     {
       "id": "杨涟",
       "name": "杨涟",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1572,
+      "death_year": 1625
     },
     {
       "id": "王才人",
@@ -3730,7 +3852,9 @@
       "id": "左光斗",
       "name": "左光斗",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1575,
+      "death_year": 1625
     },
     {
       "id": "阮大铖",
@@ -4006,7 +4130,9 @@
       "id": "徐霞客",
       "name": "徐霞客",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1587,
+      "death_year": 1641
     },
     {
       "id": "莽古尔泰",
@@ -4096,7 +4222,9 @@
       "id": "李自成",
       "name": "李自成",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1606,
+      "death_year": 1645
     },
     {
       "id": "张献忠",
@@ -4264,7 +4392,9 @@
       "id": "徐宏祖",
       "name": "徐宏祖",
       "type": "person",
-      "importance": 1
+      "importance": 1,
+      "birth_year": 1587,
+      "death_year": 1641
     },
     {
       "id": "江阴",
