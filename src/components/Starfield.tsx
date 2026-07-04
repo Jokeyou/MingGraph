@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
+import { useGraphStore } from '@/store';
 
 interface Star {
   x: number; y: number; r: number;
@@ -9,6 +10,7 @@ interface Star {
 }
 
 export default function Starfield() {
+  const showStarfield = useGraphStore((s) => s.showStarfield);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const starsRef = useRef<Star[]>([]);
   const animRef = useRef<number>(0);
@@ -89,6 +91,8 @@ export default function Starfield() {
       window.removeEventListener('resize', resize);
     };
   }, []);
+
+  if (!showStarfield) return null;
 
   return (
     <canvas

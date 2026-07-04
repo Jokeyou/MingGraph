@@ -35,7 +35,9 @@ const MapView = dynamic(() => import('@/components/MapView'), {
 });
 
 export default function Home() {
-  const { setData, setStories, selectedNode, edges, nodes, viewMode, setViewMode } = useGraphStore();
+  const { setData, setStories, selectedNode, edges, nodes, viewMode, setViewMode,
+    showStarfield, showParticles, showRipple,
+    toggleStarfield, toggleParticles, toggleRipple } = useGraphStore();
   const [loading, setLoading] = useState(true);
   const [showIntro, setShowIntro] = useState(true);
 
@@ -167,6 +169,43 @@ export default function Home() {
               }`}
             >
               🗺️ 地图
+            </button>
+          </div>
+
+          {/* 特效开关 */}
+          <div className="flex rounded-lg overflow-hidden border border-[#C8B896]/30 shadow-lg">
+            <button
+              onClick={toggleStarfield}
+              title="星空背景（关闭可提升性能）"
+              className={`px-2.5 py-1 text-xs transition-colors ${
+                showStarfield
+                  ? 'bg-[#080C19]/80 text-[#8899BB] hover:bg-[#1A2030]'
+                  : 'bg-[#3a2020]/80 text-[#886666] line-through'
+              }`}
+            >
+              🌟
+            </button>
+            <button
+              onClick={toggleParticles}
+              title="连线粒子（关闭可提升性能）"
+              className={`px-2.5 py-1 text-xs transition-colors border-l border-[#C8B896]/20 ${
+                showParticles
+                  ? 'bg-[#080C19]/80 text-[#8899BB] hover:bg-[#1A2030]'
+                  : 'bg-[#3a2020]/80 text-[#886666] line-through'
+              }`}
+            >
+              ✨
+            </button>
+            <button
+              onClick={toggleRipple}
+              title="点击涟漪（关闭可提升性能）"
+              className={`px-2.5 py-1 text-xs transition-colors border-l border-[#C8B896]/20 ${
+                showRipple
+                  ? 'bg-[#080C19]/80 text-[#8899BB] hover:bg-[#1A2030]'
+                  : 'bg-[#3a2020]/80 text-[#886666] line-through'
+              }`}
+            >
+              🌊
             </button>
           </div>
 

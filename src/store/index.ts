@@ -22,6 +22,14 @@ interface GraphState {
   filterType: string | null;         // 按节点类型筛选
   timeRange: [number, number];       // 时间线范围
 
+  // 性能开关
+  showStarfield: boolean;
+  showParticles: boolean;
+  showRipple: boolean;
+  toggleStarfield: () => void;
+  toggleParticles: () => void;
+  toggleRipple: () => void;
+
   // 图谱引用（用于外部控制）
   zoomToNode: ((id: string) => void) | null;
   setZoomToNode: (fn: ((id: string) => void) | null) => void;
@@ -55,6 +63,12 @@ export const useGraphStore = create<GraphState>((set) => ({
   filterType: null,
   timeRange: [1368, 1644],
   viewMode: 'graph',
+  showStarfield: true,
+  showParticles: true,
+  showRipple: true,
+  toggleStarfield: () => set((s) => ({ showStarfield: !s.showStarfield })),
+  toggleParticles: () => set((s) => ({ showParticles: !s.showParticles })),
+  toggleRipple: () => set((s) => ({ showRipple: !s.showRipple })),
   zoomToNode: null,
   setZoomToNode: (fn) => set({ zoomToNode: fn }),
   fitToView: null,

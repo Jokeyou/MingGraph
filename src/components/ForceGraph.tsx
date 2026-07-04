@@ -56,6 +56,7 @@ export default function ForceGraph() {
     nodes, edges, selectedNode, hoveredNode,
     selectNode, setHoveredNode, setZoomToNode, setFitToView,
     searchQuery, filterEmperor, filterType, timeRange,
+    showParticles, showRipple,
   } = useGraphStore();
 
   // 过滤节点
@@ -332,7 +333,7 @@ export default function ForceGraph() {
       .on('click', (_event, d) => {
         const orig = nodes.find((n) => n.id === d.id);
         selectNode(orig || null);
-        if (d.x !== undefined && d.y !== undefined) {
+        if (showRipple && d.x !== undefined && d.y !== undefined) {
           triggerRipple(d.x, d.y);
         }
       })
@@ -369,45 +370,47 @@ export default function ForceGraph() {
         );
       });
 
-    // 连线流光粒子
-    const particleGroup = g.append('g').attr('class', 'particles');
-    const particleCount = Math.min(simLinks.length * 2, 300);
-    const particles: { link: SimLink; t: number; speed: number }[] = [];
-    for (let i = 0; i < particleCount; i++) {
-      particles.push({
-        link: simLinks[Math.floor(Math.random() * simLinks.length)],
-        t: Math.random(),
-        speed: 0.002 + Math.random() * 0.005,
-      });
-    }
-    const particleCircles = particleGroup.selectAll('circle')
-      .data(particles)
-      .join('circle')
-      .attr('r', 1.2)
-      .attr('fill', '#FFE8C0')
-      .attr('opacity', 0.7);
-
-    // 粒子动画 loop（独立于 force tick）
-    let particleFrame: number;
-    const animateParticles = () => {
-      particleCircles.each((d) => {
-        d.t += d.speed;
-        if (d.t > 1) d.t = 0;
-      });
-      particleCircles
-        .attr('cx', (d) => {
-          const src = d.link.source as SimNode;
-          const tgt = d.link.target as SimNode;
-          return (src.x || 0) + ((tgt.x || 0) - (src.x || 0)) * d.t;
-        })
-        .attr('cy', (d) => {
-          const src = d.link.source as SimNode;
-          const tgt = d.link.target as SimNode;
-          return (src.y || 0) + ((tgt.y || 0) - (src.y || 0)) * d.t;
+    // 连线流光粒子（性能开关）
+    let particleFrame = 0;
+    if (showParticles) {
+      const particleGroup = g.append('g').attr('class', 'particles');
+      const particleCount = Math.min(simLinks.length * 2, 200);
+      const particles: { link: SimLink; t: number; speed: number }[] = [];
+      for (let i = 0; i < particleCount; i++) {
+        particles.push({
+          link: simLinks[Math.floor(Math.random() * simLinks.length)],
+          t: Math.random(),
+          speed: 0.002 + Math.random() * 0.005,
         });
-      particleFrame = requestAnimationFrame(animateParticles);
-    };
-    animateParticles();
+      }
+      const particleCircles = particleGroup.selectAll('circle')
+        .data(particles)
+        .join('circle')
+        .attr('r', 1.2)
+        .attr('fill', '#FFE8C0')
+        .attr('opacity', 0.7);
+
+      // 粒子动画 loop（独立于 force tick）
+      const animateParticles = () => {
+        particleCircles.each((d) => {
+          d.t += d.speed;
+          if (d.t > 1) d.t = 0;
+        });
+        particleCircles
+          .attr('cx', (d) => {
+            const src = d.link.source as SimNode;
+            const tgt = d.link.target as SimNode;
+            return (src.x || 0) + ((tgt.x || 0) - (src.x || 0)) * d.t;
+          })
+          .attr('cy', (d) => {
+            const src = d.link.source as SimNode;
+            const tgt = d.link.target as SimNode;
+            return (src.y || 0) + ((tgt.y || 0) - (src.y || 0)) * d.t;
+          });
+        particleFrame = requestAnimationFrame(animateParticles);
+      };
+      animateParticles();
+    }
 
     // 模拟 tick
     simulation.on('tick', () => {
@@ -453,7 +456,7 @@ export default function ForceGraph() {
       simulation.stop();
       cancelAnimationFrame(particleFrame);
     };
-  }, [filteredNodes.length, filteredEdges.length, nodes.length, edges.length, filterType, searchQuery, timeRange[0], timeRange[1]]);
+  }, [filteredNodes.length, filteredEdges.length, nodes.length, edges.length, filterType, searchQuery, timeRange[0], timeRange[1], showParticles, showRipple]);
 
   // 选中高亮（独立 effect，不重建模拟）
   useEffect(() => {
