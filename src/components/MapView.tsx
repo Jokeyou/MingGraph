@@ -200,15 +200,28 @@ export default function MapView() {
 
   // 注册全景函数（与 ForceGraph 共用 store 同一个 key）
   const fitMapToView = useCallback(() => {
-    if (!svgRef.current || !zoomRef.current) return;
+    if (!svgRef.current || !zoomRef.current || !geoData || !projectionRef.current) return;
     const svg = d3.select(svgRef.current);
     const w = svgRef.current.clientWidth;
     const h = svgRef.current.clientHeight;
+
+    // 计算省份数据的像素包围盒
+    const path = d3.geoPath(projectionRef.current);
+    const bounds = path.bounds(geoData); // [[x0,y0], [x1,y1]]
+    const dx = bounds[1][0] - bounds[0][0];
+    const dy = bounds[1][1] - bounds[0][1];
+    const cx = (bounds[0][0] + bounds[1][0]) / 2;
+    const cy = (bounds[0][1] + bounds[1][1]) / 2;
+
+    const scale = 0.85 / Math.max(dx / w, dy / h);
+    const tx = w / 2 - scale * cx;
+    const ty = h / 2 - scale * cy;
+
     svg.transition().duration(800).call(
       zoomRef.current.transform,
-      d3.zoomIdentity.translate(0, 0).scale(1)
+      d3.zoomIdentity.translate(tx, ty).scale(scale)
     );
-  }, []);
+  }, [geoData]);
 
   useEffect(() => {
     setFitToView(fitMapToView);
