@@ -8,25 +8,24 @@ import { HISTORIC_ROUTES } from '@/data/routes';
 
 type GeoJSON = any;
 
-// ── 配色：古地图/地图集风格 ──
-const WATER = '#D4CFC4';          // 海洋：暖灰（纸本色）
-const LAND = '#F2EDE4';           // 陆地：米白
-const COAST = '#B8A99A';          // 海岸线
-const BORDER = '#C4B5A5';         // 省界
-const GRATICULE = '#D9D0C0';      // 经纬网
-const MARKER = '#C0392B';         // 标记：朱砂红
-const MARKER_HL = '#E74C3C';      // 高亮：亮红
-const ROUTE_COLOR = '#8B4513';    // 路线：古铜
-const LABEL_LAND = '#6B5B4F';     // 省名：深棕
-const LABEL_CITY = '#3C2415';     // 城市名：浓棕
-const TITLE_COLOR = '#4A3728';    // 标题：古铜
-const VIGNETTE = '#3C2F1F';       // 暗角
+// ── 配色：高对比度地图风格 ──
+const WATER_COLOR = '#B8D4E3';       // 海洋：淡蓝
+const LAND_COLOR = '#FDF6EC';        // 陆地：暖白
+const COAST_COLOR = '#7BA0B5';       // 海岸线：深蓝灰
+const BORDER_COLOR = '#C8B898';      // 省界：淡褐
+const GRATICULE_COLOR = '#D5DDE5';   // 经纬网
+const MARKER_COLOR = '#C0392B';      // 标记：朱砂红
+const MARKER_HL = '#E74C3C';         // 高亮：亮红
+const ROUTE_COLOR = '#8B4513';       // 路线：古铜
+const LABEL_COLOR = '#5A4A3A';       // 省名：深棕
+const CITY_LABEL = '#3C2415';        // 城市：浓棕
+const TITLE_COLOR = '#4A3728';       // 标题
 
-// 省份配色（按大地域分区，仿古地图淡彩）
+// 省份配色（按大地域）
 const REGION_COLORS: Record<string, string> = {
-  '华北': '#F5ECD7', '东北': '#EEE4CC', '华东': '#F7F0E0',
-  '华中': '#F3EBD8', '华南': '#F0E6D0', '西南': '#EDE0C8',
-  '西北': '#F4E8D4', '青藏': '#E8DCC0',
+  '华北': '#FFF8EC', '东北': '#FFF3E4', '华东': '#FFFAF0',
+  '华中': '#FFF6EA', '华南': '#FEF5E7', '西南': '#FDF0E0',
+  '西北': '#FFF7EB', '青藏': '#F8ECD8',
 };
 const REGION_MAP: Record<string, string> = {
   '北京市':'华北','天津市':'华北','河北省':'华北','山西省':'华北','内蒙古自治区':'华北',
@@ -41,7 +40,7 @@ const REGION_MAP: Record<string, string> = {
 
 function regionColor(name: string): string {
   const region = REGION_MAP[name] || '华中';
-  return REGION_COLORS[region] || LAND;
+  return REGION_COLORS[region] || LAND_COLOR;
 }
 
 export default function MapView() {
@@ -54,11 +53,16 @@ export default function MapView() {
 
   const { timeRange, searchQuery, selectedNode, selectNode, nodes, setFitToView } = useGraphStore();
 
-  // 加载省份
+  // 加载省份（本地静态文件，零网络依赖）
   useEffect(() => {
-    fetch('https://unpkg.com/cn-atlas/provinces.json')
+    fetch('/china-provinces.json')
       .then(r => r.json()).then(d => { setGeoData(d); setLoaded(true); })
-      .catch(() => setLoaded(true)); // 纯标记模式
+      .catch(() => {
+        // fallback: 尝试 CDN
+        fetch('https://unpkg.com/cn-atlas/provinces.json')
+          .then(r => r.json()).then(d => { setGeoData(d); setLoaded(true); })
+          .catch(() => setLoaded(true));
+      });
   }, []);
 
   // 全景
@@ -108,7 +112,7 @@ export default function MapView() {
     // 海洋纹理
     const oceanPattern = defs.append('pattern').attr('id', 'ocean')
       .attr('width', 40).attr('height', 40).attr('patternUnits', 'userSpaceOnUse');
-    oceanPattern.append('rect').attr('width', 40).attr('height', 40).attr('fill', WATER);
+    oceanPattern.append('rect').attr('width', 40).attr('height', 40).attr('fill', WATER_COLOR);
     oceanPattern.append('circle').attr('cx', 20).attr('cy', 20).attr('r', 0.3).attr('fill', '#C8C0B4').attr('opacity', 0.5);
 
     // 发光
@@ -119,14 +123,14 @@ export default function MapView() {
     // 暗角渐变
     const vignette = defs.append('radialGradient').attr('id', 'vignette').attr('cx', '50%').attr('cy', '50%').attr('r', '70%');
     vignette.append('stop').attr('offset', '60%').attr('stop-color', 'transparent');
-    vignette.append('stop').attr('offset', '100%').attr('stop-color', VIGNETTE).attr('stop-opacity', 0.4);
+    vignette.append('stop').attr('offset', '100%').attr('stop-color', '#3C2F1F').attr('stop-opacity', 0.3);
 
     // ── 海洋 ──
     g.append('rect').attr('width', w).attr('height', h).attr('fill', 'url(#ocean)');
 
     // ── 经纬网 ──
     g.append('path').datum(d3.geoGraticule().step([5, 5])).attr('d', (d: any) => path(d))
-      .attr('fill', 'none').attr('stroke', GRATICULE).attr('stroke-width', 0.3).attr('pointer-events', 'none');
+      .attr('fill', 'none').attr('stroke', GRATICULE_COLOR).attr('stroke-width', 0.3).attr('pointer-events', 'none');
 
     // ── 省份 ──
     if (geoData?.features) {
@@ -135,17 +139,17 @@ export default function MapView() {
       pg.selectAll('.land').data(geoData.features).join('path')
         .attr('d', (d: any) => path(d))
         .attr('fill', (d: any) => regionColor(d.properties?.name || ''))
-        .attr('stroke', BORDER).attr('stroke-width', 0.4)
+        .attr('stroke', BORDER_COLOR).attr('stroke-width', 0.4)
         .attr('pointer-events', 'none');
       // 海岸线（加粗）
       pg.selectAll('.coast').data(geoData.features).join('path')
         .attr('d', (d: any) => path(d))
-        .attr('fill', 'none').attr('stroke', COAST).attr('stroke-width', 1.2).attr('pointer-events', 'none');
+        .attr('fill', 'none').attr('stroke', COAST_COLOR).attr('stroke-width', 1.2).attr('pointer-events', 'none');
       // 省名
       pg.selectAll('.label').data(geoData.features).join('text')
         .attr('x', (d: any) => path.centroid(d)[0])
         .attr('y', (d: any) => path.centroid(d)[1])
-        .attr('text-anchor', 'middle').attr('fill', LABEL_LAND)
+        .attr('text-anchor', 'middle').attr('fill', LABEL_COLOR)
         .attr('font-size', 9).attr('font-family', '"PingFang SC","Microsoft YaHei",system-ui')
         .attr('opacity', 0.7).attr('pointer-events', 'none')
         .text((d: any) => {
@@ -189,7 +193,7 @@ export default function MapView() {
 
       // 外圈
       mg.append('circle').attr('cx', px).attr('cy', py).attr('r', 7)
-        .attr('fill', '#FFF').attr('stroke', MARKER).attr('stroke-width', 3)
+        .attr('fill', '#FFF').attr('stroke', MARKER_COLOR).attr('stroke-width', 3)
         .attr('cursor', 'pointer').attr('filter', 'url(#glow)')
         .attr('data-pid', place.id)
         .on('click', () => {
@@ -197,14 +201,14 @@ export default function MapView() {
           if (m) selectNode(m);
         })
         .on('mouseenter', function () { d3.select(this).attr('r', 9).attr('stroke', MARKER_HL).attr('stroke-width', 4); })
-        .on('mouseleave', function () { d3.select(this).attr('r', 7).attr('stroke', MARKER).attr('stroke-width', 3); });
+        .on('mouseleave', function () { d3.select(this).attr('r', 7).attr('stroke', MARKER_COLOR).attr('stroke-width', 3); });
       // 内点
-      mg.append('circle').attr('cx', px).attr('cy', py).attr('r', 2.5).attr('fill', MARKER).attr('pointer-events', 'none');
+      mg.append('circle').attr('cx', px).attr('cy', py).attr('r', 2.5).attr('fill', MARKER_COLOR).attr('pointer-events', 'none');
 
       // 标签
       mg.append('text').attr('x', px + 9).attr('y', py + 4)
         .text(place.id.length > 5 ? place.id.slice(0, 5) : place.id)
-        .attr('fill', LABEL_CITY).attr('font-size', 10).attr('font-weight', '500')
+        .attr('fill', CITY_LABEL).attr('font-size', 10).attr('font-weight', '500')
         .attr('font-family', '"PingFang SC","Microsoft YaHei",system-ui')
         .attr('pointer-events', 'none');
     });
@@ -241,22 +245,22 @@ export default function MapView() {
       });
       mg.selectAll('text').attr('opacity', 0.2);
     } else {
-      mg.selectAll('circle').attr('opacity', 1).attr('r', 7).attr('stroke', MARKER).attr('stroke-width', 3);
+      mg.selectAll('circle').attr('opacity', 1).attr('r', 7).attr('stroke', MARKER_COLOR).attr('stroke-width', 3);
       mg.selectAll('text').attr('opacity', 1);
     }
   }, [selectedNode]);
 
   return (
-    <div className="w-full h-full relative" style={{ background: WATER }}>
+    <div className="w-full h-full relative" style={{ background: WATER_COLOR }}>
       <svg ref={svgRef} className="w-full h-full" />
       {!loaded && (
-        <div className="absolute inset-0 flex items-center justify-center z-10" style={{ background: WATER }}>
-          <p style={{ color: LABEL_LAND }}>绘制地图…</p>
+        <div className="absolute inset-0 flex items-center justify-center z-10" style={{ background: WATER_COLOR }}>
+          <p style={{ color: LABEL_COLOR }}>绘制地图…</p>
         </div>
       )}
       {/* 图例 */}
       <div className="absolute bottom-4 left-4 z-10 flex flex-col gap-1 text-xs"
-        style={{ color: LABEL_LAND, fontFamily: '"PingFang SC","Microsoft YaHei",system-ui' }}>
+        style={{ color: LABEL_COLOR, fontFamily: '"PingFang SC","Microsoft YaHei",system-ui' }}>
         {HISTORIC_ROUTES.map(r => (
           <div key={r.id} className="flex items-center gap-2">
             <span className="w-3 h-0 border-t" style={{ borderColor: ROUTE_COLOR, borderStyle: 'dashed' }} />
@@ -264,7 +268,7 @@ export default function MapView() {
           </div>
         ))}
         <div className="flex items-center gap-2 mt-1">
-          <span className="w-2 h-2 rounded-full" style={{ background: MARKER, border: '2px solid #FFF' }} />
+          <span className="w-2 h-2 rounded-full" style={{ background: MARKER_COLOR, border: '2px solid #FFF' }} />
           地点 · {PLACE_COORDS.length} 处
         </div>
       </div>
