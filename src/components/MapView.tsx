@@ -77,7 +77,7 @@ export default function MapView() {
     const dx = bounds[1][0] - bounds[0][0], dy = bounds[1][1] - bounds[0][1];
     if (dx <= 0 || dy <= 0) return;
     const cx = (bounds[0][0] + bounds[1][0]) / 2, cy = (bounds[0][1] + bounds[1][1]) / 2;
-    const scale = 0.88 / Math.max(dx / w, dy / h);
+    const scale = 0.94 / Math.max(dx / w, dy / h);
     const t = d3.select(svgEl).transition().duration(800) as any;
     t.call(zoom.transform, d3.zoomIdentity.translate(w / 2 - scale * cx, h / 2 - scale * cy).scale(scale));
   };
@@ -94,7 +94,7 @@ export default function MapView() {
 
     // 投影
     const projection = d3.geoMercator().center([108, 35]).scale(w * 1.5).translate([w / 2, h / 2]);
-    if (geoData) try { projection.fitSize([w * 0.9, h * 0.88], geoData); } catch {}
+    if (geoData) try { projection.fitSize([w * 0.96, h * 0.94], geoData); } catch {}
     projectionRef.current = projection;
     geoDataRef.current = geoData;
     const path = d3.geoPath(projection);
@@ -145,13 +145,17 @@ export default function MapView() {
       pg.selectAll('.coast').data(geoData.features).join('path')
         .attr('d', (d: any) => path(d))
         .attr('fill', 'none').attr('stroke', COAST_COLOR).attr('stroke-width', 1.2).attr('pointer-events', 'none');
-      // 省名
-      pg.selectAll('.label').data(geoData.features).join('text')
+      // 省名（仅标注大省，避免糊成一片）
+      const LARGE_PROVINCES = new Set([
+        '新疆维吾尔自治区','西藏自治区','内蒙古自治区','青海省','四川省',
+        '云南省','黑龙江省','甘肃省','广东省','河南省','山东省','湖南省',
+      ]);
+      pg.selectAll('.label').data(geoData.features.filter((f: any) => LARGE_PROVINCES.has(f.properties?.name || ''))).join('text')
         .attr('x', (d: any) => path.centroid(d)[0])
         .attr('y', (d: any) => path.centroid(d)[1])
         .attr('text-anchor', 'middle').attr('fill', LABEL_COLOR)
-        .attr('font-size', 9).attr('font-family', '"PingFang SC","Microsoft YaHei",system-ui')
-        .attr('opacity', 0.7).attr('pointer-events', 'none')
+        .attr('font-size', 10).attr('font-family', '"PingFang SC","Microsoft YaHei",system-ui')
+        .attr('opacity', 0.6).attr('pointer-events', 'none')
         .text((d: any) => {
           const n = d.properties?.name || '';
           return n.replace(/省|市|自治区|特别行政区|维吾尔|壮族|回族/g, '');
@@ -191,24 +195,24 @@ export default function MapView() {
       if (!proj) return;
       const [px, py] = proj;
 
-      // 外圈
-      mg.append('circle').attr('cx', px).attr('cy', py).attr('r', 7)
-        .attr('fill', '#FFF').attr('stroke', MARKER_COLOR).attr('stroke-width', 3)
+      // 外圈（缩小标记）
+      mg.append('circle').attr('cx', px).attr('cy', py).attr('r', 3.5)
+        .attr('fill', '#FFF').attr('stroke', MARKER_COLOR).attr('stroke-width', 2)
         .attr('cursor', 'pointer').attr('filter', 'url(#glow)')
         .attr('data-pid', place.id)
         .on('click', () => {
           const m = nodes.find(n => n.type === 'place' && (n.name === place.name || n.name === place.id || n.name.includes(place.id)));
           if (m) selectNode(m);
         })
-        .on('mouseenter', function () { d3.select(this).attr('r', 9).attr('stroke', MARKER_HL).attr('stroke-width', 4); })
-        .on('mouseleave', function () { d3.select(this).attr('r', 7).attr('stroke', MARKER_COLOR).attr('stroke-width', 3); });
+        .on('mouseenter', function () { d3.select(this).attr('r', 5).attr('stroke', MARKER_HL).attr('stroke-width', 3); })
+        .on('mouseleave', function () { d3.select(this).attr('r', 3.5).attr('stroke', MARKER_COLOR).attr('stroke-width', 2); });
       // 内点
-      mg.append('circle').attr('cx', px).attr('cy', py).attr('r', 2.5).attr('fill', MARKER_COLOR).attr('pointer-events', 'none');
+      mg.append('circle').attr('cx', px).attr('cy', py).attr('r', 1.5).attr('fill', MARKER_COLOR).attr('pointer-events', 'none');
 
       // 标签
-      mg.append('text').attr('x', px + 9).attr('y', py + 4)
-        .text(place.id.length > 5 ? place.id.slice(0, 5) : place.id)
-        .attr('fill', CITY_LABEL).attr('font-size', 10).attr('font-weight', '500')
+      mg.append('text').attr('x', px + 6).attr('y', py + 3)
+        .text(place.id.length > 3 ? place.id.slice(0, 3) : place.id)
+        .attr('fill', CITY_LABEL).attr('font-size', 9).attr('font-weight', '500')
         .attr('font-family', '"PingFang SC","Microsoft YaHei",system-ui')
         .attr('pointer-events', 'none');
     });
@@ -240,12 +244,12 @@ export default function MapView() {
       const mid = mp?.id || selectedNode.name;
       mg.selectAll('circle').each(function (this: SVGCircleElement) {
         const pid = d3.select(this).attr('data-pid');
-        if (pid === mid) d3.select(this).attr('r', 10).attr('stroke', MARKER_HL).attr('stroke-width', 4);
+        if (pid === mid) d3.select(this).attr('r', 5).attr('stroke', MARKER_HL).attr('stroke-width', 3);
         else d3.select(this).attr('opacity', 0.2);
       });
       mg.selectAll('text').attr('opacity', 0.2);
     } else {
-      mg.selectAll('circle').attr('opacity', 1).attr('r', 7).attr('stroke', MARKER_COLOR).attr('stroke-width', 3);
+      mg.selectAll('circle').attr('opacity', 1).attr('r', 3.5).attr('stroke', MARKER_COLOR).attr('stroke-width', 2);
       mg.selectAll('text').attr('opacity', 1);
     }
   }, [selectedNode]);
