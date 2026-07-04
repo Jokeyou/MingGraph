@@ -1,7 +1,7 @@
 // Zustand 全局状态管理
 
 import { create } from 'zustand';
-import type { GraphNode, GraphEdge, StoryCard } from '@/types';
+import type { GraphNode, GraphEdge, StoryCard, ViewMode } from '@/types';
 
 interface GraphState {
   // 数据
@@ -15,6 +15,7 @@ interface GraphState {
   hoveredNode: string | null;
 
   // 视图状态
+  viewMode: ViewMode;
   focusedNodeId: string | null;     // 双击聚焦
   searchQuery: string;
   filterEmperor: string | null;      // 按皇帝年号筛选
@@ -38,6 +39,7 @@ interface GraphState {
   setFilterEmperor: (e: string | null) => void;
   setFilterType: (t: string | null) => void;
   setTimeRange: (range: [number, number]) => void;
+  setViewMode: (mode: ViewMode) => void;
 }
 
 export const useGraphStore = create<GraphState>((set) => ({
@@ -52,6 +54,7 @@ export const useGraphStore = create<GraphState>((set) => ({
   filterEmperor: null,
   filterType: null,
   timeRange: [1368, 1644],
+  viewMode: 'graph',
   zoomToNode: null,
   setZoomToNode: (fn) => set({ zoomToNode: fn }),
   fitToView: null,
@@ -67,4 +70,5 @@ export const useGraphStore = create<GraphState>((set) => ({
   setFilterEmperor: (e) => set({ filterEmperor: e }),
   setFilterType: (t) => set({ filterType: t }),
   setTimeRange: (range) => set({ timeRange: range }),
+  setViewMode: (mode) => set({ viewMode: mode, selectedNode: null, selectedStory: null }),
 }));

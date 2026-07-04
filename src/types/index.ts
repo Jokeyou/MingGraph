@@ -46,3 +46,23 @@ export interface EmperorPeriod {
   start: number;
   end: number;
 }
+
+// 地图相关类型
+export interface PlaceCoord {
+  id: string;          // 对应 GraphNode.id
+  name: string;
+  lat: number;
+  lng: number;
+  year_start?: number;
+  year_end?: number;
+}
+
+export interface MapRoute {
+  id: string;
+  name: string;
+  path: [number, number][];  // [lat, lng][]
+  eventId?: string;
+  year?: number;
+}
+
+export type ViewMode = 'graph' | 'map';

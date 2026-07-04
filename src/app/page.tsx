@@ -22,8 +22,20 @@ const ForceGraph = dynamic(() => import('@/components/ForceGraph'), {
   ),
 });
 
+const MapView = dynamic(() => import('@/components/MapView'), {
+  ssr: false,
+  loading: () => (
+    <div className="w-full h-full flex items-center justify-center" style={{ background: '#0A0E17' }}>
+      <div className="text-center">
+        <div className="text-3xl mb-3 animate-pulse">🗺️</div>
+        <p className="text-[#556688] text-sm">加载地图…</p>
+      </div>
+    </div>
+  ),
+});
+
 export default function Home() {
-  const { setData, setStories, selectedNode, edges, nodes } = useGraphStore();
+  const { setData, setStories, selectedNode, edges, nodes, viewMode, setViewMode } = useGraphStore();
   const [loading, setLoading] = useState(true);
   const [showIntro, setShowIntro] = useState(true);
 
@@ -124,22 +136,51 @@ export default function Home() {
         </div>
       )}
 
-      {/* 图谱区域 */}
+      {/* 图谱/地图区域 */}
       <div className="flex-1 relative overflow-hidden">
         <Starfield />
-        <ForceGraph />
+        {viewMode === 'graph' ? <ForceGraph /> : <MapView />}
         <SearchBar />
         <NodeDetail />
         <StoryPanel />
 
-        {/* 图例 — 右上角，详情面板上方 */}
-        <div className="absolute top-4 right-4 w-64 flex gap-3 text-xs
-          bg-[#080C19]/80 backdrop-blur-md rounded-lg px-3 py-2 z-20
-          border border-[#C8B896]/30 shadow-lg">
-          <span className="text-[#FFD740]">● 人物</span>
-          <span className="text-[#FFD740]">◆ 事件</span>
-          <span className="text-[#FFD740]">■ 地点</span>
-          <span className="text-[#FFD740]">▲ 机构</span>
+        {/* 视图切换 + 图例 — 右上角 */}
+        <div className="absolute top-4 right-4 flex flex-col gap-2 z-20 items-end">
+          {/* 视图切换按钮 */}
+          <div className="flex rounded-lg overflow-hidden border border-[#C8B896]/30 shadow-lg">
+            <button
+              onClick={() => setViewMode('graph')}
+              className={`px-3 py-1.5 text-xs font-medium transition-colors ${
+                viewMode === 'graph'
+                  ? 'bg-[#FFD740] text-[#080C14]'
+                  : 'bg-[#080C19]/80 text-[#8899BB] hover:bg-[#1A2030]'
+              }`}
+            >
+              🌌 图谱
+            </button>
+            <button
+              onClick={() => setViewMode('map')}
+              className={`px-3 py-1.5 text-xs font-medium transition-colors ${
+                viewMode === 'map'
+                  ? 'bg-[#FFD740] text-[#080C14]'
+                  : 'bg-[#080C19]/80 text-[#8899BB] hover:bg-[#1A2030]'
+              }`}
+            >
+              🗺️ 地图
+            </button>
+          </div>
+
+          {/* 图例（仅图谱模式） */}
+          {viewMode === 'graph' && (
+            <div className="flex gap-3 text-xs
+              bg-[#080C19]/80 backdrop-blur-md rounded-lg px-3 py-2
+              border border-[#C8B896]/30 shadow-lg">
+              <span className="text-[#FFD740]">● 人物</span>
+              <span className="text-[#FFD740]">◆ 事件</span>
+              <span className="text-[#FFD740]">■ 地点</span>
+              <span className="text-[#FFD740]">▲ 机构</span>
+            </div>
+          )}
         </div>
       </div>
 
