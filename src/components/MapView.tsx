@@ -77,7 +77,7 @@ export default function MapView() {
     const dx = bounds[1][0] - bounds[0][0], dy = bounds[1][1] - bounds[0][1];
     if (dx <= 0 || dy <= 0) return;
     const cx = (bounds[0][0] + bounds[1][0]) / 2, cy = (bounds[0][1] + bounds[1][1]) / 2;
-    const scale = 0.94 / Math.max(dx / w, dy / h);
+    const scale = 1.0 / Math.max(dx / w, dy / h);
     const t = d3.select(svgEl).transition().duration(800) as any;
     t.call(zoom.transform, d3.zoomIdentity.translate(w / 2 - scale * cx, h / 2 - scale * cy).scale(scale));
   };
@@ -94,13 +94,13 @@ export default function MapView() {
 
     // 投影
     const projection = d3.geoMercator().center([108, 35]).scale(w * 1.5).translate([w / 2, h / 2]);
-    if (geoData) try { projection.fitSize([w * 0.96, h * 0.94], geoData); } catch {}
+    if (geoData) try { projection.fitSize([w * 1.02, h * 1.0], geoData); } catch {}
     projectionRef.current = projection;
     geoDataRef.current = geoData;
     const path = d3.geoPath(projection);
 
     // 缩放
-    const zoom = d3.zoom<SVGSVGElement, unknown>().scaleExtent([0.6, 8])
+    const zoom = d3.zoom<SVGSVGElement, unknown>().scaleExtent([0.9, 8])
       .on('zoom', ev => g.attr('transform', ev.transform));
     svg.call(zoom);
     zoomRef.current = zoom;
