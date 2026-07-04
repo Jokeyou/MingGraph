@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState, useCallback } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
 import { useGraphStore } from '@/store';
 import { PLACE_COORDS, findPlaceCoord } from '@/data/places';
@@ -9,15 +9,29 @@ import { HISTORIC_ROUTES } from '@/data/routes';
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type GeoJSON = any;
 
-// 星空地图配色
-const MARKER_COLOR = '#40C4FF';   // 地点：蓝星
-const MARKER_ACTIVE = '#FFD740';  // 选中：金星
-const ROUTE_COLOR = '#D4A017';    // 路线：暗金
+// 配色：古地图质感
+const WATER_COLOR = '#1A2A3C';       // 海洋：深蓝灰
+const LAND_FILL = '#243447';         // 陆地：藏蓝
+const LAND_STROKE = '#3A5068';       // 省界：灰蓝
+const GRATICULE_COLOR = '#2D4050';   // 经纬网
+const MARKER_COLOR = '#FFB74D';      // 地点：暖橙（更醒目）
+const MARKER_ACTIVE = '#FFD740';     // 选中：金星
+const ROUTE_COLOR = '#E8A820';       // 路线：琥珀金
+const LABEL_COLOR = '#BCC8D8';       // 标签：浅灰蓝
+
+// 省份色阶（按地理分区给不同颜色）
+const PROVINCE_COLORS = [
+  '#243447', '#283D50', '#2C4258', '#2F4760',
+  '#334C68', '#375170', '#3B5678', '#3F5B80',
+  '#324E62', '#2E4760', '#2A415E',
+];
 
 export default function MapView() {
   const svgRef = useRef<SVGSVGElement>(null);
+  const gRef = useRef<d3.Selection<SVGGElement, unknown, null, undefined> | null>(null);
   const zoomRef = useRef<d3.ZoomBehavior<SVGSVGElement, unknown> | null>(null);
   const projectionRef = useRef<d3.GeoProjection | null>(null);
+  const geoDataRef = useRef<GeoJSON | null>(null);
   const [geoData, setGeoData] = useState<GeoJSON | null>(null);
   const [loaded, setLoaded] = useState(false);
 
@@ -40,8 +54,45 @@ export default function MapView() {
       });
   }, []);
 
-  // ── 主渲染：底图 + 路线 + 标记 ──
-  const renderMap = useCallback(() => {
+  // ── 全景函数（直接操作 zoom）──
+  const resetView = () => {
+    const svgEl = svgRef.current;
+    const zoom = zoomRef.current;
+    const proj = projectionRef.current;
+    const geo = geoDataRef.current;
+    if (!svgEl || !zoom || !proj || !geo) return;
+
+    const w = svgEl.clientWidth;
+    const h = svgEl.clientHeight;
+    const path = d3.geoPath(proj);
+    const bounds = path.bounds(geo);
+    const dx = bounds[1][0] - bounds[0][0];
+    const dy = bounds[1][1] - bounds[0][1];
+    if (dx <= 0 || dy <= 0) return;
+
+    const cx = (bounds[0][0] + bounds[1][0]) / 2;
+    const cy = (bounds[0][1] + bounds[1][1]) / 2;
+    const scale = 0.85 / Math.max(dx / w, dy / h);
+    const tx = w / 2 - scale * cx;
+    const ty = h / 2 - scale * cy;
+
+    d3.select(svgEl)
+      .transition().duration(800)
+      .call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
+  };
+
+  // 注册全景函数
+  useEffect(() => {
+    if (loaded) {
+      setFitToView(resetView);
+    }
+    return () => {
+      setFitToView(null);
+    };
+  }, [loaded, setFitToView]);
+
+  // ── 主渲染 ──
+  useEffect(() => {
     const svgEl = svgRef.current;
     if (!svgEl) return;
 
@@ -51,17 +102,16 @@ export default function MapView() {
 
     svg.selectAll('*').remove();
 
-    // 投影：Mercator 居中中国
+    // 投影
     const projection = d3.geoMercator().center([108, 35]).scale(w * 1.5).translate([w / 2, h / 2]);
     if (geoData) {
-      try {
-        projection.fitSize([w * 0.92, h * 0.9], geoData);
-      } catch { /* 使用默认投影 */ }
+      try { projection.fitSize([w * 0.92, h * 0.9], geoData); } catch { /* 默认 */ }
     }
     projectionRef.current = projection;
+    geoDataRef.current = geoData;
     const geoPath = d3.geoPath(projection);
 
-    // 缩放（与 ForceGraph 一致的 d3.zoom）
+    // 缩放
     const zoom = d3.zoom<SVGSVGElement, unknown>()
       .scaleExtent([0.5, 8])
       .on('zoom', (event) => {
@@ -71,41 +121,67 @@ export default function MapView() {
     zoomRef.current = zoom;
 
     const g = svg.append('g');
+    gRef.current = g;
 
-    // ── defs: 发光滤镜 ──
+    // ── defs ──
     const defs = g.append('defs');
+
+    // 发光滤镜
     const glow = defs.append('filter').attr('id', 'mapGlow')
       .attr('x', '-50%').attr('y', '-50%').attr('width', '200%').attr('height', '200%');
     glow.append('feGaussianBlur').attr('stdDeviation', '2').attr('result', 'blur');
     glow.append('feMerge').selectAll('feMergeNode')
-      .data(['blur', 'SourceGraphic'])
-      .join('feMergeNode')
-      .attr('in', (d: string) => d);
+      .data(['blur', 'SourceGraphic']).join('feMergeNode').attr('in', (d: string) => d);
 
-    // ── 背景 ──
-    g.append('rect').attr('width', w).attr('height', h).attr('fill', '#0A0E17');
+    // 海洋渐变
+    const oceanGrad = defs.append('radialGradient').attr('id', 'oceanGrad')
+      .attr('cx', '50%').attr('cy', '40%').attr('r', '60%');
+    oceanGrad.append('stop').attr('offset', '0%').attr('stop-color', '#1E3045');
+    oceanGrad.append('stop').attr('offset', '100%').attr('stop-color', '#0F1A28');
 
-    // ── 省份边界 ──
-    if (geoData && geoData.features) {
-      g.append('g').attr('class', 'provinces')
-        .selectAll('path')
-        .data(geoData.features)
-        .join('path')
-        .attr('d', (d: any) => geoPath(d))
-        .attr('fill', '#111827')
-        .attr('stroke', '#1E293B')
-        .attr('stroke-width', 0.5)
-        .attr('pointer-events', 'none');
-    }
+    // ── 海洋背景 ──
+    g.append('rect').attr('width', w).attr('height', h).attr('fill', 'url(#oceanGrad)');
 
     // ── 经纬网 ──
     const graticule = d3.geoGraticule().step([5, 5]);
     g.append('path').datum(graticule).attr('d', (d: any) => geoPath(d))
-      .attr('fill', 'none').attr('stroke', '#1a2540')
-      .attr('stroke-width', 0.3).attr('stroke-dasharray', '2,3')
+      .attr('fill', 'none').attr('stroke', GRATICULE_COLOR)
+      .attr('stroke-width', 0.4).attr('stroke-dasharray', '2,4')
       .attr('pointer-events', 'none');
 
-    // ── 海域（简化：绘制一个覆盖海洋的 rect 在省份后面做不到，跳过）──
+    // ── 省份 ──
+    if (geoData && geoData.features) {
+      const provinces = g.append('g').attr('class', 'provinces');
+      provinces.selectAll('path')
+        .data(geoData.features)
+        .join('path')
+        .attr('d', (d: any) => geoPath(d))
+        .attr('fill', (d: any, i: number) =>
+          // 台湾特殊标注
+          d.properties?.name === '台湾省' ? '#2A4A5E' :
+          PROVINCE_COLORS[i % PROVINCE_COLORS.length]
+        )
+        .attr('stroke', LAND_STROKE)
+        .attr('stroke-width', 0.6)
+        .attr('pointer-events', 'none');
+
+      // 省份名标注（大省份）
+      provinces.selectAll('text')
+        .data(geoData.features.filter((f: any) => {
+          const name = f.properties?.name || '';
+          return ['新疆', '西藏', '内蒙古', '青海', '四川', '云南', '黑龙江', '广东'].includes(name);
+        }))
+        .join('text')
+        .attr('x', (d: any) => geoPath.centroid(d)[0])
+        .attr('y', (d: any) => geoPath.centroid(d)[1])
+        .attr('text-anchor', 'middle')
+        .attr('fill', '#4A6078')
+        .attr('font-size', 10)
+        .attr('font-family', 'system-ui, sans-serif')
+        .attr('opacity', 0.5)
+        .attr('pointer-events', 'none')
+        .text((d: any) => d.properties?.name || '');
+    }
 
     // ── 路线 ──
     const routeGroup = g.append('g').attr('class', 'routes');
@@ -113,28 +189,43 @@ export default function MapView() {
       const coords = route.path.map(([lat, lng]) => [lng, lat] as [number, number]);
       const lineData = { type: 'LineString', coordinates: coords };
 
-      // 虚线底层
+      // 路线底色（粗、半透明）
+      routeGroup.append('path').datum(lineData).attr('d', (d: any) => geoPath(d))
+        .attr('fill', 'none').attr('stroke', ROUTE_COLOR)
+        .attr('stroke-width', 2.5).attr('stroke-dasharray', '6,4')
+        .attr('opacity', 0.25).attr('pointer-events', 'none');
+
+      // 路线主线
       routeGroup.append('path').datum(lineData).attr('d', (d: any) => geoPath(d))
         .attr('fill', 'none').attr('stroke', ROUTE_COLOR)
         .attr('stroke-width', 1.2).attr('stroke-dasharray', '5,4')
-        .attr('opacity', 0.4).attr('pointer-events', 'none');
+        .attr('opacity', 0.6).attr('pointer-events', 'none');
 
-      // 路线标签（在路径中点）
+      // 路线标签
       if (coords.length >= 2) {
         const mid = Math.floor(coords.length / 2);
         const [mx, my] = projection(coords[mid]) || [0, 0];
         routeGroup.append('text')
-          .attr('x', mx).attr('y', my - 8)
+          .attr('x', mx).attr('y', my - 10)
           .attr('text-anchor', 'middle')
-          .attr('fill', '#D4A017').attr('font-size', 10)
+          .attr('fill', ROUTE_COLOR).attr('font-size', 11)
+          .attr('font-weight', '500')
           .attr('font-family', 'system-ui, sans-serif')
-          .attr('opacity', 0.7).attr('pointer-events', 'none')
+          .attr('opacity', 0.8).attr('pointer-events', 'none')
           .text(route.name);
+
+        // 起止点小圆
+        [coords[0], coords[coords.length - 1]].forEach(([lx, ly]) => {
+          const [px, py] = projection([lx, ly]) || [0, 0];
+          routeGroup.append('circle')
+            .attr('cx', px).attr('cy', py).attr('r', 3)
+            .attr('fill', ROUTE_COLOR).attr('opacity', 0.8)
+            .attr('pointer-events', 'none');
+        });
       }
     });
 
     // ── 地点标记 ──
-    // 时间筛选
     const activeRange = timeRange[0] > 1368 || timeRange[1] < 1644;
     const filteredPlaces = PLACE_COORDS.filter((p) => {
       if (searchQuery) {
@@ -144,7 +235,6 @@ export default function MapView() {
         if (p.year_start && p.year_end) {
           return p.year_start <= timeRange[1] && p.year_end >= timeRange[0];
         }
-        // 无年份信息的地点始终显示
         return true;
       }
       return true;
@@ -152,20 +242,20 @@ export default function MapView() {
 
     const markerGroup = g.append('g').attr('class', 'markers');
 
+    // 标记背景圆（大一圈）
     filteredPlaces.forEach((place) => {
       const proj = projection([place.lng, place.lat]);
       if (!proj) return;
       const [px, py] = proj;
 
-      // 标记点
       markerGroup.append('circle')
         .attr('cx', px).attr('cy', py)
-        .attr('r', 5).attr('fill', MARKER_COLOR)
-        .attr('stroke', '#0A0E17').attr('stroke-width', 1.5)
-        .attr('cursor', 'pointer').attr('filter', 'url(#mapGlow)')
+        .attr('r', 8).attr('fill', '#0A1620')
+        .attr('stroke', MARKER_COLOR).attr('stroke-width', 2)
+        .attr('cursor', 'pointer')
+        .attr('filter', 'url(#mapGlow)')
         .attr('data-place-id', place.id)
         .on('click', () => {
-          // 匹配 store 中的节点
           const matched = nodes.find((n) =>
             n.type === 'place' &&
             (n.name === place.name || n.name === place.id || n.name.includes(place.id))
@@ -173,106 +263,63 @@ export default function MapView() {
           if (matched) selectNode(matched);
         })
         .on('mouseenter', function () {
-          d3.select(this).attr('r', 7).attr('fill', MARKER_ACTIVE);
+          d3.select(this).attr('r', 10).attr('stroke', MARKER_ACTIVE).attr('stroke-width', 3);
         })
         .on('mouseleave', function () {
-          d3.select(this).attr('r', 5).attr('fill', MARKER_COLOR);
+          d3.select(this).attr('r', 8).attr('stroke', MARKER_COLOR).attr('stroke-width', 2);
         });
 
-      // 标签（只在地图缩放足够大时显示 → 用 marker 大小判断；简单起见始终显示短标签）
+      // 标签
       const label = place.id.length > 4 ? place.id.slice(0, 4) : place.id;
       markerGroup.append('text')
-        .attr('x', px + 8).attr('y', py + 4)
+        .attr('x', px + 10).attr('y', py + 4)
         .text(label)
-        .attr('fill', '#8899BB').attr('font-size', 10)
+        .attr('fill', LABEL_COLOR).attr('font-size', 10)
         .attr('font-family', 'system-ui, sans-serif')
         .attr('pointer-events', 'none');
     });
 
-    // 存储 marker 引用以便高亮 effect 使用
+    // 存储引用
     (svgEl as any)._markerGroup = markerGroup;
     (svgEl as any)._filteredPlaces = filteredPlaces;
+
+    // 首屏自动全景
+    setTimeout(() => resetView(), 300);
   }, [geoData, timeRange, searchQuery, nodes, selectNode]);
 
-  useEffect(() => {
-    renderMap();
-  }, [renderMap]);
-
-  // 注册全景函数（与 ForceGraph 共用 store 同一个 key）
-  const fitMapToView = useCallback(() => {
-    if (!svgRef.current || !zoomRef.current || !geoData || !projectionRef.current) return;
-    const svg = d3.select(svgRef.current);
-    const w = svgRef.current.clientWidth;
-    const h = svgRef.current.clientHeight;
-
-    // 计算省份数据的像素包围盒
-    const path = d3.geoPath(projectionRef.current);
-    const bounds = path.bounds(geoData); // [[x0,y0], [x1,y1]]
-    const dx = bounds[1][0] - bounds[0][0];
-    const dy = bounds[1][1] - bounds[0][1];
-    const cx = (bounds[0][0] + bounds[1][0]) / 2;
-    const cy = (bounds[0][1] + bounds[1][1]) / 2;
-
-    const scale = 0.85 / Math.max(dx / w, dy / h);
-    const tx = w / 2 - scale * cx;
-    const ty = h / 2 - scale * cy;
-
-    svg.transition().duration(800).call(
-      zoomRef.current.transform,
-      d3.zoomIdentity.translate(tx, ty).scale(scale)
-    );
-  }, [geoData]);
-
-  useEffect(() => {
-    setFitToView(fitMapToView);
-  }, [fitMapToView, setFitToView]);
-
-  // ── 选中高亮（独立 effect）──
+  // ── 选中高亮 ──
   useEffect(() => {
     const svgEl = svgRef.current;
     if (!svgEl) return;
     const markerGroup = (svgEl as any)._markerGroup;
-    const filteredPlaces = (svgEl as any)._filteredPlaces;
-    if (!markerGroup || !filteredPlaces) return;
+    if (!markerGroup) return;
 
     if (selectedNode && selectedNode.type === 'place') {
-      // 找到匹配的 place
       const matchedPlace = findPlaceCoord(selectedNode.name);
       const matchId = matchedPlace?.id || selectedNode.name;
 
       markerGroup.selectAll('circle').each(function (this: SVGCircleElement) {
         const placeId = d3.select(this).attr('data-place-id');
         if (placeId === matchId) {
-          d3.select(this).attr('r', 8).attr('fill', MARKER_ACTIVE)
-            .attr('stroke', '#FFE082').attr('stroke-width', 2.5);
+          d3.select(this).attr('r', 10).attr('stroke', MARKER_ACTIVE).attr('stroke-width', 3);
         } else {
-          d3.select(this).attr('opacity', 0.3);
+          d3.select(this).attr('opacity', 0.25);
         }
       });
-      markerGroup.selectAll('text').attr('opacity', 0.3);
-
-      // 高亮关联节点（地点 + 与其关联的人物）
-      const linkedIds = new Set<string>();
-      edges.forEach((e) => {
-        if (e.source === selectedNode.id) linkedIds.add(e.target);
-        if (e.target === selectedNode.id) linkedIds.add(e.source);
-      });
+      markerGroup.selectAll('text').attr('opacity', 0.25);
     } else {
-      // 恢复所有标记
       markerGroup.selectAll('circle').attr('opacity', 1)
-        .attr('r', 5).attr('fill', MARKER_COLOR)
-        .attr('stroke', '#0A0E17').attr('stroke-width', 1.5);
+        .attr('r', 8).attr('stroke', MARKER_COLOR).attr('stroke-width', 2);
       markerGroup.selectAll('text').attr('opacity', 1);
     }
-  }, [selectedNode, edges]);
+  }, [selectedNode]);
 
   return (
-    <div className="w-full h-full relative" style={{ background: '#0A0E17' }}>
+    <div className="w-full h-full relative" style={{ background: WATER_COLOR }}>
       <svg ref={svgRef} className="w-full h-full" />
 
-      {/* 加载遮罩 */}
       {!loaded && (
-        <div className="absolute inset-0 flex items-center justify-center bg-[#0A0E17]/90 z-10">
+        <div className="absolute inset-0 flex items-center justify-center bg-[#0F1A28]/90 z-10">
           <div className="text-center">
             <div className="text-3xl mb-3 animate-pulse">🗺️</div>
             <p className="text-[#556688] text-sm">加载地图数据…</p>
@@ -282,12 +329,12 @@ export default function MapView() {
 
       {/* 路线图例 — 左下角 */}
       <div className="absolute bottom-4 left-4 z-10 flex flex-col gap-1.5
-        bg-[#080C19]/80 backdrop-blur-md rounded-lg px-3 py-2
-        border border-[#C8B896]/20 text-xs">
+        bg-[#141E2C]/80 backdrop-blur-md rounded-lg px-3 py-2
+        border border-[#3A5068]/30 text-xs">
         {HISTORIC_ROUTES.map((r) => (
           <div key={r.id} className="flex items-center gap-2">
-            <span className="w-4 h-0 border-t border-dashed border-[#D4A017]" />
-            <span className="text-[#8899BB]">{r.name}</span>
+            <span className="w-4 h-0 border-t border-dashed" style={{ borderColor: ROUTE_COLOR }} />
+            <span style={{ color: LABEL_COLOR }}>{r.name}</span>
           </div>
         ))}
       </div>
