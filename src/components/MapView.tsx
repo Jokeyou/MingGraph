@@ -23,7 +23,7 @@ export default function MapView() {
 
   const {
     timeRange, searchQuery, selectedNode,
-    selectNode, nodes, edges,
+    selectNode, nodes, edges, setFitToView,
   } = useGraphStore();
 
   // 加载省份 GeoJSON
@@ -197,6 +197,22 @@ export default function MapView() {
   useEffect(() => {
     renderMap();
   }, [renderMap]);
+
+  // 注册全景函数（与 ForceGraph 共用 store 同一个 key）
+  const fitMapToView = useCallback(() => {
+    if (!svgRef.current || !zoomRef.current) return;
+    const svg = d3.select(svgRef.current);
+    const w = svgRef.current.clientWidth;
+    const h = svgRef.current.clientHeight;
+    svg.transition().duration(800).call(
+      zoomRef.current.transform,
+      d3.zoomIdentity.translate(0, 0).scale(1)
+    );
+  }, []);
+
+  useEffect(() => {
+    setFitToView(fitMapToView);
+  }, [fitMapToView, setFitToView]);
 
   // ── 选中高亮（独立 effect）──
   useEffect(() => {
