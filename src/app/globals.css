@@ -47,14 +47,11 @@ html, body {
   animation: fade-in 0.3s ease-out;
 }
 
-/* Leaflet 暗色滤镜（OSM 标准瓷砖 → 暗色主题） */
-.map-dark .leaflet-tile {
-  filter: invert(0.92) hue-rotate(180deg) brightness(0.75) saturate(0.5) !important;
+/* Leaflet 基础样式 */
+.leaflet-container {
+  background: #1A2A3C !important;
 }
-.map-dark .leaflet-container {
-  background: #0F1A28 !important;
-}
-.map-dark .leaflet-control-zoom a {
+.leaflet-control-zoom a {
   background: #1A2A3C !important;
   color: #BCC8D8 !important;
   border-color: #3A5068 !important;
